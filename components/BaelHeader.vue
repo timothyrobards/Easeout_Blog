@@ -108,7 +108,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 @media only screen and (max-width: 40rem) {
