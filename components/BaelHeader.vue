@@ -105,10 +105,11 @@ nav {
 }
 .sitename {
   color: #000;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 @media only screen and (max-width: 40rem) {
   .results {
