@@ -10,7 +10,7 @@
 }
 
 .full-item {
-  grid-column: span 12;
+  grid-column: span 3;
   padding: 10px;
 }
 
@@ -21,7 +21,7 @@
 
  /* 600px */
 @media only screen and (min-width: 40rem) { 
-    
+
     .c-50 {
         grid-column: span 6;
     }
@@ -107,6 +107,23 @@
     }
     
 }
+
+ /* Tablet */
+
+@media only screen and (max-width: 52rem) {
+    .full-item {
+      grid-column: span 6;
+   }
+
+}
+
+ /* Phone */
+@media only screen and (max-width: 500px) {
+    .full-item {
+      grid-column: span 12;
+   }
+}
+
 
 pre, code {white-space: normal;font-family: monospace;margin-bottom:1rem;background:#f3f3f3;padding:.5rem;margin: 1rem 0 !important;}
 blockquote {border-left: 3px solid #d6d6d6;padding:0 .5rem !important;margin:0 1.5rem !important;font-weight: 300 !important;}
