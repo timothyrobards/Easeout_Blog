@@ -11,7 +11,12 @@
 
 .full-item {
   grid-column: span 3;
+  height: 80vh;
   padding: 10px;
+}
+
+.item-height {
+  
 }
 
 [class*="c-"] {
@@ -110,17 +115,47 @@
 
  /* Tablet */
 
-@media only screen and (max-width: 52rem) {
+@media only screen and (max-width: 1367px) and (orientation: portrait) {
+    .full-item {
+      grid-column: span 4;
+      height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .full-item {
+      grid-column: span 4;
+      height: 50vh;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+    .full-item {
+      grid-column: span 4;
+      height: 35vh;
+   }
+}
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
     .full-item {
       grid-column: span 6;
+      height: 100vh;
    }
-
 }
 
  /* Phone */
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 750px) {
     .full-item {
       grid-column: span 12;
+      height: 70vh;
+   }
+}
+
+@media only screen and (max-width: 750px) and (orientation: landscape) {
+    .full-item {
+      grid-column: span 12;
+      height: 100vh;
    }
 }
 
