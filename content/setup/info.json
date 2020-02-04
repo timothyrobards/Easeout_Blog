@@ -5,5 +5,11 @@
   "showmenu": true,
   "emailsignup": true,
   "altlayout": true,
-  "menu": []
+  "menu": [
+    {
+      "name": "Twitter",
+      "position": "1",
+      "link": "www.twitter.com"
+    }
+  ]
 }
