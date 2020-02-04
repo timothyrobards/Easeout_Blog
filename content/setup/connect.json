@@ -1,20 +1,12 @@
 {
   "connectlinks": [
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/jasperketone"
+      "name": "About",
+      "url": "https://jolly-nightingale-875959.netlify.com/page/about"
     },
     {
-      "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/jake-peterson-101/"
-    },
-    {
-      "name": "Github",
-      "url": "https://github.com/jake-101"
-    },
-    {
-      "name": "Unsplash",
-      "url": "https://unsplash.com/@jake101"
+      "name": "Contact",
+      "url": "https://jolly-nightingale-875959.netlify.com/page/contact"
     }
   ]
 }
