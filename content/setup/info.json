@@ -7,8 +7,18 @@
   "altlayout": true,
   "menu": [
     {
-      "name": "Twitter",
+      "name": "About",
       "position": "1",
+      "link": "/page/about"
+    },
+    {
+      "name": "Contact",
+      "position": "2",
+      "link": "/page/contact"
+    },
+    {
+      "name": "Twitter",
+      "position": "3",
       "link": "https://www.twitter.com"
     }
   ]
