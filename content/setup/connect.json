@@ -2,7 +2,7 @@
   "connectlinks": [
     {
       "name": "About",
-      "url": "https://jolly-nightingale-875959.netlify.com/page/about"
+      "url": "/page/about"
     },
     {
       "name": "Contact",
