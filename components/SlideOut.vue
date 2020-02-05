@@ -17,11 +17,16 @@
       <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/" exact>Home</nuxt-link>
       </li>
-         <li class="zap-slideout-menu-item--small">
+      <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/category/inspiration" exact>Inspiration</nuxt-link>
       </li>
+      <li class="zap-slideout-menu-item--small">
+        <nuxt-link to="/category/templates" exact>Templates</nuxt-link>
       </li>
-         <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small">
+      <li class="zap-slideout-menu-item--small">
+        <nuxt-link to="/category/development" exact>Development</nuxt-link>
+      </li>
+      <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small">
         <nuxt-link to="/categories" exact>All Categories</nuxt-link>
       </li>
       <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small">
