@@ -1,10 +1,10 @@
 <template>
 
-  <BaelGrid :allitems="findCatPosts"></BaelGrid>
+  <FullGrid :allitems="findCatPosts"></FullGrid>
 </template>
 
 <script>
-import BaelGrid from '~/components/BaelGrid'
+import FullGrid from '~/components/FullGrid'
 export default {
     async asyncData({ params, app, payload, route, store }) {
     let post = await import("~/content/categories/posts/" + params.slug + ".json");
@@ -18,7 +18,7 @@ export default {
       title: this.title + " | " + this.$store.state.siteInfo.sitename
     };
   },
-  components: {BaelGrid},
+  components: {FullGrid},
      transition (to, from) {
     if (!from) return 'slide-right'
     return +to.query.page > +from.query.page ? 'slide-right' : 'slide-left'
