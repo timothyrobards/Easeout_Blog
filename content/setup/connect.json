@@ -2,11 +2,11 @@
   "connectlinks": [
     {
       "name": "About",
-      "url": "/pages/about"
+      "url": "/page/about"
     },
     {
       "name": "Contact",
-      "url": "/pages/contact"
+      "url": "/page/contact"
     }
   ]
 }
