@@ -1,12 +1,3 @@
 {
-  "connectlinks": [
-    {
-      "name": "About",
-      "url": "/page/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/page/contact"
-    }
-  ]
+  "connectlinks": []
 }
