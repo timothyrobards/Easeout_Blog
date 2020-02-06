@@ -15,10 +15,6 @@
   padding: 10px;
 }
 
-.item-height {
-  
-}
-
 [class*="c-"] {
     grid-column: span 12;
     padding: 10px

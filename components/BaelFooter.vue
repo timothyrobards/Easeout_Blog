@@ -37,10 +37,10 @@
         </div>
         <div v-if="signupBoolean" class="c-25 xs-text-left xs-p2 xs-border">
             <div v-if="!sent" class="item">
-                <div class="footer__heading xs-mb2">Newsletter Signup</div>
+                <div class="footer__heading xs-mb2">Get Easeout in your inbox</div>
                 <form @submit.prevent="processForm" action="/.netlify/functions/app" name="mailinglist">
-                    <input type="email" v-model="emaildata.email" class="text-input text-input--small xs-mb1 xs-mr2" placeholder="you@email.com">
-                    <button type="submit" class="button button--transparent button--small">Submit</button>
+                    <input type="email" v-model="emaildata.email" class="text-input text-input--small xs-mb1 xs-mr2" placeholder="your email here">
+                    <button type="submit" class="button button--transparent button--small">Subscribe</button>
                 </form>
             </div>
             <div class="item" v-else>
@@ -50,7 +50,7 @@
         </div>
         <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
             <div class="item">
-                <div v-show="connectData" class="footer__heading xs-mb2">Connect</div>
+                <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
                 <ul class="list-unstyled">
                     <li v-show="connectData" v-for="(c,i) in connectData" :key="i">
                         <a :href="c.url">{{c.name}}</a>
@@ -60,17 +60,12 @@
         </div>
         <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
             <div class="item">
-                <div class="footer__heading xs-mb2">Deploy</div>
-
-                <a href="https://app.netlify.com/start/deploy?repository=https://github.com/jake-101/bael-template">
-            <img style="height:29px;width:auto;" src="~/assets/deploy.svg" title="Deploy to Netlify">
-          </a>
-
+                <div class="footer__heading xs-mb2">Connect</div>
+                <a href="https://www.twitter.com">Twitter</a>
             </div>
         </div>
         <div class="c-12 xs-text-left xs-p2 xs-border">
-            <div class="item xs-text-6"><a href="https://github.com/jake-101/bael-template">Bael</a>, An open source design by
-                <a href="https://jake101.com">jake101</a>
+            <div class="item xs-text-6 center"> &copy; Easeout 2020
             </div>
         </div>
     </div>
@@ -170,4 +165,9 @@ export default {
 .footer__heading {
     max-width: 100%;
 }
+
+.center{
+    text-align: center;
+}
+
 </style>
