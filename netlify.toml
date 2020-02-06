@@ -11,3 +11,8 @@
   SENDGRID_WELCOME_SENDER_EMAIL = "Sendgrid Welcome Sender Email"
   SENDGRID_WELCOME_SENDER_NAME = "Sendgrid Welcome Sender Name"
   SENDGRID_WELCOME_TEMPLATE_ID = "Sendgrid Welcome Email Template ID"
+[[redirects]]
+  from = "https://jolly-nightingale-875959.netlify.com"
+  to = "https://easeout.co"
+  status = 301
+  force = true
