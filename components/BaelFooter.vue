@@ -168,6 +168,7 @@ export default {
 
 .center{
     text-align: center;
+    color: red;
 }
 
 </style>
