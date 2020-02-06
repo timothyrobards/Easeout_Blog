@@ -65,8 +65,7 @@
             </div>
         </div>
         <div class="c-12 xs-text-left xs-p2 xs-border">
-            <div class="item xs-text-6 center"> &copy; Easeout 2020
-            </div>
+            <div class="item xs-text-6 center"> &copy; Easeout <script>document.write(new Date().getFullYear())</script></div>
         </div>
     </div>
 </footer>
