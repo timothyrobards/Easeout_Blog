@@ -61,7 +61,7 @@
         <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
             <div class="item">
                 <div class="footer__heading xs-mb2">Connect</div>
-                <a href="https://www.twitter.com">Twitter</a>
+                <a href="https://twitter.com/easeoutco">Twitter</a>
             </div>
         </div>
         <div class="c-12 xs-text-left xs-p2 xs-border">
