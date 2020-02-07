@@ -111,7 +111,7 @@
 
 /* Desktop/Laptop */
 
-/* 1440 */
+/* 1440 + */
 @media only screen and (min-width: 1440px) {
     .full-item {
       grid-column: span 3;
