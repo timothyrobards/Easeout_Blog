@@ -37,7 +37,7 @@
         </div>
         <div v-if="signupBoolean" class="c-25 xs-text-left xs-p2 xs-border">
             <div v-if="!sent" class="item">
-                <div class="footer__heading xs-mb2">Get Easeout in your inbox</div>
+                <div class="footer__heading xs-mb2">🎉 Get Easeout in your inbox 🎉</div>
                 <form @submit.prevent="processForm" action="/.netlify/functions/app" name="mailinglist">
                     <input type="email" v-model="emaildata.email" class="text-input text-input--small xs-mb1 xs-mr2" placeholder="your email here">
                     <button type="submit" class="button button--transparent button--small">Subscribe</button>
