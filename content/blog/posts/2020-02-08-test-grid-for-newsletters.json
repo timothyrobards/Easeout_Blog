@@ -1,5 +1,0 @@
-{
-  "title": "Test grid for newsletters?",
-  "date": "Saturday February 8th, 2020",
-  "body": "<div class=\"news-grid\">\n\n<div class=\"news-item\">\n\n![IMG ALT](/images/uploads/svelte-radiant.png)\n\n[Article Name](https://www.google.com)\n\nDrew McLellan writes about the state of the HTML5 input types in 2019, which can be used, and which should still be avoided.\n\n[Read it ➡️](https://www.google.com)\n\n</div>\n\n<div class=\"news-item\">\n\n![IMG ALT](/images/uploads/svelte-radiant.png)\n\n[Article Name](https://www.google.com)\n\nDrew McLellan writes about the state of the HTML5 input types in 2019, which can be used, and which should still be avoided.\n\n[Read it ➡️](https://www.google.com)\n\n</div>\n\n</div>"
-}
