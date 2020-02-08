@@ -1,5 +1,5 @@
 {
   "title": "Test grid for newsletters?",
   "date": "Saturday February 8th, 2020",
-  "body": "<div class=\"news-grid\">\n\n<div class=\"news-item\">\n\n![Caroo](/images/uploads/carine-roitfeld.jpg)\n\n[Caroline's Portfolio](www.google.com)\n\nDrew McLellan writes about the state of the HTML5 input types in 2019, which can be used, and which should still be avoided.\n\n[Read it](www.google.com)\n\n</div>\n\n<div class=\"news-item\">\n\n![Fevered](/images/uploads/fevered-sleep.jpg)\n\n[Fevered Sleep](www.google.com)\n\nDrew McLellan writes about the state of the HTML5 input types in 2019, which can be used, and which should still be avoided.\n\n[Read it](www.google.com)\n\n</div>\n\n</div>"
+  "body": "<div class=\"news-grid\">\n\n<div class=\"news-item\">\n\n![Caroo](/images/uploads/carine-roitfeld.jpg)\n\n[Caroline's Portfolio](www.google.com)\n\nDrew McLellan writes about the state of the HTML5 input types in 2019, which can be used, and which should still be avoided.\n\n[Read it](www.google.com)\n\n</div>\n\n<div class=\"news-item\">\n\n![Svelte](/images/uploads/svelte-radiant.png)\n\n[Fevered Sleep](www.google.com)\n\nDrew McLellan writes about the state of the HTML5 input types in 2019, which can be used, and which should still be avoided.\n\n[Read it](www.google.com)\n\n</div>\n\n</div>"
 }
