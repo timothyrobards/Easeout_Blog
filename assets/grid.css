@@ -218,8 +218,14 @@ h6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.single .post-content p {
+
+.single .post-content {
   margin-bottom: 1rem;
+}
+
+/* Workaround 75ch width for first p of blog posts */
+.single .post-content p:nth-child(1) {
+  max-width: 75ch;
 }
 
 .single .post-content ul,
@@ -282,6 +288,9 @@ nav .r {
 @media only screen and (max-width: 1025px) {
   .news-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .single .post-content img {  /* Applies to ALL images < tablet */
+    padding: 0;
   }
 }
 @media only screen and (max-width: 600px) {
