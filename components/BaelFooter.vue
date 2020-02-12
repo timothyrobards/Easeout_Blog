@@ -63,6 +63,7 @@
                 <div class="footer__heading xs-mb2">Connect</div>
                 <ul class="list-unstyled">
                     <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
+                    <script src="https://gumroad.com/js/gumroad.js"></script>
                     <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buymeacoffee</a></li>
                 </ul>
             </div>
@@ -73,8 +74,6 @@
     </div>
 </footer>
 </template>
-
-<script src="https://gumroad.com/js/gumroad.js"></script>
 
 <script>
 export default {
