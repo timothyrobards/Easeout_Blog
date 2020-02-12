@@ -63,7 +63,7 @@
                 <div class="footer__heading xs-mb2">Connect</div>
                 <ul class="list-unstyled">
                     <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
-                    <li><a href="https://www.buymeacoffee.com/iNrSbC8kz">Buymeacoffee</a></li>
+                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buymeacoffee</a></li>
                 </ul>
             </div>
         </div>
@@ -158,6 +158,8 @@ export default {
     }
 };
 </script>
+
+<script src="https://gumroad.com/js/gumroad.js"></script>
 
 <style scoped>
 .text-input {
