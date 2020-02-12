@@ -74,6 +74,8 @@
 </footer>
 </template>
 
+<script src="https://gumroad.com/js/gumroad.js"></script>
+
 <script>
 export default {
     props: ["pagination"],
@@ -158,8 +160,6 @@ export default {
     }
 };
 </script>
-
-<script src="https://gumroad.com/js/gumroad.js"></script>
 
 <style scoped>
 .text-input {
