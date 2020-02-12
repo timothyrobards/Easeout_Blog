@@ -98,7 +98,7 @@ export default {
   font: inherit;
   color: inherit;
   text-transform: none;
-  background-color: #D8D9D9;
+  background-color: transparent;
   border: 0;
   margin: 0;
   overflow: visible;
@@ -179,7 +179,7 @@ export default {
   height: 100vh;
   z-index:1000;
   padding: 16px;
-  background-color: #fff;
+  background-color: #d8d9d9;
   transform: translate3D(100%, 0, 0);
   transition: transform 0.6s;
 
