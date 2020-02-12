@@ -87,6 +87,11 @@ export default {
             sent: false
         };
     },
+    mounted() {
+        let gumScript = document.createElement('script')
+        gumScript.setAttribute('src', 'https://gumroad.com/js/gumroad.js')
+        document.head.appendChild(gumScript)
+    },
     methods: {
 
         async processForm() {
