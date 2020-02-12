@@ -35,10 +35,10 @@ env: {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Archivo+Black' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap"' }
-    ],
-    script: [
-      { hid: 'gum', src: 'https://gumroad.com/js/gumroad.js', defer: true }
     ]
+    // script: [
+    //   { hid: 'gum', src: 'https://gumroad.com/js/gumroad.js', defer: true }
+    // ]
   },
   css: ["@/assets/grid.css","bf-solid/dist/solid.latest.css"],
   // icon: {
