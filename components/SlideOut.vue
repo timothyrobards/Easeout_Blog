@@ -21,7 +21,7 @@
         <nuxt-link to="/category/inspiration" exact>Inspiration</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small">
-        <nuxt-link to="/category/templates" exact>Templates</nuxt-link>
+        <nuxt-link to="/category/template" exact>Templates</nuxt-link>
       </li>
       <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small">
         <nuxt-link to="/categories" exact>All Categories</nuxt-link>
@@ -98,7 +98,7 @@ export default {
   font: inherit;
   color: inherit;
   text-transform: none;
-  background-color: transparent;
+  background-color: #D8D9D9;
   border: 0;
   margin: 0;
   overflow: visible;
