@@ -13,7 +13,13 @@
   grid-column: span 3;
   height: 60vh;
   padding: 10px;
+  background-color: #D2FDFE;
 }
+
+/* .full-item:nth-child(3n+1) { background-color: #7DE5DC; }
+.full-item:nth-child(3n+2) { background-color: #E0D2C5; }
+.full-item:nth-child(3n+3) { background-color: #EE8D49; }
+.full-item:nth-child(3n+4) { background-color: #F6C92B; } */
 
 [class*="c-"] {
     grid-column: span 12;

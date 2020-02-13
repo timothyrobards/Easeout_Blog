@@ -1,5 +1,5 @@
 <template>
-<footer class="fill-gray-lighter xs-text-6 md-text-5">
+<footer class="retro-gray xs-text-6 md-text-5">
     <div class="r no-gap">
 
         <div class="c-12 xs-text-left xs-p2 xs-border">
@@ -175,6 +175,10 @@ export default {
 
 .center{
     text-align: center;
+}
+
+.retro-gray {
+    background-color: #d8d9d9;
 }
 
 </style>

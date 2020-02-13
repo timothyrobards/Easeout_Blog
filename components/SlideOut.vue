@@ -182,7 +182,7 @@ export default {
   height: 100vh;
   z-index:1000;
   padding: 16px;
-  background-color: #d8d9d9;
+  background-color: #E0D2C5;
   transform: translate3D(100%, 0, 0);
   transition: transform 0.6s;
 
