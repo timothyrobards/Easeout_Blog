@@ -23,6 +23,9 @@
       <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/category/template" exact>Templates</nuxt-link>
       </li>
+      <li class="zap-slideout-menu-item--small">
+        <nuxt-link to="/category/code" exact>Code</nuxt-link>
+      </li>
       <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small">
         <nuxt-link to="/categories" exact>All Categories</nuxt-link>
       </li>
