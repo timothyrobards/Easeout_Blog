@@ -111,6 +111,9 @@ nav {
   font-size: 18px;
   letter-spacing: 1px;
 }
+input.search {
+  background-color: #d8d9d9 !important;
+}
 @media only screen and (max-width: 40rem) {
   .results {
     width: 94vw;
