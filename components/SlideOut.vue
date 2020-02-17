@@ -7,33 +7,34 @@
         </div>
       </div>
     </div>
-    <ul class="zap-slideout-menu list-unstyled black-font">
-      <li class="zap-slideout-menu-item sub-color"> 
+    <ul class="zap-slideout-menu list-unstyled">
+      <li class="zap-slideout-menu-item sub-heading"> 
         <img style="width:64px;" class="xs-block xs-fit xs-mb2" v-if="this.$store.state.siteInfo.siteicon  && this.$store.state.siteInfo.showmenu" :src="this.$store.state.siteInfo.siteicon" :alt="menuSiteName">
-        Menu
+        MENU
       </li>
-      <li class="zap-slideout-menu-item--small">
+      <!-- <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/" exact>Home</nuxt-link>
-      </li>
-      <li class="zap-slideout-menu-item--small">
+      </li> -->
+      <li class="zap-slideout-menu-item--small sub-color spacer">
         <nuxt-link to="/category/inspiration" exact>Inspiration</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small">
+      <li class="zap-slideout-menu-item--small sub-color">
         <nuxt-link to="/category/template" exact>Templates</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small">
+      <li class="zap-slideout-menu-item--small sub-color">
         <nuxt-link to="/category/code" exact>Code</nuxt-link>
       </li>
-      <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small">
+      <!-- <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small sub-color">
         <nuxt-link to="/categories" exact>All Categories</nuxt-link>
-      </li>
-      <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font sub-color">
+      </li> -->
+      <!-- <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font sub-color">
         Links
-      </li>
-      <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small">
+      </li> -->
+      <li class="spacer-sub"></li>
+      <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small sub-color2">
         <nuxt-link :to="pg._path">{{pg.title}}</nuxt-link>
       </li>
-      <li v-if="menuLinks" v-for="m in menuLinks" :key="m.position" class="zap-slideout-menu-item--small">
+      <li v-if="menuLinks" v-for="m in menuLinks" :key="m.position" class="zap-slideout-menu-item--small sub-color2">
         <a :href="m.link">{{m.name}}</a>
       </li>
     </ul>
@@ -176,7 +177,7 @@ export default {
   position: fixed;
   right: 0;
   top: 0;
-  width: 34vw;
+  width: 40vw;
   height: 100vh;
   z-index:1000;
   padding: 16px;
@@ -243,12 +244,38 @@ export default {
   height: 120px;
 }
 
-.sub-color {
-  color: #DB4437;
+.sub-heading {
+  text-decoration:none !important;
   cursor: default;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 23px;
+}
+
+.sub-color a {
+  color: #ff6060;
   text-decoration:none !important;
   letter-spacing: 1px;
-  font-size: 3rem;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.sub-color2 a {
+  color: #ff6060;
+  text-decoration:none !important;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.spacer{
+  margin-top: 1rem;
+}
+
+.spacer-sub{
+  margin-top: 3rem;
 }
 
 </style>
