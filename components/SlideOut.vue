@@ -8,11 +8,9 @@
       </div>
     </div>
     <ul class="zap-slideout-menu list-unstyled black-font">
-      <li class="zap-slideout-menu-item">
-        <nuxt-link style="color:#000" class="text-black black-font" to="/" exact>
+      <li class="zap-slideout-menu-item sub-color"> 
         <img style="width:64px;" class="xs-block xs-fit xs-mb2" v-if="this.$store.state.siteInfo.siteicon  && this.$store.state.siteInfo.showmenu" :src="this.$store.state.siteInfo.siteicon" :alt="menuSiteName">
-        {{menuSiteName}}
-        </nuxt-link>
+        Menu
       </li>
       <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/" exact>Home</nuxt-link>
@@ -29,7 +27,7 @@
       <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small">
         <nuxt-link to="/categories" exact>All Categories</nuxt-link>
       </li>
-      <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font">
+      <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font sub-color">
         Links
       </li>
       <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small">
@@ -244,4 +242,13 @@ export default {
 .zap-emoji {
   height: 120px;
 }
+
+.sub-color {
+  color: #DB4437;
+  cursor: default;
+  text-decoration:none !important;
+  letter-spacing: 1px;
+  font-size: 3rem;
+}
+
 </style>
