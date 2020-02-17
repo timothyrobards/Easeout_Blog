@@ -255,6 +255,8 @@ export default {
 
 .sub-color a {
   color: #ff6060;
+  background-color: #000;
+  padding: 0 5px 0 5px;
   text-decoration:none !important;
   letter-spacing: 1px;
   font-size: 34px;
@@ -263,6 +265,8 @@ export default {
 }
 .sub-color2 a {
   color: #ff6060;
+  background-color: #ffff00;
+  padding: 0 5px 0 5px;
   text-decoration:none !important;
   letter-spacing: 1px;
   font-size: 16px;
