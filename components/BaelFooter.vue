@@ -35,7 +35,7 @@
                 <p v-show="siteDescription">{{siteDescription}}</p>
             </div>
         </div>
-        <div v-if="signupBoolean" class="c-25 xs-text-left xs-p2 xs-border">
+        <div v-if="signupBoolean" class="c-25 xs-text-left xs-p2 border-dashed-thin">
             <div v-if="!sent" class="item">
                 <div class="footer__heading xs-mb2">🎉 Get Easeout in your inbox 🎉</div>
                 <form @submit.prevent="processForm" action="/.netlify/functions/app" name="mailinglist">

@@ -15,13 +15,13 @@
       <!-- <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/" exact>Home</nuxt-link>
       </li> -->
-      <li class="zap-slideout-menu-item--small sub-color spacer">
+      <li class="zap-slideout-menu-item--small sub-color box-shadow-thick spacer">
         <nuxt-link to="/category/inspiration" exact>Inspiration</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small sub-color">
+      <li class="zap-slideout-menu-item--small sub-color box-shadow-thick">
         <nuxt-link to="/category/template" exact>Templates</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small sub-color">
+      <li class="zap-slideout-menu-item--small sub-color box-shadow-thick">
         <nuxt-link to="/category/code" exact>Code</nuxt-link>
       </li>
       <!-- <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small sub-color">
@@ -31,10 +31,10 @@
         Links
       </li> -->
       <li class="spacer-sub"></li>
-      <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small sub-color2">
+      <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small sub-color2 box-shadow-thick">
         <nuxt-link :to="pg._path">{{pg.title}}</nuxt-link>
       </li>
-      <li v-if="menuLinks" v-for="m in menuLinks" :key="m.position" class="zap-slideout-menu-item--small sub-color2">
+      <li v-if="menuLinks" v-for="m in menuLinks" :key="m.position" class="zap-slideout-menu-item--small sub-color2 box-shadow-thick">
         <a :href="m.link">{{m.name}}</a>
       </li>
     </ul>
@@ -255,7 +255,6 @@ export default {
 
 .sub-color a {
   color: #ff6060;
-  background-color: #000;
   padding: 0 5px 0 5px;
   text-decoration:none !important;
   letter-spacing: 1px;
@@ -263,15 +262,23 @@ export default {
   font-weight: 600;
   line-height: 34px;
 }
+
+.sub-color {
+  background-color: #000;
+}
+
 .sub-color2 a {
   color: #ff6060;
-  background-color: #ffff00;
   padding: 0 5px 0 5px;
   text-decoration:none !important;
   letter-spacing: 1px;
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
+}
+
+.sub-color2 {
+  background-color: #ffff00;
 }
 
 .spacer{
