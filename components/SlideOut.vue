@@ -8,9 +8,9 @@
       </div>
     </div>
     <ul class="zap-slideout-menu list-unstyled">
-      <li class="zap-slideout-menu-item sub-heading"> 
-        <img style="width:64px;" class="xs-block xs-fit xs-mb2" v-if="this.$store.state.siteInfo.siteicon  && this.$store.state.siteInfo.showmenu" :src="this.$store.state.siteInfo.siteicon" :alt="menuSiteName">
-        MENU
+      <li class="zap-slideout-menu-item"> 
+        <img style="width:60%" class="xs-block xs-fit xs-mb2 nav-logo" v-if="this.$store.state.siteInfo.siteicon  && this.$store.state.siteInfo.showmenu" :src="this.$store.state.siteInfo.siteicon" :alt="menuSiteName">
+        
       </li>
       <!-- <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/" exact>Home</nuxt-link>
@@ -269,14 +269,8 @@ export default {
   height: 120px;
 }
 
-.sub-heading {
-  text-decoration:none !important;
-  cursor: default;
-  letter-spacing: 1px;
-  font-size: 18px;
-  font-weight: 900;
-  line-height: 23px;
-  text-align: center;
+.nav-logo {
+  margin: 0 auto;
 }
 
 .nav-item-primary a {
