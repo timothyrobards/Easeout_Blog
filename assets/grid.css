@@ -225,12 +225,8 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
-.single .post-content p{
+.single .post-content p:not(.full-image) {
   margin-bottom: 1rem;
-}
-
-/* Workaround 75ch width for first p of blog posts */
-.single .post-content p:nth-child(1) {
   max-width: 75ch;
 }
 
