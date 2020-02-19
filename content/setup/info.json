@@ -2,7 +2,7 @@
   "sitename": "Easeout",
   "sitedescription": "A web design and development blog.",
   "siteicon": "/images/uploads/icon.png",
-  "showmenu": false,
+  "showmenu": true,
   "emailsignup": true,
   "altlayout": true,
   "menu": [
