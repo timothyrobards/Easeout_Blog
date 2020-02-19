@@ -15,26 +15,29 @@
       <!-- <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/" exact>Home</nuxt-link>
       </li> -->
-      <li class="zap-slideout-menu-item--small sub-color box-shadow-thick spacer">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick spacer">
         <nuxt-link to="/category/inspiration" exact>Inspiration</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small sub-color box-shadow-thick">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
         <nuxt-link to="/category/template" exact>Templates</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small sub-color box-shadow-thick">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
         <nuxt-link to="/category/code" exact>Code</nuxt-link>
       </li>
-      <!-- <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small sub-color">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
+        <nuxt-link to="/category/newsletter" exact>News</nuxt-link>
+      </li>
+      <!-- <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small nav-item-primary">
         <nuxt-link to="/categories" exact>All Categories</nuxt-link>
       </li> -->
-      <!-- <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font sub-color">
+      <!-- <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font nav-item-primary">
         Links
       </li> -->
       <li class="spacer-sub"></li>
-      <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small sub-color2 box-shadow-thick">
+      <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small nav-item-secondary box-shadow-thick">
         <nuxt-link :to="pg._path">{{pg.title}}</nuxt-link>
       </li>
-      <li v-if="menuLinks" v-for="m in menuLinks" :key="m.position" class="zap-slideout-menu-item--small sub-color2 box-shadow-thick">
+      <li v-if="menuLinks" v-for="m in menuLinks" :key="m.position" class="zap-slideout-menu-item--small nav-item-secondary box-shadow-thick">
         <a :href="m.link">{{m.name}}</a>
       </li>
     </ul>
@@ -177,7 +180,7 @@ export default {
   position: fixed;
   right: 0;
   top: 0;
-  width: 40vw;
+  width: 33vw;
   height: 100vh;
   z-index:1000;
   padding: 16px;
@@ -188,6 +191,18 @@ export default {
   &.isOpen {
     transform: translate3D(0, 0, 0);
     transition: transform 0.6s;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .zap-slideout {
+    width: 45vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .zap-slideout {
+    width: 100vw;
   }
 }
 
@@ -205,6 +220,16 @@ export default {
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .zap-slideout {
+    &.isOpen {
+      .zap-slideout-opener{
+        right: 0 !important;
+      }
+    }
   }
 }
 
@@ -251,9 +276,10 @@ export default {
   font-size: 18px;
   font-weight: 900;
   line-height: 23px;
+  text-align: center;
 }
 
-.sub-color a {
+.nav-item-primary a {
   color: #ff6060;
   padding: 0 5px 0 5px;
   text-decoration:none !important;
@@ -263,11 +289,12 @@ export default {
   line-height: 34px;
 }
 
-.sub-color {
-  background-color: #000;
+.nav-item-primary {
+  background-color: #2e2e2e;
+  text-align: center;
 }
 
-.sub-color2 a {
+.nav-item-secondary a {
   color: #ff6060;
   padding: 0 5px 0 5px;
   text-decoration:none !important;
@@ -277,8 +304,10 @@ export default {
   line-height: 22px;
 }
 
-.sub-color2 {
+.nav-item-secondary {
   background-color: #ffff00;
+  text-align: center;
+  width: 50%;
 }
 
 .spacer{
@@ -288,5 +317,22 @@ export default {
 .spacer-sub{
   margin-top: 3rem;
 }
+
+/* BOX SHADOWS
+*********************/
+.box-shadow, .box-shadow-thick, .box-shadow-fat, .box-shadow-double, .box-shadow-triple, .box-shadow-quad, .box-shadow-bottom, .box-shadow-right { 
+	display: block; margin-bottom: 0.75em; 
+}
+.box-shadow:after, .box-shadow-thick:after, .box-shadow-fat:after, .box-shadow-double:after, .box-shadow-triple:after, .box-shadow-quad:after, .box-shadow-bottom:after, .box-shadow-right:after {
+	display: block; content: ''; clear: both;
+}
+.box-shadow { box-shadow: 5px 5px 0 #000; }
+.box-shadow-thick { box-shadow: 8px 8px 0 #000; }
+.box-shadow-fat { box-shadow: 12px 12px 0 #000; }
+.box-shadow-double { box-shadow: 5px 5px 0 #000, 10px 10px 0 #2E2E2E; }
+.box-shadow-triple { box-shadow: 5px 5px 0 #000, 10px 10px 0 #2E2E2E, 15px 15px 0 #585858; }
+.box-shadow-quad { box-shadow: 4px 4px 0 #000, 8px 8px 0 #2E2E2E, 12px 12px 0 #585858, 16px 16px 0 #848484; }
+.box-shadow-bottom { box-shadow: 0px 8px 0 #000; }
+.box-shadow-right { box-shadow: 8px 0 #000; }
 
 </style>
