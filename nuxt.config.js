@@ -45,7 +45,7 @@ env: {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
-  modules: ['@nuxtjs/markdownit', '@nuxtjs/pwa','@nuxtjs/axios','@nuxtjs/proxy'],
+  modules: ['@nuxtjs/markdownit', '@nuxtjs/pwa','@nuxtjs/axios'],
   markdownit: {
     injected: true,
     preset: 'default',
@@ -75,12 +75,6 @@ env: {
       }
     ]
   },
-  proxy: {
-  '/.netlify': {
-    target: 'http://localhost:3000',
-    pathRewrite: {'^/.netlify/functions': ''},
-  },
-},
 
   /*
   ** Route config for pre-rendering
