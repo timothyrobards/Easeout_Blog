@@ -77,7 +77,7 @@ env: {
   },
   proxy: {
   '/.netlify': {
-    target: 'http://localhost:9000',
+    target: 'http://localhost:3000',
     pathRewrite: {'^/.netlify/functions': ''},
   },
 },
