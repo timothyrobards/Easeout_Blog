@@ -97,7 +97,7 @@ export default {
         async processForm() {
             try {
                 const sendgrid = await this.$axios.post(
-                    `https://easeout.co/.netlify/functions/app`,
+                    `https://www.easeout.co/.netlify/functions/app`,
                     this.emaildata
                 );
                 console.log("Processed!");
