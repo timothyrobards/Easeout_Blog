@@ -97,7 +97,7 @@ export default {
         async processForm() {
             try {
                 const sendgrid = await this.$axios.post(
-                    `${process.env.API_URL}/.netlify/functions/app`,
+                    `${process.env.API_URL}/.netlify/functions/sendgrid`,
                     this.emaildata
                 );
                 console.log("Processed!");
