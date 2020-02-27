@@ -7,6 +7,11 @@
   "altlayout": true,
   "menu": [
     {
+      "name": "Subscribe",
+      "position": "1",
+      "link": "https://cdn.forms-content.sg-form.com/0eb491d2-58ec-11ea-9d4d-723ef839d2c5"
+    },
+    {
       "name": "Twitter",
       "position": "2",
       "link": "https://twitter.com/easeoutco"
@@ -15,11 +20,6 @@
       "name": "Pinterest",
       "position": "3",
       "link": "https://www.pinterest.ca/easeout/"
-    },
-    {
-      "name": "Subscribe",
-      "position": "1",
-      "link": "https://cdn.forms-content.sg-form.com/0eb491d2-58ec-11ea-9d4d-723ef839d2c5"
     }
   ]
 }
