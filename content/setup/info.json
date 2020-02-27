@@ -3,7 +3,7 @@
   "sitedescription": "Easeout is inspired by the latest design trends and development technologies.",
   "siteicon": "/images/uploads/EASEOUT.png",
   "showmenu": true,
-  "emailsignup": true,
+  "emailsignup": false,
   "altlayout": true,
   "menu": [
     {
