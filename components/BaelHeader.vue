@@ -104,12 +104,15 @@ nav {
   right: 0;
 }
 .sitename {
-  color: #000;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 18px;
   letter-spacing: 1px;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: 0.05em;
+  -webkit-text-fill-color: #fff;
 }
 input.search {
   background-color: #d8d9d9 !important;
