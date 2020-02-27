@@ -95,7 +95,7 @@ export default {
   font-weight: 700;
 }
 .hamburger {
-  padding: 15px 15px;
+  padding: 20px 15px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;

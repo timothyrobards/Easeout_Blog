@@ -8,7 +8,7 @@
         </div>
       </div>
 
-      <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2">
+      <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2 center">
         <div class="item xs-flex">
           <VueFuse placeholder="Search" :compResults="compResults" :keys="keys" :list="allPosts" event-name="searchChanged" />
         </div>
@@ -108,14 +108,19 @@ nav {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-size: 24px;
+  letter-spacing: 2px;
   -webkit-text-stroke-color: #000;
   -webkit-text-stroke-width: 0.05em;
   -webkit-text-fill-color: #fff;
 }
 input.search {
   background-color: #d8d9d9 !important;
+}
+
+.center{
+  align-self: center;
+  border-left: none !important;
 }
 @media only screen and (max-width: 40rem) {
   .results {
