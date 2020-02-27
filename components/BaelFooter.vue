@@ -42,6 +42,7 @@
                     <input type="email" v-model="emaildata.email" class="text-input text-input--small xs-mb1 xs-mr2" placeholder="your email here">
                     <button type="submit" class="button button--transparent button--small">Subscribe</button>
                 </form>
+                <!-- <iframe src="https://cdn.forms-content.sg-form.com/0eb491d2-58ec-11ea-9d4d-723ef839d2c5"/> -->
             </div>
             <div class="item" v-else>
                 <div class="xs-mb2">{{emaildata.email}} has been added to our newsletter.</div>
