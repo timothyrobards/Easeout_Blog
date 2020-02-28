@@ -3,5 +3,5 @@
   "date": "Wednesday February 5th, 2020",
   "thumbnail": "/images/uploads/the-hook-group.jpg",
   "category": "Inspiration",
-  "body": "The Hook is one of the world's largest social media groups, known for creating awarding winning original content for over 10 million fans.\n\nThe site features a bold red theme, lots of movement thanks to embedded video, horizontal navigation and clever image reveal effects.\n\nCheck out [them out](https://www.thehookgroup.co.uk/)!\n\n![The Hook Group About Page](/images/uploads/thehookgroup-1.jpg)\n\n![The Hook Group Landing Page](/images/uploads/thehookgroup-2.jpg)"
+  "body": "The Hook is one of the world's largest social media groups, known for creating awarding winning original content for over 10 million fans.\n\nThe site features a bold red theme, lots of movement thanks to embedded video, horizontal navigation and clever image reveal effects.\n\nCheck out [them out](https://www.thehookgroup.co.uk/)!\n\n<div class=”full-image”>\n\n![The Hook Group About Page](/images/uploads/thehookgroup-1.jpg)\n\n</div>\n\n<div class=\"full-image\">\n\n![The Hook Group Landing Page](/images/uploads/thehookgroup-2.jpg)\n\n</div>"
 }
