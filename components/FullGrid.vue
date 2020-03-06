@@ -4,23 +4,27 @@
 
       <div v-if="items2[pi]" v-for="(p,pi) in items2" :key="p.pi" class="xs-border xs-p2 full-item">
         <div v-if="p.thumbnail" class="item xs-block xs-full-height xs-flex xs-relative xs-flex-align-start xs-flex-justify-end xs-text-left">
-                    <div class="xs-text-left xs-flex xs-full-height xs-flex-justify-end xs-flex-align-end xs-width-auto">
-      <nuxt-link class="full-bg-link" :to="p._path">
-           {{p.title}}
-          </nuxt-link>
-          </div>
-          <nuxt-link  :to="p._path">
-          <img  v-lazy="p.thumbnail" :key="p.thumbnail" class="full-bg-image">
-          
-          <div v-if="!p.thumbnail" class="full-bg-color"></div>
-          </nuxt-link>
+           
+           <div class="xs-text-left xs-flex xs-full-height xs-flex-justify-end xs-flex-align-end xs-width-auto">
 
-    
+            <nuxt-link class="full-bg-link" :to="p._path">
+             {{p.title}}
+            </nuxt-link>
+
+           </div>
+
+            <nuxt-link  :to="p._path">
+              <img  v-lazy="p.thumbnail" :key="p.thumbnail" class="full-bg-image">
+              <div v-if="!p.thumbnail" class="full-bg-color"></div>
+            </nuxt-link>
+
         </div>
-               <div v-else class="item item-txt xs-block xs-full-height xs-flex xs-relative xs-flex-align-center xs-flex-justify-center xs-text-center">
-     <nuxt-link class="nobg-link" :to="p._path">
-           {{p.title}}
-          </nuxt-link>
+        <div v-else class="item item-txt xs-block xs-full-height xs-flex xs-relative xs-flex-align-center xs-flex-justify-center xs-text-center">
+        
+        <nuxt-link class="nobg-link" :to="p._path">
+          {{p.title}}
+          <div class="item-txt-secondary"> {{p.description}} </div>
+        </nuxt-link>
         
 
     
@@ -180,10 +184,12 @@ export default {
 <style>
 img[lazy='loading'] {opacity:0;transition: .8s all;transition-delay:.8s;}
 img[lazy='loaded'] {opacity:1;transition: .8s all;transition-delay:.8s;}
-.nobg-link {font-size: calc(1.4rem + 2vw);}
+.nobg-link {font-size: calc(1rem + 1vw); color: #dfa612; line-height: 36px; padding: 0 0.5rem 0 0.5rem;}
+.nobg-link:hover {color: #dfa612; opacity:.8;transition: .4s all;}
 .full-bg-link {z-index:2;padding:1.2rem;transition: .8s all;}
-.item-txt {border: 1px solid rgba(0,0,0,.2); background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 19%, rgba(247,247,247,1) 100%);}
+.item-txt {border: 1px solid rgba(0,0,0,.2); background:#282C34;
+background: radial-gradient(circle, #282C34 19%, #282C34 100%); font-family: 'Overpass Mono', monospace;}
+.item-txt-secondary {font-size: 1rem; line-height: 26px; padding: 1.5rem 0.5rem 0 0.5rem; font-family: 'Overpass Mono', monospace; color: #faebd7;}
 .full-bg-image {position:absolute;top:0;left:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;width:100%;height:100%;transition: .4s all;border: 1px solid rgba(0,0,0,.2);}
 .item:hover .full-bg-image,.item:hover .full-bg-color  {opacity:.8;transition: .4s all;}
 .item .full-bg-link  {background: #fff;transition: .8s all;border-top: 1px solid rgba(0,0,0,.2);border-right: 1px solid rgba(0,0,0,.2);}

@@ -16,11 +16,6 @@
   background-color: #D8D9D9;
 }
 
-/* .full-item:nth-child(3n+1) { background-color: #7DE5DC; }
-.full-item:nth-child(3n+2) { background-color: #E0D2C5; }
-.full-item:nth-child(3n+3) { background-color: #EE8D49; }
-.full-item:nth-child(3n+4) { background-color: #F6C92B; } */
-
 [class*="c-"] {
     grid-column: span 12;
     padding: 10px
@@ -115,83 +110,132 @@
     
 }
 
+/* CARD MEDIA QUERIES */
+
+/* mobile portrait: less than 640px
+mobile landscape: > 640px
+tablet portrait: > 768px
+tablet landscape: > 1024px
+laptop: > 1280px */
+
+@media (min-width: 1px) {
+  .full-item {
+    grid-column: span 12;
+    height: 450px;
+  }
+}
+
+@media (min-width: 640px) {
+  .full-item {
+    grid-column: span 6;
+    height: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .full-item {
+    grid-column: span 6;
+    height: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .full-item {
+    grid-column: span 4;
+    height: 450px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .full-item {
+      grid-column: span 3;
+      height: 400px;
+    }
+}
+
+@media (min-width: 1440px) {
+  .full-item {
+    grid-column: span 3;
+    height: 50vh
+  }
+}
 /* Desktop/Laptop */
 
 /* 1440 + */
-@media only screen and (min-width: 1440px) {
+/* @media only screen and (min-width: 1440px) {
     .full-item {
       grid-column: span 3;
       height: 50vh;
     }
-}
+} */
 
 /* 1366x768 is now most popular */
-@media only screen and (min-width: 1366px) and (max-height: 768px) {
+/* @media only screen and (min-width: 1366px) and (max-height: 768px) {
     .full-item {
       grid-column: span 3;
-      height: 60vh; /* same as og above*/
+      height: 60vh; same as og above
     }
-}
+} */
 
 /* Tablets */
 
 /* iPad Pro landscape */
-@media only screen and (max-width: 1366px) and (height: 1024px) and (orientation: landscape) {
+/* @media only screen and (max-width: 1366px) and (height: 1024px) and (orientation: landscape) {
     .full-item {
       grid-column: span 3;
       height: 40vh;
     }
-}
+} */
 
 /* iPad Pro portrait */
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
     .full-item {
       grid-column: span 4;
       height: 30vh;
    }
-}
+} */
 
 /* iPad landscape */
-@media only screen and (max-width: 1025px) and (orientation: landscape) {
+/* @media only screen and (max-width: 1025px) and (orientation: landscape) {
     .full-item {
       grid-column: span 3;
       height: 40vh;
    }
-}
+} */
 
 /* iPad portrait */
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     .full-item {
       grid-column: span 4;
       height: 30vh;
    }
-}
+} */
 
 /* Phones */
 
 /* iPhoneX & Pix2XL landscape */
-@media only screen and (max-width: 824px) and (orientation: landscape) {
+/* @media only screen and (max-width: 824px) and (orientation: landscape) {
   .full-item {
     grid-column: span 4;
     height: 90vh;
   }
-}
+} */
 
 /* iPhone ALL portrait */
-@media only screen and (max-width: 750px) {
+/* @media only screen and (max-width: 750px) {
     .full-item {
       grid-column: span 12;
       height: 65vh;
    }
-}
+} */
 
 /* iPhone ALL < X landscape */
-@media only screen and (max-width: 750px) and (orientation: landscape) {
+/* @media only screen and (max-width: 750px) and (orientation: landscape) {
   .full-item {
     grid-column: span 4;
     height: 70vh;
   }
-}
+} */
 
 
 pre, code {white-space: normal;font-family: monospace;margin-bottom:1rem;background:#f3f3f3;padding:.5rem;margin: 1rem 0 !important;}
