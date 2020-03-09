@@ -187,9 +187,8 @@ img[lazy='loaded'] {opacity:1;transition: .8s all;transition-delay:.8s;}
 .nobg-link {font-size: calc(1rem + 1vw); color: #dfa612; line-height: 36px; padding: 0 0.5rem 0 0.5rem;}
 @media (max-width: 640px) {
   .nobg-link {
-    font-size: calc(1rem + 5vw);
-    line-height: 50px;
-    padding-bottom: 0.5rem;
+    font-size: calc(1rem + 4vw);
+    line-height: 46px;
   }
 }
 .nobg-link:hover {color: #dfa612; opacity:.8;transition: .4s all;}
@@ -197,6 +196,12 @@ img[lazy='loaded'] {opacity:1;transition: .8s all;transition-delay:.8s;}
 .item-txt {border: 1px solid rgba(0,0,0,.2); background:#282C34;
 background: radial-gradient(circle, #282C34 19%, #282C34 100%); font-family: 'Overpass Mono', monospace;}
 .item-txt-secondary {font-size: 1rem; line-height: 26px; padding: 1.5rem 0.5rem 0 0.5rem; font-family: 'Overpass Mono', monospace; color: #faebd7;}
+@media (max-width: 640px) {
+  .item-txt-secondary {
+    font-size: calc(1rem + 1vw);
+    padding: 2.5rem 0.5rem 0 0.5rem;
+  }
+}
 .full-bg-image {position:absolute;top:0;left:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;width:100%;height:100%;transition: .4s all;border: 1px solid rgba(0,0,0,.2);}
 .item:hover .full-bg-image,.item:hover .full-bg-color  {opacity:.8;transition: .4s all;}
 .item .full-bg-link  {background: #fff;transition: .8s all;border-top: 1px solid rgba(0,0,0,.2);border-right: 1px solid rgba(0,0,0,.2);}
