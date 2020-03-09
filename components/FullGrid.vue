@@ -185,6 +185,13 @@ export default {
 img[lazy='loading'] {opacity:0;transition: .8s all;transition-delay:.8s;}
 img[lazy='loaded'] {opacity:1;transition: .8s all;transition-delay:.8s;}
 .nobg-link {font-size: calc(1rem + 1vw); color: #dfa612; line-height: 36px; padding: 0 0.5rem 0 0.5rem;}
+@media (max-width: 640px) {
+  .nobg-link {
+    font-size: calc(1rem + 5vw);
+    line-height: 50px;
+    padding-bottom: 0.5rem;
+  }
+}
 .nobg-link:hover {color: #dfa612; opacity:.8;transition: .4s all;}
 .full-bg-link {z-index:2;padding:1.2rem;transition: .8s all;}
 .item-txt {border: 1px solid rgba(0,0,0,.2); background:#282C34;
