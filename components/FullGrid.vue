@@ -187,7 +187,7 @@ img[lazy='loaded'] {opacity:1;transition: .8s all;transition-delay:.8s;}
 .nobg-link {font-size: calc(1rem + 1vw); color: #dfa612; line-height: 36px; padding: 0 0.5rem 0 0.5rem;}
 @media (max-width: 640px) {
   .nobg-link {
-    font-size: calc(1rem + 4vw);
+    font-size: calc(1rem + 5vw);
     line-height: 46px;
   }
 }
@@ -198,7 +198,6 @@ background: radial-gradient(circle, #282C34 19%, #282C34 100%); font-family: 'Ov
 .item-txt-secondary {font-size: 1rem; line-height: 26px; padding: 1.5rem 0.5rem 0 0.5rem; font-family: 'Overpass Mono', monospace; color: #faebd7;}
 @media (max-width: 640px) {
   .item-txt-secondary {
-    font-size: calc(1rem + 1vw);
     padding: 2.5rem 0.5rem 0 0.5rem;
   }
 }
