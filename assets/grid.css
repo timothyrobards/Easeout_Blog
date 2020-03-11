@@ -237,8 +237,27 @@ laptop: > 1280px */
   }
 } */
 
+pre {
+  padding:.5rem;
+}
+pre, code {
+  white-space: pre; /* pre-wrap will new line @ mobile v scroll now? */
+  font-family: monospace;
+  margin-bottom:1rem;
+  color: #f0f0f0;
+  background: #444;
+  margin: 1rem 0 !important;
+  overflow: auto;
+  border-radius: .5rem;
+  max-width: 90ch;
+}
 
-pre, code {white-space: pre;font-family: monospace;margin-bottom:1rem;color: #fff; background:#282C34;padding:.5rem;margin: 1rem 0 !important;}
+p code {
+  color: #292967;
+  background: #F2F2F2;
+  padding:.25rem;
+}
+
 blockquote {border-left: 3px solid #d6d6d6;padding:0 .5rem !important;margin:0 1.5rem !important;font-weight: 300 !important;}
 h1,
 h2,
