@@ -63,7 +63,7 @@
                 <div class="footer__heading xs-mb2">Connect</div>
                 <ul class="list-unstyled">
                     <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
-                    <li><a href="https://www.pinterest.ca/easeout">Pinterest</a></li>
+                    <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li>
                     <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buymeacoffee</a></li>
                 </ul>
             </div>
