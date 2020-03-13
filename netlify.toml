@@ -16,3 +16,8 @@
   to = "https://easeout.co"
   status = 301
   force = true
+[[redirects]]
+  from = "/tags"
+  to = "/categories"
+  status = 301
+  force = true
