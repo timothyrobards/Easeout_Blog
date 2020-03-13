@@ -85,19 +85,19 @@ const createStore = () =>
         commit('SET_CATS', pages)
 
       },
-      async getTags({ state, commit }) {
+      // async getTags({ state, commit }) {
 
 
-        const context = await require.context('~/content/tags/posts/', false, /\.json$/);
+      //   const context = await require.context('~/content/tags/posts/', false, /\.json$/);
 
-        const pages = await context.keys().map(key => ({
-          ...context(key),
-          _path: `/tagged/${key.replace('.json', '').replace('./', '')}`
-        }));
+      //   const pages = await context.keys().map(key => ({
+      //     ...context(key),
+      //     _path: `/tagged/${key.replace('.json', '').replace('./', '')}`
+      //   }));
 
-        commit('SET_TAGS', pages)
+      //   commit('SET_TAGS', pages)
 
-      },
+      // },
       getSiteInfo({ state, commit }) {
         const info = require('~/content/setup/info.json');
         const connect = require('~/content/setup/connect.json');

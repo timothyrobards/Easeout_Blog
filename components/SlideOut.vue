@@ -17,19 +17,19 @@
         <nuxt-link to="/" exact>Home</nuxt-link>
       </li> -->
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick spacer">
-        <nuxt-link to="/category/inspiration" exact>Inspiration</nuxt-link>
+        <nuxt-link to="/tags/inspiration" exact>Inspiration</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
-        <nuxt-link to="/category/template" exact>Templates</nuxt-link>
+        <nuxt-link to="/tags/template" exact>Templates</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
-        <nuxt-link to="/category/code" exact>Code</nuxt-link>
+        <nuxt-link to="/tags/code" exact>Code</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
-        <nuxt-link to="/category/newsletter" exact>News</nuxt-link>
+        <nuxt-link to="/tags/newsletter" exact>News</nuxt-link>
       </li>
       <!-- <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small nav-item-primary">
-        <nuxt-link to="/categories" exact>All Categories</nuxt-link>
+        <nuxt-link to="/tags" exact>All Tags</nuxt-link>
       </li> -->
       <!-- <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font nav-item-primary">
         Links
