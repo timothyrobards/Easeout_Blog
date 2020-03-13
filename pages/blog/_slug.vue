@@ -8,10 +8,28 @@
           <no-ssr>
             <div class="xs-mt-5 bold">
             <ul class="list-unstyled xs-flex xs-flex-align-center">
-             <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory"><div class="tag fill-gray-darker xs-border">
-  <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
-</div></li> 
-<li class="xs-inline-block">{{ date }}</li>
+
+              <!-- TAGS -->
+
+              <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('CSS')"><div class="tag tag-css">
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-black">{{this.$store.state.theCategory}}</nuxt-link>
+              </div></li> 
+
+              <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('Inspiration')"><div class="tag tag-inspo">
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
+              </div></li> 
+
+              <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('Newsletter')"><div class="tag tag-news">
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
+              </div></li> 
+
+              <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('Template')"><div class="tag tag-template">
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
+              </div></li> 
+
+              <!-- END TAGS -->
+
+              <li class="xs-inline-block">{{ date }}</li>
               </ul> 
              </div>
           </no-ssr>
@@ -105,3 +123,46 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+
+  /* TAG STYLES */
+
+  .tag-css {
+    background-color: #95DEE3;
+    border-color: #95DEE3;
+  }
+
+  .tag-inspo {
+    background-color: #F7786B;
+    border-color: #F7786B;
+  }
+
+  .tag-news {
+    background-color: #5B5EA6;
+    border-color: #5B5EA6;
+  }
+
+  .tag-template {
+    background-color: #00A591;
+    border-color: #00A591;
+  }
+
+  .text-black {
+    color: #282C34;
+  }
+
+  /* TAG OVERRIDE DEFAULTS */
+  
+  .tag {
+    margin-top: 5px;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .tag__link {
+    padding: 0 .5rem;
+  }
+
+</style>
