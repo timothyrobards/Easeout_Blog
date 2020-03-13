@@ -23,7 +23,7 @@
         <nuxt-link to="/tags/template" exact>Templates</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
-        <nuxt-link to="/tags/code" exact>Code</nuxt-link>
+        <nuxt-link to="/tags/css" exact>Code</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
         <nuxt-link to="/tags/newsletter" exact>News</nuxt-link>
