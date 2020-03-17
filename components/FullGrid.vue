@@ -11,6 +11,14 @@
              {{p.title}}
             </nuxt-link>
 
+            <nuxt-link v-if="p.category === 'Inspiration'" class="tag tag-pos tag-inspo tag__link text-white" :to="`/tags/inspiration`">
+             {{p.category}}
+            </nuxt-link>
+
+            <nuxt-link v-if="p.category === 'Template'" class="tag tag-pos tag-template tag__link text-white" :to="`/tags/template`">
+             {{p.category}}
+            </nuxt-link>
+
            </div>
 
             <nuxt-link  :to="p._path">
@@ -24,6 +32,10 @@
         <nuxt-link class="nobg-link" :to="p._path">
           {{p.title}}
           <div class="item-txt-secondary"> {{p.description}} </div>
+
+          <nuxt-link v-if="p.category === 'CSS'" class="tag tag-pos tag-css tag__link text-black" :to="`/tags/css`">
+          {{p.category}}
+          </nuxt-link>
         </nuxt-link>
         
 
@@ -205,4 +217,7 @@ background: radial-gradient(circle, #282C34 19%, #282C34 100%); font-family: 'Ov
 .item:hover .full-bg-image,.item:hover .full-bg-color  {opacity:.8;transition: .4s all;}
 .item .full-bg-link  {background: #fff;transition: .8s all;border-top: 1px solid rgba(0,0,0,.2);border-right: 1px solid rgba(0,0,0,.2);}
 .full-bg-link h2 {margin:0;}
+.tag-pos {
+  position:absolute;top:0.5rem;right:0.5rem;width:unset!important;
+}
 </style>

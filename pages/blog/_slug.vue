@@ -124,7 +124,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 
   /* TAG STYLES */
 
@@ -155,6 +155,7 @@ export default {
   /* TAG OVERRIDE DEFAULTS */
   
   .tag {
+    z-index: 2;
     margin-top: 5px;
     font-size: 0.85rem;
     line-height: 1.5rem;
