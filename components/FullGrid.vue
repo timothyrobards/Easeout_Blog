@@ -218,6 +218,6 @@ background: radial-gradient(circle, #282C34 19%, #282C34 100%); font-family: 'Ov
 .item .full-bg-link  {background: #fff;transition: .8s all;border-top: 1px solid rgba(0,0,0,.2);border-right: 1px solid rgba(0,0,0,.2);}
 .full-bg-link h2 {margin:0;}
 .tag-pos {
-  position:absolute;top:0.5rem;right:0.5rem;width:unset!important;
+  position:absolute;top:0.5rem;right:0.5rem;width:unset!important;transition: .8s all;
 }
 </style>
