@@ -1,5 +1,6 @@
 {
   "date": "Friday March 6th, 2020",
+  "dateshort": "March 6th",
   "body": "Built by [Only](https://onlydigital.ru/) for Russian industrial manufacturer Penzgidromash.\n\n> The main activity of Penzhydromash is the creation of systems for the oil, gas, chemical and petrochemical industries.\n\nFeatures include a bold use of imagery which combines well with a striking black & blue theme, brilliant use of WebGL scroll animation and a neat initial page loader.\n\n[Check them out](http://penzgidromash.com/)!\n\n<img src=\"/images/uploads/penzgidromash-1.jpg\" class=\"full-image\" alt=\"Penzgidromash Landing\">\n\n<img src=\"/images/uploads/penzgidromash-2.png\" class=\"full-image\" alt=\"Penzgidromash Information\">\n\n<img src=\"/images/uploads/penzgidromash-3.png\" class=\"full-image\" alt=\"Penzgidromash Information\">\n\n<img src=\"/images/uploads/penzgidromash-4.jpg\" class=\"full-image\" alt=\"Penzgidromash Products\">\n\n<img src=\"/images/uploads/penzgidromash-5.png\" class=\"full-image\" alt=\"Penzgidromash Contact Form\">",
   "title": "Penzgidromash",
   "thumbnail": "/images/uploads/penzgidromash.jpg",
