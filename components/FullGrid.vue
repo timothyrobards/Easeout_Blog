@@ -8,7 +8,7 @@
            <div class="xs-text-left xs-flex xs-full-height xs-flex-justify-end xs-flex-align-end xs-width-auto">
 
             <nuxt-link class="full-bg-link" :to="p._path">
-             {{p.title}}
+             {{p.title}} <span class="card-date">/ {{p.dateshort}}</span>
             </nuxt-link>
 
             <nuxt-link v-if="p.category === 'Inspiration'" class="tag tag-pos tag-inspo tag__link text-white" :to="`/tags/inspiration`">
@@ -219,5 +219,9 @@ background: radial-gradient(circle, #282C34 19%, #282C34 100%); font-family: 'Ov
 .full-bg-link h2 {margin:0;}
 .tag-pos {
   position:absolute;top:0.5rem;right:0.5rem;width:unset!important;transition: .8s all;
+}
+.card-date{
+  color: grey;
+  font-size: 0.75rem;
 }
 </style>
