@@ -133,6 +133,11 @@ export default {
     border-color: #95DEE3;
   }
 
+  .tag-article {
+    background-color: #282C34;
+    border-color: #282C34;
+  }
+  
   .tag-inspo {
     background-color: #F7786B;
     border-color: #F7786B;

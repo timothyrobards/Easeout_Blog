@@ -8,25 +8,39 @@
       </div>
     </div>
     <ul class="zap-slideout-menu list-unstyled">
-      <li class="zap-slideout-menu-item"> 
+      <!-- <li class="zap-slideout-menu-item"> 
         <nuxt-link to="/" exact>
           <img style="width:60%" class="xs-block xs-fit xs-mb2 nav-logo" v-if="this.$store.state.siteInfo.siteicon  && this.$store.state.siteInfo.showmenu" :src="this.$store.state.siteInfo.siteicon" :alt="menuSiteName">
         </nuxt-link>
-      </li>
+      </li> -->
       <!-- <li class="zap-slideout-menu-item--small">
         <nuxt-link to="/" exact>Home</nuxt-link>
       </li> -->
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick spacer">
+      <li class="spacer-sub--small"></li>
+      <li class="zap-slideout-menu-item--small">
+        Menu
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-article text-white">
+        <nuxt-link to="/tags/article" exact>Articles</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-inspo text-white">
         <nuxt-link to="/tags/inspiration" exact>Inspiration</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-template text-white">
         <nuxt-link to="/tags/template" exact>Templates</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
-        <nuxt-link to="/tags/css" exact>Code</nuxt-link>
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-news text-white">
         <nuxt-link to="/tags/newsletter" exact>News</nuxt-link>
+      </li>
+      <li class="spacer-sub"></li>
+      <li class="zap-slideout-menu-item--small">
+        Tutorials
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-css text-black">
+        <nuxt-link to="/tags/css" exact>CSS</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary text-black p-left">
+        <nuxt-link to="/tags/javascript" exact>JavaScript</nuxt-link>
       </li>
       <!-- <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small nav-item-primary">
         <nuxt-link to="/tags" exact>All Tags</nuxt-link>
@@ -35,12 +49,30 @@
         Links
       </li> -->
       <li class="spacer-sub"></li>
-      <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small nav-item-secondary box-shadow-thick">
+      <li class="zap-slideout-menu-item--small">
+        Links
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
+        <nuxt-link to="/page/about" exact>About</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
+        <nuxt-link to="/page/contact" exact>Contact</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
+        <a href="https://cdn.forms-content.sg-form.com/0eb491d2-58ec-11ea-9d4d-723ef839d2c5" exact>Subscribe</a>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
+        <a href="https://twitter.com/easeoutco" exact>Twitter</a>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
+        <a href="https://www.pinterest.com/easeoutco/" exact>Pinterest</a>
+      </li>
+      <!-- <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small nav-item-secondary box-shadow-thick">
         <nuxt-link :to="pg._path">{{pg.title}}</nuxt-link>
       </li>
       <li v-if="menuLinks" v-for="m in menuLinks" :key="m.position" class="zap-slideout-menu-item--small nav-item-secondary box-shadow-thick">
         <a :href="m.link">{{m.name}}</a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </template>
@@ -201,7 +233,7 @@ export default {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
   .zap-slideout {
     width: 100vw;
   }
@@ -224,7 +256,7 @@ export default {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
   .zap-slideout {
     &.isOpen {
       .zap-slideout-opener{
@@ -278,8 +310,8 @@ export default {
   color: #ff6060;
   padding: 0 5px 0 5px;
   text-decoration:none !important;
-  letter-spacing: 1px;
-  font-size: 34px;
+  letter-spacing: 2px;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 34px;
 }
@@ -287,6 +319,7 @@ export default {
 .nav-item-primary {
   background-color: #2e2e2e;
   text-align: center;
+  width: 98%;
 }
 
 .nav-item-secondary a {
@@ -294,7 +327,7 @@ export default {
   padding: 0 5px 0 5px;
   text-decoration:none !important;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 22px;
 }
@@ -302,7 +335,13 @@ export default {
 .nav-item-secondary {
   background-color: #ffff00;
   text-align: center;
-  width: 50%;
+  width: 47%;
+  display: inline-block !important; 
+  margin-top: 10px !important;
+}
+
+.p-left{
+  margin-left: 0.5rem;
 }
 
 .spacer{
@@ -311,6 +350,24 @@ export default {
 
 .spacer-sub{
   margin-top: 3rem;
+}
+
+.spacer-sub--small {
+  margin-top: 0.3rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .spacer-sub--small {
+    margin-top: 1.5rem;
+  }
+}
+
+.text-black a{
+  color: #282C34;
+}
+
+.text-white a{
+  color: #FFF6E5;
 }
 
 /* BOX SHADOWS
