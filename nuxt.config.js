@@ -5,7 +5,7 @@ var path = require('path');
 
 // Enhance Nuxt's generate process by gathering all content files from Netifly CMS
 // automatically and match it to the path of your Nuxt routes.
-// The Nuxt routes are generate by Nuxt automatically based on the pages folder.
+// The Nuxt routes are generate by Nuxt automatically based on the pages folder..
 var dynamicRoutes = getDynamicPaths({
   '/blog': 'blog/posts/*.json',
   '/page': 'page/posts/*.json',
