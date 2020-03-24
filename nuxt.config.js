@@ -9,8 +9,8 @@ var path = require('path');
 var dynamicRoutes = getDynamicPaths({
   '/blog': 'blog/posts/*.json',
   '/page': 'page/posts/*.json',
-  '/category': 'categories/posts/*.json',
-  '/tags': 'tags/posts/*.json'
+  '/tags': 'categories/posts/*.json'
+  // '/tags': 'tags/posts/*.json'
 });
 
 
@@ -46,7 +46,7 @@ env: {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
-  modules: ['@nuxtjs/markdownit', '@nuxtjs/pwa','@nuxtjs/axios'],
+  modules: ['@nuxtjs/markdownit', '@nuxtjs/pwa', '@nuxtjs/axios', '@nuxtjs/sitemap'],
   markdownit: {
     injected: true,
     preset: 'default',
