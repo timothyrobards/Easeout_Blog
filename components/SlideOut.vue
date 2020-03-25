@@ -38,7 +38,7 @@
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-css text-black">
         <nuxt-link to="/tags/css" exact>CSS</nuxt-link>
-      </li>
+      </li> 
       <!-- <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary text-black p-left">
         <nuxt-link to="/tags/javascript" exact>JavaScript</nuxt-link>
       </li> -->
