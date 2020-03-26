@@ -79,7 +79,7 @@ const createStore = () =>
 
         const pages = await context.keys().map(key => ({
           ...context(key),
-          _path: `/category/${key.replace('.json', '').replace('./', '')}`
+          _path: `/tags/${key.replace('.json', '').replace('./', '')}`
         }));
 
         commit('SET_CATS', pages)
