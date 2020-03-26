@@ -9,8 +9,8 @@ var path = require('path');
 var dynamicRoutes = getDynamicPaths({
   '/blog': 'blog/posts/*.json',
   '/page': 'page/posts/*.json',
-  '/tags': 'categories/posts/*.json'
-  // '/tags': 'tags/posts/*.json'
+  '/category': 'categories/posts/*.json',
+  '/tags': 'tags/posts/*.json'
 });
 
 
