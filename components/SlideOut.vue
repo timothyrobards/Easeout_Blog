@@ -64,10 +64,10 @@
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
         <a href="https://twitter.com/easeoutco" exact>Twitter</a>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
         <a href="https://dribbble.com/easeout" exact>Dribbble</a>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
         <a href="https://www.pinterest.com/easeoutco/" exact>Pinterest</a>
       </li>
       <!-- <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small nav-item-secondary box-shadow-thick">
