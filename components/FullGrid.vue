@@ -19,6 +19,10 @@
              {{p.category}}
             </nuxt-link>
 
+            <nuxt-link v-if="p.category === 'Article'" class="tag tag-pos tag-article tag__link text-white" :to="`/tags/article`">
+             {{p.category}}
+            </nuxt-link>
+
            </div>
 
             <nuxt-link  :to="p._path">
