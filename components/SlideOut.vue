@@ -20,9 +20,9 @@
       <li class="zap-slideout-menu-item--small">
         Menu
       </li>
-      <!-- <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-article text-white">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-article text-white">
         <nuxt-link to="/tags/article" exact>Articles</nuxt-link>
-      </li> -->
+      </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-inspo text-white">
         <nuxt-link to="/tags/inspiration" exact>Inspiration</nuxt-link>
       </li>
