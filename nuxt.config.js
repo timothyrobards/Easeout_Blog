@@ -39,9 +39,9 @@ env: {
     ]
   },
   css: ["@/assets/grid.css","bf-solid/dist/solid.latest.css"],
-  // icon: {
-  //   iconSrc: `${siteInfo.siteicon}`
-  //  },
+  icon: {
+    iconSrc: `${siteInfo.siteicon}`
+   },
   /*
   ** Customize the progress bar color
   */
