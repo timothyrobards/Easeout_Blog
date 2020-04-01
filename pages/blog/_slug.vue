@@ -69,7 +69,11 @@ export default {
   },
   head() {
     return {
-      title: this.title + " | " + this.$store.state.siteInfo.sitename
+      title: this.title + " | " + this.$store.state.siteInfo.sitename,
+      link: [{
+        rel: 'canonical',
+        href: 'https://www.easeout.co' + this.$route.path
+      }]
     };
   },
   
