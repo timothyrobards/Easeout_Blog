@@ -11,15 +11,15 @@
              {{p.title}} <span class="card-date">/ {{p.dateshort}}</span>
             </nuxt-link>
 
-            <nuxt-link v-if="p.category === 'Inspiration'" class="tag tag-pos tag-inspo tag__link text-white" :to="`/tags/inspiration`">
+            <nuxt-link v-if="p.category === 'Inspiration'" class="tag tag-pos tag-inspo tag__link text-white" :to="`/category/inspiration`">
              {{p.category}}
             </nuxt-link>
 
-            <nuxt-link v-if="p.category === 'Template'" class="tag tag-pos tag-template tag__link text-white" :to="`/tags/template`">
+            <nuxt-link v-if="p.category === 'Template'" class="tag tag-pos tag-template tag__link text-white" :to="`/category/template`">
              {{p.category}}
             </nuxt-link>
 
-            <nuxt-link v-if="p.category === 'Article'" class="tag tag-pos tag-article tag__link text-white" :to="`/tags/article`">
+            <nuxt-link v-if="p.category === 'Article'" class="tag tag-pos tag-article tag__link text-white" :to="`/category/article`">
              {{p.category}}
             </nuxt-link>
 
@@ -37,7 +37,7 @@
           {{p.title}}
           <div class="item-txt-secondary"> {{p.description}} </div>
 
-          <nuxt-link v-if="p.category === 'CSS'" class="tag tag-pos tag-css tag__link text-black" :to="`/tags/css`">
+          <nuxt-link v-if="p.category === 'CSS'" class="tag tag-pos tag-css tag__link text-black" :to="`/category/css`">
           {{p.category}}
           </nuxt-link>
         </nuxt-link>

@@ -21,29 +21,29 @@
         Menu
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-article text-white">
-        <nuxt-link to="/tags/article" exact>Articles</nuxt-link>
+        <nuxt-link to="/category/article" exact>Articles</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-inspo text-white">
-        <nuxt-link to="/tags/inspiration" exact>Inspiration</nuxt-link>
+        <nuxt-link to="/category/inspiration" exact>Inspiration</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-template text-white">
-        <nuxt-link to="/tags/template" exact>Templates</nuxt-link>
+        <nuxt-link to="/category/template" exact>Templates</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-news text-white">
-        <nuxt-link to="/tags/newsletter" exact>News</nuxt-link>
+        <nuxt-link to="/category/newsletter" exact>News</nuxt-link>
       </li>
       <li class="spacer-sub"></li>
       <li class="zap-slideout-menu-item--small">
         Tutorials
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-css text-black">
-        <nuxt-link to="/tags/css" exact>CSS</nuxt-link>
+        <nuxt-link to="/category/css" exact>CSS</nuxt-link>
       </li> 
       <!-- <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary text-black p-left">
-        <nuxt-link to="/tags/javascript" exact>JavaScript</nuxt-link>
+        <nuxt-link to="/category/javascript" exact>JavaScript</nuxt-link>
       </li> -->
       <!-- <li v-if="this.$store.state.allCats" class="zap-slideout-menu-item--small nav-item-primary">
-        <nuxt-link to="/tags" exact>All Tags</nuxt-link>
+        <nuxt-link to="/category" exact>All Tags</nuxt-link>
       </li> -->
       <!-- <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font nav-item-primary">
         Links

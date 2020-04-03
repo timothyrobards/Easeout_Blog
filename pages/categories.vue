@@ -9,7 +9,7 @@ export default {
 
    async asyncData({ params, app, payload, route, store }) {
  
-    await store.commit("SET_TITLE", "Tags");
+    await store.commit("SET_TITLE", "Categories");
 
   
   },
@@ -23,7 +23,7 @@ export default {
   },
      head() {
     return {
-      title: "Tags | " + this.$store.state.siteInfo.sitename
+      title: "Categories | " + this.$store.state.siteInfo.sitename
     };
   },
   computed: {
