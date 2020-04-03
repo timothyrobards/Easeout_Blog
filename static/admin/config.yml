@@ -15,10 +15,11 @@ collections:
     sort: "date:desc" # Default is title:asc
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Card Description (for code posts)", name: "description", widget: "string", required: false}
+      - {label: "Meta Description (50-160 char)", name: "short", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "dddd MMMM Do, YYYY"}
       - {label: "Publish Date Short (for card)", name: "dateshort", widget: "datetime", format: "MMMM Do"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Category", name: "category", widget: "relation", collection: "blogcategories", searchFields: ["title"], valueField: "title", displayFields: ["title"], required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "page" # Used in routes, e.g., /admin/collections/blog

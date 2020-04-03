@@ -70,6 +70,11 @@ export default {
   head() {
     return {
       title: this.title + " | " + this.$store.state.siteInfo.sitename,
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: this.short
+      }],
       link: [{
         rel: 'canonical',
         href: 'https://www.easeout.co' + this.$route.path
