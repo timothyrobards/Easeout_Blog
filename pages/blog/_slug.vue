@@ -12,23 +12,23 @@
               <!-- TAGS -->
 
               <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('CSS')"><div class="tag tag-css">
-                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-black">{{this.$store.state.theCategory}}</nuxt-link>
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}/`" class="tag__link text-black">{{this.$store.state.theCategory}}</nuxt-link>
               </div></li> 
 
               <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('Inspiration')"><div class="tag tag-inspo">
-                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}/`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
               </div></li> 
 
               <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('Newsletter')"><div class="tag tag-news">
-                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}/`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
               </div></li> 
 
               <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('Template')"><div class="tag tag-template">
-                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}/`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
               </div></li> 
 
               <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('Article')"><div class="tag tag-article">
-                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}/`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
               </div></li> 
 
               <!-- END TAGS -->

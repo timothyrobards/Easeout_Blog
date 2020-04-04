@@ -21,23 +21,23 @@
         Menu
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-article text-white">
-        <nuxt-link to="/category/article" exact>Articles</nuxt-link>
+        <nuxt-link to="/category/article/" exact>Articles</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-inspo text-white">
-        <nuxt-link to="/category/inspiration" exact>Inspiration</nuxt-link>
+        <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-template text-white">
-        <nuxt-link to="/category/template" exact>Templates</nuxt-link>
+        <nuxt-link to="/category/template/" exact>Templates</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-news text-white">
-        <nuxt-link to="/category/newsletter" exact>News</nuxt-link>
+        <nuxt-link to="/category/newsletter/" exact>News</nuxt-link>
       </li>
       <li class="spacer-sub"></li>
       <li class="zap-slideout-menu-item--small">
         Tutorials
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-css text-black">
-        <nuxt-link to="/category/css" exact>CSS</nuxt-link>
+        <nuxt-link to="/category/css/" exact>CSS</nuxt-link>
       </li> 
       <!-- <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary text-black p-left">
         <nuxt-link to="/category/javascript" exact>JavaScript</nuxt-link>
@@ -53,10 +53,10 @@
         Links
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
-        <nuxt-link to="/page/about" exact>About</nuxt-link>
+        <nuxt-link to="/page/about/" exact>About</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
-        <nuxt-link to="/page/contact" exact>Contact</nuxt-link>
+        <nuxt-link to="/page/contact/" exact>Contact</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
         <a href="https://cdn.forms-content.sg-form.com/0eb491d2-58ec-11ea-9d4d-723ef839d2c5" exact>Subscribe</a>
