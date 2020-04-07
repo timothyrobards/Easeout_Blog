@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://www.easeout.co/sitemap.xml
+Sitemap: https://easeout.co/sitemap.xml
