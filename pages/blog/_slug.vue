@@ -77,9 +77,9 @@ export default {
       }],
       link: [{
         rel: 'canonical',
-        href: 'https://easeout.co' + this.$route.path
+        href: 'https://www.easeout.co' + this.$route.path
       }]
-    }; 
+    };
   },
   
   data() {
