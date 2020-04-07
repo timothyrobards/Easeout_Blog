@@ -35,8 +35,8 @@ env: {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Archivo+Black' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap"' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap"' }
-      // { rel: 'canonical', href: 'https://easeout.co' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap"' },
+      { rel: 'canonical', href: 'https://easeout.co' }
     ]
   },
   css: ["@/assets/grid.css","bf-solid/dist/solid.latest.css"],
