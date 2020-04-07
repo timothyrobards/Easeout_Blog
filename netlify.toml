@@ -21,3 +21,23 @@
   to = "/categories"
   status = 301
   force = true
+[[redirects]]
+  from = "https://www.easeout.co/blog/css-pseudo-classes"
+  to = "https://www.easeout.co/blog/2020-03-31-css-pseudo-classes"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.easeout.co/blog/css-pseudo-elements"
+  to = "https://www.easeout.co/blog/2020-04-06-css-pseudo-elements"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.easeout.co/blog/easeout-weekly-7"
+  to = "https://www.easeout.co/blog/2020-04-04-easeout-weekly-7"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.easeout.co/blog/inspirational-agency-portfolio-websites-april-2020"
+  to = "https://www.easeout.co/blog/2020-04-01-inspirational-agency-portfolio-websites-april-2020"
+  status = 301
+  force = true
