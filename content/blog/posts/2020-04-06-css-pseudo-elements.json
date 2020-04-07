@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD:content/blog/posts/2020-04-06-css-pseudo-elements.json
   "title": "CSS Pseudo-Elements",
   "date": "Monday April 6th, 2020",
   "dateshort": "April 6th",
-=======
-  "date": "Sunday April 5th, 2020",
-  "dateshort": "April 5th",
-  "title": "CSS Pseudo-Elements",
->>>>>>> 8dcba65c4cc2cc0db84d10aa22b9802513be6d75:content/blog/posts/css-pseudo-elements.json
   "description": "Learn all about styling with pseudo-elements.",
   "short": "Learn all about styling with CSS pseudo-elements.",
   "category": "CSS",
