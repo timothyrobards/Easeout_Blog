@@ -76,12 +76,12 @@ export default {
           name: 'description',
           content: this.short
         },
-        // {name: 'twitter:card', content: 'summary'},
-        // {name: 'twitter:site', content: 'https://www.my-site.com/my-special-page'},
-        // {name: 'twitter:title', content: 'My Page Title ← My Site'},
-        // {name: 'twitter:description', content: 'I have things here on my site.'},
-        // // {name: 'twitter:creator', content: '@easeoutco'},
-        // {name: 'twitter:image:src', content: 'https://www.my-site.com/my-special-image.jpg'},
+        {name: 'twitter:card', content: this.short},
+        {name: 'twitter:site', content: 'https://www.easeout.co' + this.$route.path},
+        {name: 'twitter:title', content: this.title},
+        {name: 'twitter:description', content: this.description},
+        {name: 'twitter:creator', content: '@easeoutco'},
+        {name: 'twitter:image:src', content: 'https://www.easeout.co' + this.thumbnail},
       ],
       link: [{
         rel: 'canonical',
