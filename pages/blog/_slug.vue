@@ -76,7 +76,7 @@ export default {
           name: 'description',
           content: this.short
         },
-        {name: 'twitter:card', content: this.short},
+        {name: 'twitter:card', content: 'summary'},
         {name: 'twitter:site', content: 'https://www.easeout.co' + this.$route.path},
         {name: 'twitter:title', content: this.title},
         {name: 'twitter:description', content: this.description},
