@@ -70,11 +70,19 @@ export default {
   head() {
     return {
       title: this.title + " | " + this.$store.state.siteInfo.sitename,
-      meta: [{
-        hid: 'description',
-        name: 'description',
-        content: this.short
-      }],
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.short
+        },
+        // {name: 'twitter:card', content: 'summary'},
+        // {name: 'twitter:site', content: 'https://www.my-site.com/my-special-page'},
+        // {name: 'twitter:title', content: 'My Page Title ← My Site'},
+        // {name: 'twitter:description', content: 'I have things here on my site.'},
+        // // {name: 'twitter:creator', content: '@easeoutco'},
+        // {name: 'twitter:image:src', content: 'https://www.my-site.com/my-special-image.jpg'},
+      ],
       link: [{
         rel: 'canonical',
         href: 'https://www.easeout.co' + this.$route.path
