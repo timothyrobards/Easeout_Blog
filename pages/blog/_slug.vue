@@ -79,7 +79,7 @@ export default {
         {name: 'twitter:card', content: 'summary'},
         {name: 'twitter:site', content: 'https://www.easeout.co' + this.$route.path},
         {name: 'twitter:title', content: this.title},
-        {name: 'twitter:description', content: this.description},
+        {name: 'twitter:description', content: this.short},
         {name: 'twitter:creator', content: '@easeoutco'},
         {name: 'twitter:image:src', content: 'https://www.easeout.co' + this.thumbnail},
       ],
