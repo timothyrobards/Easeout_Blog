@@ -35,7 +35,8 @@ env: {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Archivo+Black' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap"' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap"' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap"' },
+      { rel: 'stylesheet', href: 'https://emailoctopus.com/bundles/emailoctopuslist/css/formEmbed.css' }
       // { rel: 'canonical', href: 'https://www.easeout.co' }
     ]
   },

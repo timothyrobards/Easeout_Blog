@@ -31,11 +31,19 @@
         </div>
         <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
             <div class="item">
-                <div v-show="siteDescription" class="footer__heading xs-mb2">About</div>
-                <p v-show="siteDescription">{{siteDescription}}</p>
+                <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
+                <ul class="list-unstyled">
+                    <li v-show="connectData" v-for="(c,i) in connectData" :key="i">
+                        <a :href="c.url">{{c.name}}</a>
+                    </li>
+                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
+                    <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li>
+                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buymeacoffee ☕</a></li>                    
+                </ul>
+                </ul>
             </div>
         </div>
-        <div v-if="signupBoolean" class="c-25 xs-text-left xs-p2 xs-border">
+        <!-- <div v-if="signupBoolean" class="c-25 xs-text-left xs-p2 xs-border">
             <div v-if="!sent" class="item">
                 <div class="footer__heading xs-mb2">🎉 Get Easeout in your inbox 🎉</div>
                 <form @submit.prevent="processForm" action="/.netlify/functions/app" name="mailinglist">
@@ -47,24 +55,63 @@
                 <div class="xs-mb2">{{emaildata.email}} has been added to our newsletter.</div>
 
             </div>
-        </div>
+        </div> -->
         <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
             <div class="item">
-                <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
-                <ul class="list-unstyled">
-                    <li v-show="connectData" v-for="(c,i) in connectData" :key="i">
-                        <a :href="c.url">{{c.name}}</a>
-                    </li>
-                </ul>
+                <div v-show="siteDescription" class="footer__heading xs-mb2">Subscribe to Easeout Weekly</div>
+                <!-- EMAIL OCTOPUS CODE (linked EO stylesheet in nuxt.config too) -->
+
+                <div class="email-octopus-form-wrapper">
+                    <h2 class="email-octopus-heading"></h2>
+                    <p class="email-octopus-success-message"></p>
+                    <p class="email-octopus-error-message"></p>
+
+                <form method="post"
+                    action="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/members/embedded/1.3/add"
+                    class="email-octopus-form"
+                    data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6"
+                >
+        
+                <div class="email-octopus-form-row">
+                    <p>✔️ Coding Tutorials</p>
+                    <p>✔️ Design Inspiration</p>
+                    <p>✔️ Web Development News</p>
+                    <p>✔️ Freebies!</p>
+                    <br>
+                    <input id="field_0" name="field_0" type="email" placeholder="Your email here...">
+                </div>
+
+                <div class="email-octopus-form-row-hp" aria-hidden="true">
+                    <!-- Do not remove this field, otherwise you risk bot sign-ups -->
+                    <input type="text" name="hp2c78099d-83e4-11ea-a3d0-06b4694bee2a"
+                        tabindex="-1"
+                        autocomplete="nope">
+                    </div>
+                <div class="email-octopus-form-row-subscribe">
+                    <input type="hidden"
+                    name="successRedirectUrl"
+                    value="">
+                    <button type="submit" class="">Subscribe</button>
+                </div>
+                </form>   
+                </div>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+                <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.4/formEmbed.js"></script>
+                
+                <!-- END EMAIL OCT CODE -->
+
             </div>
         </div>
         <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
             <div class="item">
-                <div class="footer__heading xs-mb2">Connect</div>
+                <div class="footer__heading xs-mb2">Browse all topics</div>
                 <ul class="list-unstyled">
-                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
-                    <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li>
-                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buymeacoffee</a></li>
+                    <li><nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
+                    <li><nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
+                    <li><nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
+                    <li><nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
+                    <li><nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
                 </ul>
             </div>
         </div>
