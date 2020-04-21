@@ -59,7 +59,7 @@
         <nuxt-link to="/page/contact/" exact>Contact</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
-        <a href="https://cdn.forms-content.sg-form.com/0eb491d2-58ec-11ea-9d4d-723ef839d2c5" exact>Subscribe</a>
+        <a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe" exact>Subscribe</a>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
         <a href="https://twitter.com/easeoutco" exact>Twitter</a>

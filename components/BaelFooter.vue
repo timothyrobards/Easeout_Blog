@@ -36,9 +36,10 @@
                     <li v-show="connectData" v-for="(c,i) in connectData" :key="i">
                         <a :href="c.url">{{c.name}}</a>
                     </li>
+                    <li><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe</a></li>
                     <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
                     <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li>
-                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buymeacoffee ☕</a></li>                    
+                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Show your support! ☕</a></li>                    
                 </ul>
                 </ul>
             </div>
