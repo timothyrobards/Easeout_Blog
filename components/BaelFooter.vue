@@ -29,21 +29,6 @@
             </div>
 
         </div>
-        <div class="xs-text-center xs-p2 xs-border footer-left" :class="signupAboutSize">
-            <div class="item">
-                <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
-                <ul class="list-unstyled">
-                    <li v-show="connectData" v-for="(c,i) in connectData" :key="i">
-                        <a :href="c.url">{{c.name}}</a>
-                    </li>
-                    <li><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe</a></li>
-                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
-                    <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li>
-                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buy me a ☕!</a></li>                    
-                </ul>
-                </ul>
-            </div>
-        </div>
         <!-- <div v-if="signupBoolean" class="c-25 xs-text-left xs-p2 xs-border">
             <div v-if="!sent" class="item">
                 <div class="footer__heading xs-mb2">🎉 Get Easeout in your inbox 🎉</div>
@@ -104,6 +89,18 @@
         </div>
         <div class="xs-text-center xs-p2 xs-border footer-right" :class="signupAboutSize">
             <div class="item">
+                <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
+                <ul class="list-unstyled list-horizontal">
+                    <li><nuxt-link to="/page/about/" exact>About</nuxt-link></li> |
+                    <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li> |
+                    <li><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe</a></li> | 
+                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li> | 
+                    <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li> | 
+                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buy me a coffee ☕!</a></li>                    
+                </ul>
+            </div>
+            <div class="item">
+                <br><br>
                 <div class="footer__heading xs-mb2">Browse all topics</div>
                 <ul class="list-unstyled list-horizontal">
                     <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
@@ -111,6 +108,7 @@
                     <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
                     <li>📰 <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
                     <li>🏁 <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
+                    <br><br>
                 </ul>
             </div>
         </div>
@@ -174,7 +172,7 @@ export default {
         signupAboutSize: function () {
             return {
                 "c-25": this.signupBoolean,
-                "c-4": !this.signupBoolean
+                "c-6": !this.signupBoolean
             };
         },
         prevpage() {
