@@ -29,7 +29,7 @@
             </div>
 
         </div>
-        <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
+        <div class="xs-text-center xs-p2 xs-border footer-left" :class="signupAboutSize">
             <div class="item">
                 <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
                 <ul class="list-unstyled">
@@ -39,7 +39,7 @@
                     <li><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe</a></li>
                     <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
                     <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li>
-                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Show your support! ☕</a></li>                    
+                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buy me a ☕!</a></li>                    
                 </ul>
                 </ul>
             </div>
@@ -57,9 +57,9 @@
 
             </div>
         </div> -->
-        <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
+        <div class="xs-text-center xs-p2 xs-border footer-cta" :class="signupAboutSize">
             <div class="item">
-                <div v-show="siteDescription" class="footer__heading xs-mb2">Subscribe to Easeout Weekly</div>
+                <div v-show="siteDescription" class="footer__heading xs-mb2 xs-text-3">Subscribe to Easeout Weekly</div>
                 <!-- EMAIL OCTOPUS CODE (linked EO stylesheet in nuxt.config too) -->
 
                 <div class="email-octopus-form-wrapper">
@@ -74,10 +74,8 @@
                 >
         
                 <div class="email-octopus-form-row">
-                    <p>✔️ Coding Tutorials</p>
-                    <p>✔️ Design Inspiration</p>
-                    <p>✔️ Web Development News</p>
-                    <p>✔️ Freebies!</p>
+                    <p>✔️ Coding Tutorials ✔️ Design Inspiration</p>
+                    <p>✔️ Web Development News ✔️ Freebies!</p>
                     <br>
                     <input id="field_0" name="field_0" type="email" placeholder="Your email here...">
                 </div>
@@ -92,7 +90,7 @@
                     <input type="hidden"
                     name="successRedirectUrl"
                     value="">
-                    <button type="submit" class="">Subscribe</button>
+                    <button type="submit">Sign up!</button>
                 </div>
                 </form>   
                 </div>
@@ -104,15 +102,15 @@
 
             </div>
         </div>
-        <div class="xs-text-left xs-p2 xs-border" :class="signupAboutSize">
+        <div class="xs-text-center xs-p2 xs-border footer-right" :class="signupAboutSize">
             <div class="item">
                 <div class="footer__heading xs-mb2">Browse all topics</div>
-                <ul class="list-unstyled">
-                    <li><nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
-                    <li><nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
-                    <li><nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
-                    <li><nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
-                    <li><nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
+                <ul class="list-unstyled list-horizontal">
+                    <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
+                    <li>📘 <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
+                    <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
+                    <li>📰 <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
+                    <li>🏁 <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
                 </ul>
             </div>
         </div>
@@ -229,5 +227,23 @@ export default {
 .retro-gray {
     background-color: #d8d9d9;
 }
+
+.footer-cta{
+    color: #f0f0f0;;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-left{
+    background-color: #d8d9d9;
+}
+
+.footer-right{
+    background-color: #d8d9d9;
+}
+
+ul.list-horizontal { text-align: center;}
+ul.list-horizontal li { display: inline-block; }
 
 </style>

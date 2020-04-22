@@ -218,7 +218,7 @@ background: radial-gradient(circle, #282C34 19%, #282C34 100%); font-family: 'Ov
   }
 }
 .full-bg-image {position:absolute;top:0;left:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;width:100%;height:100%;transition: .4s all;border: 1px solid rgba(0,0,0,.2);}
-.item:hover .full-bg-image,.item:hover .full-bg-color  {opacity:.8;transition: .4s all;}
+.item:hover .full-bg-image,.item:hover .full-bg-color  {filter: brightness(120%);transition: .4s all;}
 .item .full-bg-link  {background: #fff;transition: .8s all;border-top: 1px solid rgba(0,0,0,.2);border-right: 1px solid rgba(0,0,0,.2);}
 .full-bg-link h2 {margin:0;}
 .tag-pos {
