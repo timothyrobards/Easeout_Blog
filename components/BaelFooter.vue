@@ -96,7 +96,7 @@
                     <li><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe</a></li> | 
                     <li><a href="https://twitter.com/easeoutco">Twitter</a></li> | 
                     <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li> | 
-                    <li><a href="https://gum.co/CIrVK?wanted=true" target="_blank">Buy me a coffee ☕!</a></li>                    
+                    <li><a href="https://gum.co/CIrVK" target="_blank">Buy me a coffee ☕</a></li>                    
                 </ul>
             </div>
             <div class="item">
