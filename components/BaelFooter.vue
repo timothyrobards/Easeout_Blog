@@ -227,7 +227,7 @@ export default {
 }
 
 .footer-cta{
-    background-color: #EBDAC8;
+    background-color: #ECDBC9;
 }
 
 .footer-left{
@@ -235,7 +235,7 @@ export default {
 }
 
 .footer-right{
-    background-color: #EBDAC8;
+    background-color: #d8d9d9;
 }
 
 ul.list-horizontal { text-align: center;}

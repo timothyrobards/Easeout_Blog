@@ -330,11 +330,18 @@ Landing Presentational Styles
   padding: 0.5em;
   text-transform: uppercase;
 }
+
+@media (max-width: 640px) {
+  .intro {
+    font-size: 2.4em;
+  }
+}
+
 .outline {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   -webkit-text-stroke-color: #000;
   -webkit-text-stroke-width: 0.05em;
   -webkit-text-fill-color: #fff;
