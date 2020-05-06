@@ -334,7 +334,7 @@ Landing Presentational Styles
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   -webkit-text-stroke-color: #000;
   -webkit-text-stroke-width: 0.05em;
   -webkit-text-fill-color: #fff;
@@ -368,7 +368,7 @@ Landing Presentational Styles
 @media (max-width: 640px) {
   .intro-links {
     font-size: 1.4em;
-    line-height: 1.6;
+    line-height: 1.4;
   }
 }
 
