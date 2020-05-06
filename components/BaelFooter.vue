@@ -227,7 +227,7 @@ export default {
 }
 
 .footer-cta{
-    background-color: #ECDBC9;
+    background-color: #4ED8B4; /* also nice #ECDBC9 */
 }
 
 .footer-left{
