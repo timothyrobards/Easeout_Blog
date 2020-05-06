@@ -6,7 +6,7 @@
       <div class="diagonal-box">
         <div class="content">
           <p class="intro">
-            <span class="outline">Design</span> & <span class="outline">coding</span> tutorials to <span class="redline">boost</span> your web development skills. ✨
+            <span class="outline">Design & coding</span> tutorials to <span class="redline">boost</span> your web development skills.
           </p>
           <br>
           <ul class="intro-links list-horizontal">
@@ -363,6 +363,13 @@ Landing Presentational Styles
 
 .intro-links a {
   color: #000;
+}
+
+@media (max-width: 640px) {
+  .intro-links {
+    font-size: 1.4em;
+    line-height: 1.6;
+  }
 }
 
 .intro-links a:hover {

@@ -227,10 +227,7 @@ export default {
 }
 
 .footer-cta{
-    color: #f0f0f0;;
-    background: #F7971E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #EBDAC8;
 }
 
 .footer-left{
@@ -238,7 +235,7 @@ export default {
 }
 
 .footer-right{
-    background-color: #d8d9d9;
+    background-color: #EBDAC8;
 }
 
 ul.list-horizontal { text-align: center;}
