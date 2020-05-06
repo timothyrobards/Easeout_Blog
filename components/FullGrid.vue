@@ -333,7 +333,7 @@ Landing Presentational Styles
 
 @media (max-width: 640px) {
   .intro {
-    font-size: 2.4em;
+    font-size: 2.3em;
   }
 }
 
