@@ -44,7 +44,7 @@
         </div> -->
         <div class="xs-text-center xs-p2 xs-border footer-cta" :class="signupAboutSize">
             <div class="item">
-                <div v-show="siteDescription" class="footer__heading xs-mb2 xs-text-3">Subscribe to Easeout Weekly</div>
+                <div v-show="siteDescription" class="footer__heading xs-mb2 xs-text-3">Subscribe to Easeout</div>
                 <!-- EMAIL OCTOPUS CODE (linked EO stylesheet in nuxt.config too) -->
 
                 <div class="email-octopus-form-wrapper">
