@@ -5,9 +5,9 @@
     <div class="landing" :style="`margin-top:${navbarheight}px; margin-bottom: -${navbarheight}px;`">
       <div class="diagonal-box">
         <div class="content">
-          <p class="intro">
+          <h1 class="intro">
             <span class="outline">Design & coding</span> tutorials to <span class="redline">boost</span> your web development skills.
-          </p>
+          </h1>
           <br>
           <ul class="intro-links list-horizontal">
             <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
@@ -352,12 +352,6 @@ Landing Presentational Styles
   background-image: none;
   border-bottom: 4px solid red;
   transition: none;
-}
-
-.intro p {
-  font-size: 1.25em;
-  margin: 0;
-  line-height: 1.5;
 }
 
 .intro-links {
