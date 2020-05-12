@@ -366,12 +366,12 @@ Landing Presentational Styles
   color: #000;
 }
 
-/* @media (max-width: 640px) {
+@media (max-width: 640px) {
   .intro-links {
-    font-size: 1.4em;
-    line-height: 1.4;
+    font-size: 1.3em;
+    line-height: 1.5;
   }
-} */
+}
 
 .intro-links a:hover {
   color: darkslategrey;

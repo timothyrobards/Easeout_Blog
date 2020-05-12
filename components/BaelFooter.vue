@@ -257,6 +257,13 @@ export default {
     border: 10px solid transparent !important;
 }
 
+@media (max-width: 640px) {
+  .footer-right{
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+}
+
 ul.list-horizontal { text-align: center;}
 ul.list-horizontal li { display: inline-block; }
 
