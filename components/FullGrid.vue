@@ -368,7 +368,7 @@ Landing Presentational Styles
 
 @media (max-width: 640px) {
   .intro-links {
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.5;
   }
 }
