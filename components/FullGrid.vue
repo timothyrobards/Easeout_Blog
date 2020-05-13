@@ -289,7 +289,7 @@ LANDING HERO STYLES
 
 @media (max-width: 640px) {
   .diagonal-box {
-    padding: 2em 0 1em 0;
+    padding: 3em 0 0 0;
   }
 }
 .diagonal-box:before {
