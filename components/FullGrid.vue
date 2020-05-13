@@ -283,8 +283,14 @@ LANDING HERO STYLES
 .diagonal-box {
   position: relative;
   /* padding: var(--skew-padding) 0; */
-  padding: 4em 0 2em 0;
+  padding: 4em 0 1em 0;
   margin-top: -1px;
+}
+
+@media (max-width: 640px) {
+  .diagonal-box {
+    padding: 2em 0 1em 0;
+  }
 }
 .diagonal-box:before {
   content: "";
@@ -348,8 +354,6 @@ Landing Presentational Styles
 }
 
 .redline {
-  background-image: linear-gradient(transparent 90%, 0, #003 100%);
-  background-image: none;
   border-bottom: 4px solid red;
   transition: none;
 }
