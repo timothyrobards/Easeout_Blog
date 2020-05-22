@@ -148,7 +148,6 @@ export default {
 <style>
 
   /* TAG STYLES */
-
   .tag-css {
     background-color: #95DEE3;
     border-color: #95DEE3;

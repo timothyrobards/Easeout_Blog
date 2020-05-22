@@ -223,7 +223,7 @@ export default {
 }
 
 .retro-gray {
-    background-color: #d8d9d9;
+    background-color: #ededed;
 }
 
 .footer-cta {
@@ -249,11 +249,11 @@ export default {
 }
 
 .footer-left{
-    background-color: #d8d9d9;
+    background-color: #ededed;
 }
 
 .footer-right{
-    background-color: #d8d9d9;
+    background-color: #ededed;
     border: 10px solid transparent !important;
 }
 
