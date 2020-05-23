@@ -98,7 +98,7 @@ export default {
 }
 nav {
   position: fixed;
-  background: #ededed;
+  background: #ECE9D8;
   top: 0;
   left: 0;
   right: 0;
@@ -115,7 +115,7 @@ nav {
   -webkit-text-fill-color: #fff;
 }
 input.search {
-  background-color: #ededed !important;
+  background-color: #ECE9D8 !important;
 }
 
 .center{

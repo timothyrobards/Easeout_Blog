@@ -223,12 +223,12 @@ export default {
 }
 
 .retro-gray {
-    background-color: #ededed;
+    background-color: #ECE9D8;
 }
 
 .footer-cta {
     background-color: #282C34; 
-    border: 10px solid #4ED8B4 !important;
+    border: 5px solid yellow !important;
 }
 
 .footer-cta p, .footer__heading1 {
@@ -249,11 +249,11 @@ export default {
 }
 
 .footer-left{
-    background-color: #ededed;
+    background-color: #ECE9D8;
 }
 
 .footer-right{
-    background-color: #ededed;
+    background-color: #ECE9D8;
     border: 10px solid transparent !important;
 }
 
