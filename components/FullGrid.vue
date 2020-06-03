@@ -6,7 +6,7 @@
       <div class="diagonal-box">
         <div class="content">
           <h1 class="intro">
-            <span class="outline">Design & coding</span> tutorials to <span class="redline">boost</span> your web development skills.
+            <span class="outline">Design & code</span> tutorials to <span class="redline">boost</span> your web development skills. 💻 🌈
           </h1>
           <br>
           <ul class="intro-links list-horizontal">
