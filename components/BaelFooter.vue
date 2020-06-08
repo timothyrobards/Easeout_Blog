@@ -92,6 +92,7 @@
                 <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
                 <ul class="list-unstyled list-horizontal">
                     <li><nuxt-link to="/page/about/" exact>About</nuxt-link></li> |
+                    <li><nuxt-link to="/books/" exact>Books</nuxt-link></li> |
                     <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li> |
                     <li><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe</a></li> | 
                     <li><a href="https://twitter.com/easeoutco">Twitter</a></li> | 

@@ -32,6 +32,9 @@
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-news text-white">
         <nuxt-link to="/category/newsletter/" exact>News</nuxt-link>
       </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-books text-white">
+        <nuxt-link to="/books/" exact>Books</nuxt-link>
+      </li>
       <li class="spacer-sub"></li>
       <li class="zap-slideout-menu-item--small">
         Tutorials

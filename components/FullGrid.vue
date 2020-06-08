@@ -11,7 +11,7 @@
           <br>
           <ul class="intro-links list-horizontal">
             <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
-            <!-- <li>📚 <nuxt-link to="/ebooks/" exact>e-Books</nuxt-link></li> -->
+            <li>📚 <nuxt-link to="/books/" exact>Books</nuxt-link></li>
             <li>📘 <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
             <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
             <li>📰 <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
@@ -397,5 +397,54 @@ ul.list-horizontal li { display: inline-block; }
 .full-height-css{
   background-color: yellow !important;
 }
+
+/* TAG STYLES */
+  .tag-css {
+    background-color: #95DEE3;
+    border-color: #95DEE3;
+  }
+
+  .tag-article {
+    background-color: #282C34;
+    border-color: #282C34;
+  }
+  
+  .tag-inspo {
+    background-color: #F7786B;
+    border-color: #F7786B;
+  }
+
+  .tag-news {
+    background-color: #5B5EA6;
+    border-color: #5B5EA6;
+  }
+
+  .tag-books {
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
+  }
+
+  .tag-template {
+    background-color: #00A591;
+    border-color: #00A591;
+  }
+
+  .text-black {
+    color: #282C34;
+  }
+
+  /* TAG OVERRIDE DEFAULTS */
+  
+  .tag {
+    z-index: 2;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .tag__link {
+    padding: 0 .5rem;
+  }
 
 </style>

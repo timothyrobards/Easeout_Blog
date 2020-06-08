@@ -7,7 +7,7 @@
         <div class="book-grid">
           <article class="card">
             <header class="card__thumb">
-              <a href="#"><img src="https://images.squarespace-cdn.com/content/v1/55ca787ae4b07d9498906d9e/1551490529737-C7C2LZQ8MSFLT8L632H4/ke17ZwdGBToddI8pDm48kPHgPSpJs3pqpkUZU93_mvpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PInndiFr6ALsCf3uCDBRk4eJzsF3rQ925VZ6DZqxvBZkQKMshLAGzx4R3EDFOm1kBS/coming-soon-neon-sign-coming-soon-badge-in-vector-21133321.jpg"/></a>
+              <a href="#"><img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="Coming Soon Sign" /></a>
             </header>
             <!-- <div class="card__price">
               <span class="card__price__current">$15</span>
@@ -29,7 +29,7 @@
           </article>
           <article class="card">
             <header class="card__thumb">
-              <a href="#"><img src="https://images.squarespace-cdn.com/content/v1/55ca787ae4b07d9498906d9e/1551490529737-C7C2LZQ8MSFLT8L632H4/ke17ZwdGBToddI8pDm48kPHgPSpJs3pqpkUZU93_mvpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PInndiFr6ALsCf3uCDBRk4eJzsF3rQ925VZ6DZqxvBZkQKMshLAGzx4R3EDFOm1kBS/coming-soon-neon-sign-coming-soon-badge-in-vector-21133321.jpg"/></a>
+              <a href="#"><img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="Coming Soon Sign" /></a>
             </header>
             <!-- <div class="card__price">
               <span class="card__price__current">$15</span>
@@ -80,7 +80,7 @@ export default {
       meta: [{
         hid: 'description',
         name: 'description',
-        content: this.description
+        content: 'Our collection of guidebooks about coding & design.'
       }],
     };
   },
