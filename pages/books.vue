@@ -158,7 +158,7 @@ export default {
     height: 150px !important;
   }
   
-  .card:hover .card__body {
+  .card:hover .card__body, .card:focus .card__body, .card:active .card__body {
     height: 260px !important;
   }
 
@@ -184,7 +184,7 @@ export default {
   text-decoration: none;
 }
 
-.card:hover {
+.card:hover, .card:focus, .card:active {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
 }
 
@@ -234,15 +234,22 @@ export default {
   transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, transform 0.5s;
   transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  object-position: 0px -70px;
 }
-.card:hover .card__thumb {
+.card:hover .card__thumb, .card:focus .card__thumb, .card:active .card__thumb {
   height: 130px;
 }
 
-.card:hover .card__thumb img {
+.card:hover .card__thumb img, .card:focus .card__thumb img, .card:active .card__thumb img{
   opacity: 0.6;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1000px) {
+  .card__thumb img {
+    object-position: 0px 0px;
+  }
 }
 
 /**
@@ -255,7 +262,7 @@ export default {
   -webkit-transition: height 0.5s;
   transition: height 0.5s;
 }
-.card:hover .card__body {
+.card:hover .card__body, .card:focus .card__body, .card:active .card__body {
   height: 240px;
 }
 
@@ -274,19 +281,19 @@ export default {
     height: 150px !important;
   }
   
-  .card:hover .card__body {
+  .card:hover .card__body, .card:focus .card__body, .card:active .card__body {
     height: 240px !important;
   }
 }
 
 @media only screen and (max-width: 500px) {  
-  .card:hover .card__body {
+  .card:hover .card__body, .card:focus .card__body, .card:active .card__body {
     height: 260px !important;
   }
 }
 
 @media only screen and (max-width: 360px) {  
-  .card:hover .card__body {
+  .card:hover .card__body, .card:focus .card__body, .card:active .card__body {
     height: 280px !important;
   }
 }
@@ -354,7 +361,7 @@ export default {
   }
 }
 
-.card:hover .card__description {
+.card:hover .card__description, .card:focus .card__description, .card:active .card__description {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
