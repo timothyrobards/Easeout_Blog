@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="full-height single xs-border-left xs-border-right" :style="`min-height:calc(100vh - ${navbarheight}px);margin-top:${navbarheight}px`">
+    <div class="full-height single xs-border-left xs-border-right" :style="`min-height:calc(75vh - ${navbarheight}px);margin-top:${navbarheight}px`">
       <div class="xs-mt2 xs-p2 bcg-item">
       <div class="item xs-block xs-full-height">
         <h1 class="xs-py3 main-title">Easeout Books</h1>
@@ -147,13 +147,9 @@ export default {
   padding-top: 2em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
   .book-grid {
     grid-template-columns: 1fr;
-  }
-
-  .card:hover .card__body {
-    height: 210px !important;
   }
 }
 
@@ -181,6 +177,7 @@ export default {
   overflow: hidden;
   -webkit-transition: box-shadow 0.5s;
   transition: box-shadow 0.5s;
+  margin-bottom: 4em;
 }
 .card a {
   color: inherit;
@@ -262,6 +259,38 @@ export default {
   height: 240px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .card__body {
+    height: 160px !important;
+  }
+  
+  .card__description {
+    position: static !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card__body {
+    height: 150px !important;
+  }
+  
+  .card:hover .card__body {
+    height: 240px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {  
+  .card:hover .card__body {
+    height: 260px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {  
+  .card:hover .card__body {
+    height: 280px !important;
+  }
+}
+
 .card__category {
   position: absolute;
   top: -25px;
@@ -300,7 +329,7 @@ export default {
 
 .card__description {
   position: absolute;
-  top: 100px; /* Added as a fix */
+  top: 100px;
   left: 20px;
   right: 20px;
   bottom: 56px;
@@ -318,6 +347,13 @@ export default {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
+
+@media only screen and (max-width: 800px) {
+  .card__description {
+    position: static;
+  }
+}
+
 .card:hover .card__description {
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -329,7 +365,7 @@ export default {
 .card__footer {
   position: absolute;
   bottom: 12px;
-  left: 20px;
+  /* left: 20px; */
   right: 20px;
   font-size: 11px;
   color: #A3A9A2;
