@@ -11,6 +11,7 @@
           <br>
           <ul class="intro-links list-horizontal">
             <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
+            <!-- <li>📚 <nuxt-link to="/ebooks/" exact>e-Books</nuxt-link></li> -->
             <li>📘 <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
             <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
             <li>📰 <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
