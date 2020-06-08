@@ -62,7 +62,7 @@ export default {
 
    async asyncData({ params, app, payload, route, store }) {
  
-    await store.commit("SET_TITLE", "eBooks");
+    await store.commit("SET_TITLE", "Books");
 
   
   },
@@ -76,7 +76,7 @@ export default {
   },
     head() {
     return {
-      title: "eBooks | " + this.$store.state.siteInfo.sitename,
+      title: "Easeout Books | " + this.$store.state.siteInfo.sitename,
       meta: [{
         hid: 'description',
         name: 'description',
