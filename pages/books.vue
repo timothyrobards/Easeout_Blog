@@ -3,7 +3,7 @@
     <div class="full-height single xs-border-left xs-border-right" :style="`min-height:calc(75vh - ${navbarheight}px);margin-top:${navbarheight}px`">
       <div class="xs-mt2 xs-p2 bcg-item">
       <div class="item xs-block xs-full-height">
-        <h1 class="xs-py3 main-title">Easeout Books</h1>
+        <h1 class="xs-py3 main-title">Books 📚</h1>
         <div class="book-grid">
           <article class="card">
             <header class="card__thumb">
