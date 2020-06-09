@@ -41,7 +41,7 @@
               <div class="card__category card__category__sass"><a href="#">SASS</a></div>
               <h2 class="card__title"><a href="#">Getting SASSY: A Practical Guide</a></h2>
               <div class="card__subtitle">A Practical Guide to SASS.</div>
-              <p class="card__description">Our complete guide to SASS will be available August 2020. Sign up to get notified about the release. <a class="read-more" href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe!</a></p>
+              <p class="card__description">Our complete guide to SASS will be available August 2020. <a class="read-more" href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Notify me!</a></p>
             </div>
   
             <footer class="card__footer">
