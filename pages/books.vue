@@ -7,7 +7,7 @@
         <div class="book-grid">
           <article class="card">
             <header class="card__thumb">
-              <a href="#"><img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="Coming Soon Sign" /></a>
+              <a href="#"><img src="https://www.easeout.co/images/uploads/the-css-guide-wide.png" alt="CSS book cover" /></a>
             </header>
             <!-- <div class="card__price">
               <span class="card__price__current">$15</span>
@@ -29,7 +29,7 @@
           </article>
           <article class="card">
             <header class="card__thumb">
-              <a href="#"><img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="Coming Soon Sign" /></a>
+              <a href="#"><img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="SASS book cover" /></a>
             </header>
             <!-- <div class="card__price">
               <span class="card__price__current">$15</span>
@@ -141,29 +141,21 @@ export default {
 
 .book-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   justify-items: center;
   padding-top: 2em;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
   .book-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media only screen and (max-width: 450px) {
-  .card__body {
-    height: 150px !important;
-  }
-  
-  .card:hover .card__body {
-    height: 260px !important;
-  }
-
-  .card__description {
-    top: 120px !important;
+@media only screen and (max-width: 600px) {
+  .book-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -234,7 +226,7 @@ export default {
   transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, transform 0.5s;
   transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
-  object-position: 0px -70px;
+  /* object-position: 0px -70px; */
 }
 .card:hover .card__thumb {
   height: 130px;
@@ -257,26 +249,30 @@ export default {
 **/
 .card__body {
   position: relative;
-  height: 125px;
+  height: 150px;
   padding: 20px;
   -webkit-transition: height 0.5s;
   transition: height 0.5s;
 }
 .card:hover .card__body {
-  height: 240px;
+  height: 260px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .card__body {
-    height: 160px !important;
+    height: 150px !important;
   }
   
   .card__description {
     position: static !important;
   }
+  
+  .card:hover .card__body {
+    height: 270px !important;
+  }
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .card__body {
     height: 150px !important;
   }
@@ -284,17 +280,25 @@ export default {
   .card:hover .card__body {
     height: 240px !important;
   }
-}
+} */
 
-@media only screen and (max-width: 500px) {  
+@media only screen and (max-width: 600px) {  
+  .card__body {
+    height: 140px !important;
+  }
+
   .card:hover .card__body {
-    height: 260px !important;
+    height: 250px !important;
   }
 }
 
 @media only screen and (max-width: 360px) {  
+  .card__body {
+    height: 150px !important;
+  }
+
   .card:hover .card__body {
-    height: 280px !important;
+    height: 290px !important;
   }
 }
 
@@ -336,14 +340,15 @@ export default {
 
 .card__description {
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 20px;
   right: 20px;
   bottom: 56px;
   margin: 0;
   padding: 0;
   color: #666C74;
-  line-height: 27px;
+  font-size: 14px;
+  line-height: 25px;
   opacity: 0;
   -webkit-transform: translateY(45px);
           transform: translateY(45px);
