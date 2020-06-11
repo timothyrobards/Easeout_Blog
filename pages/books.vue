@@ -7,7 +7,7 @@
         <div class="book-grid">
           <article class="card">
             <header class="card__thumb">
-              <a href="#"><img src="https://www.easeout.co/images/uploads/the-css-guide-wide.png" alt="CSS book cover" /></a>
+              <img src="https://www.easeout.co/images/uploads/the-css-guide-wide.png" alt="CSS book cover" />
             </header>
             <!-- <div class="card__price">
               <span class="card__price__current">$15</span>
@@ -29,7 +29,7 @@
           </article>
           <article class="card">
             <header class="card__thumb">
-              <a href="#"><img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="SASS book cover" /></a>
+              <img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="SASS book cover" />
             </header>
             <!-- <div class="card__price">
               <span class="card__price__current">$15</span>
