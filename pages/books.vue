@@ -19,8 +19,8 @@
               <div class="card__category card__category__css"><a href="#">CSS</a></div>
               <h2 class="card__title"><a href="#">The CSS Guide</a></h2>
               <div class="card__subtitle">The Complete Guide to Modern CSS.</div>
-              <p class="card__description">Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert! &nbsp;<a class="read-more" href="#">Read More</a></p>
-              <!-- <p class="card__description">Whether you're new to web development or a more seasoned developer looking to refine your skills. Get notified about this release & <a class="read-more" href="#">sign up!</a></p> -->
+              <p class="card__description">Available July 2020. <br> <a class="read-more" href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Sign up to be notified!</a></p>
+              <!-- <p class="card__description">Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert! &nbsp;<a class="read-more" href="#">Read More</a></p> -->
             </div>
   
             <footer class="card__footer">
@@ -41,7 +41,7 @@
               <div class="card__category card__category__sass"><a href="#">SASS</a></div>
               <h2 class="card__title"><a href="#">Getting SASSY: A Practical Guide</a></h2>
               <div class="card__subtitle">A Practical Guide to SASS.</div>
-              <p class="card__description">Our complete guide to SASS will be available August 2020. <a class="read-more" href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Notify me!</a></p>
+              <p class="card__description">Available August 2020. <br> <a class="read-more" href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Sign up to be notified!</a></p>
             </div>
   
             <footer class="card__footer">
