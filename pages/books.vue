@@ -16,11 +16,10 @@
             </div> -->
   
             <div class="card__body">
-              <div class="card__category card__category__css"><a href="#">CSS</a></div>
-              <h2 class="card__title"><a href="#">The CSS Guide</a></h2>
+              <div class="card__category card__category__css"><a href="/books/the-css-guide">CSS</a></div>
+              <h2 class="card__title"><a href="/books/the-css-guide">The CSS Guide</a></h2>
               <div class="card__subtitle">The Complete Guide to Modern CSS.</div>
-              <p class="card__description">Available July 2020. <br> <a class="read-more" href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Sign up to be notified!</a></p>
-              <!-- <p class="card__description">Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert! &nbsp;<a class="read-more" href="#">Read More</a></p> -->
+              <p class="card__description">Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert! &nbsp;<a class="read-more" href="/books/the-css-guide">Read More</a></p>
             </div>
   
             <footer class="card__footer">
