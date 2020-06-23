@@ -90,7 +90,6 @@
                   <li>Feature Queries</li>
                   <li>Variables</li>
                   <li>Resets &#38; Normalization</li>
-                  <li>Error Handling</li>
                   <li>Vendor Prefixing</li>
                 </ul>
             </ul>
