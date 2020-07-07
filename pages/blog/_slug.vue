@@ -16,7 +16,7 @@
               </div></li> 
 
               <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('SASS')"><div class="tag tag-sass">
-                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}/`" class="tag__link text-black">{{this.$store.state.theCategory}}</nuxt-link>
+                <nuxt-link :to="`/category/${this.$store.state.theCategory.toLowerCase()}/`" class="tag__link text-white">{{this.$store.state.theCategory}}</nuxt-link>
               </div></li> 
 
               <li class="xs-inline-block xs-mr1" v-if="this.$store.state.theCategory.includes('Inspiration')"><div class="tag tag-inspo">

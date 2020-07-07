@@ -60,9 +60,13 @@
           <div class="item-txt-secondary"> {{p.description}} </div>
 
           <nuxt-link v-if="p.category === 'CSS'" class="tag tag-pos tag-css tag__link text-black" :to="`/category/css/`">
-          <nuxt-link v-if="p.category === 'SASS'" class="tag tag-pos tag-sass tag__link text-black" :to="`/category/sass/`">
           {{p.category}}
           </nuxt-link>
+
+          <nuxt-link v-if="p.category === 'SASS'" class="tag tag-pos tag-sass tag__link text-white" :to="`/category/sass/`">
+          {{p.category}}
+          </nuxt-link>
+          
         </nuxt-link>
         
 
