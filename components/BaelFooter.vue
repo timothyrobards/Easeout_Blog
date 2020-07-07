@@ -106,9 +106,10 @@
                 <ul class="list-unstyled list-horizontal">
                     <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
                     <li>📘 <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
+                    <li>💅 <nuxt-link to="/category/sass/" exact>SASS</nuxt-link></li>
                     <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
                     <li>📰 <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
-                    <li>🏁 <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
+                    <li>🏁 <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li> 
                     <br><br>
                 </ul>
             </div>
