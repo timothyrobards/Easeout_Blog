@@ -42,6 +42,9 @@
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-css text-black">
         <nuxt-link to="/category/css/" exact>CSS</nuxt-link>
       </li> 
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-sass text-black">
+        <nuxt-link to="/category/sass/" exact>SASS</nuxt-link>
+      </li> 
       <!-- <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary text-black p-left">
         <nuxt-link to="/category/javascript" exact>JavaScript</nuxt-link>
       </li> -->

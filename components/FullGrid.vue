@@ -60,6 +60,7 @@
           <div class="item-txt-secondary"> {{p.description}} </div>
 
           <nuxt-link v-if="p.category === 'CSS'" class="tag tag-pos tag-css tag__link text-black" :to="`/category/css/`">
+          <nuxt-link v-if="p.category === 'SASS'" class="tag tag-pos tag-sass tag__link text-black" :to="`/category/sass/`">
           {{p.category}}
           </nuxt-link>
         </nuxt-link>
@@ -402,6 +403,11 @@ ul.list-horizontal li { display: inline-block; }
   .tag-css {
     background-color: #95DEE3;
     border-color: #95DEE3;
+  }
+
+  .tag-sass {
+    background-color: #CF679A;
+    border-color: #CF679A;
   }
 
   .tag-article {
