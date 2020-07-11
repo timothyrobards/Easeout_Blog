@@ -23,7 +23,7 @@
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Coming July 2020!
+              <span class="icon"></span> Coming August 2020!
             </footer>
           </article>
           <article class="card">
@@ -44,7 +44,7 @@
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Coming August 2020!
+              <span class="icon"></span> Coming September 2020!
             </footer>
           </article>
         </div>

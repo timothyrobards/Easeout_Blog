@@ -10,7 +10,7 @@
               <br>
               <p>Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert!</p><br>
               <p>We'll cover the basics from specificity &#38; selectors right through to the modern layout methods of flexbox &#38; grid. We'll also be diving into advanced topics such as CSS animation, architecture &#38; more!</p>
-              <br><p>Available July 2020 🎉</p>
+              <br><p>Available August 2020 🎉</p>
               <br><p>Sign up to be notified about the release. </p>
               <!-- <br><button>Buy for $15</button> -->
               <br><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe"><button>Notify me!</button></a>
