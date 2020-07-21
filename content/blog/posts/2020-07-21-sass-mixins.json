@@ -1,0 +1,9 @@
+{
+  "date": "Tuesday July 21st, 2020",
+  "dateshort": "July 21st",
+  "body": "Mixins are an extremely powerful feature of Sass. We use them to group together multiple CSS declarations for reuse throughout our projects.\n\nSay we want to create a mixin to hold the vendor prefixes for a transform property.\n\nIn SASS, we’d code it like so:\n\n```SASS\n@mixin transform {\n  -webkit-transform: rotate(180deg);\n  -ms-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n```\n\nTo add the mixin into our code, we then use the `@include` directive, like so:\n\n```SASS\n.navbar {\n  background-color: orangered;\n  padding: 1rem;\n  ul {\n    list-style: none;\n  }\n  li {\n    text-align: center;\n    margin: 1rem;\n    @include transform;\n  }\n}\n```\n\nAll the code in the transform mixin will now be applied to the `li` element. You can also pass values into your mixins to make them even more flexible.\n\nInstead of adding a specified value, add a name (using a variable, like `property`) to represent the value like so:\n\n```SASS\n@mixin transform($property) {\n  -webkit-transform: $property;\n  -ms-transform: $property;\n  transform: $property;\n}\n```\n\nNow we can pass in whatever value we like, whenever we call the mixin:\n\n```SASS\n@include transform (rotate(20deg));\n```\n\n## Related Posts:\n\n* [An Introduction to SASS](https://www.easeout.co/blog/2020-07-07-an-introduction-to-sass)\n* [Setting up SASS](https://www.easeout.co/blog/2020-07-09-setting-up-sass)\n* [Using SASS Variables](https://www.easeout.co/blog/2020-07-14-using-sass-variables)",
+  "title": "SASS Mixins",
+  "description": "Learn how to use SASS mixins.",
+  "short": "Learn how to use SASS mixins.",
+  "category": "SASS"
+}
