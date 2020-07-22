@@ -257,7 +257,7 @@ button:hover {
 }
 
 .book-contents {
-  /* background-color: #ECE9D8; */
+  /* background-color: #fff; */
   background-color: #EFEFEF;
   border: 1px solid black;
   width: 100%;

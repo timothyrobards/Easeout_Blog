@@ -226,7 +226,7 @@ export default {
   height: 100vh;
   z-index:1000;
   padding: 16px;
-  background-color: #ECE9D8;
+  background-color: #fff;
   transform: translate3D(100%, 0, 0);
   transition: transform 0.6s;
 
