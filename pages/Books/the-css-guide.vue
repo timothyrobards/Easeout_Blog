@@ -100,7 +100,7 @@
             <ul class="book-details">
               <li>322 pages</li>
               <li>Available in PDF, EPUB &#38; MOBI Formats</li>
-              <li>Release: July 2020</li>
+              <li>Release: August 2020</li>
             </ul>
           </div>
         </div>
