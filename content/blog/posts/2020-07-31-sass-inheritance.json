@@ -1,0 +1,9 @@
+{
+  "date": "Friday July 31st, 2020",
+  "dateshort": "July 31st",
+  "body": "Another great feature of Sass is **inheritance**. We implement this using the `@extend` directive.\n\nInheritance is a feature of SASS that allows multiple classes to share a common set of properties with one another.\n\n## An Example\n\nSome typical CSS code for styling a button:\n\n```CSS\n.button {\n  background-color: #0000FF; // Blue\n  border: none;\n  color: white;\n  padding: 15px 32px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 1.5rem;\n}\n```\n\nIf we happen to have a number of buttons on our website, all of which are styled in a similar manner, we would have a good case for inheritance!\n\nWe would implement a secondary button via inheritance like so:\n\n```SASS\n.button-secondary {\n  @extend .button;\n  background-color: #4CAF50; // Green\n}  \n```\n\nOur `.button-secondary` class will take on all of the properties and values set the `.button class`, with the exception of `background-color` which we’ve decided to set to green.\n\nThe use of inheritance helps us to keep our code neat, clean and focused on constructing reusable components.\n\nUp next in this series, we’ll take a look at the `&` operator.\n\n## Related Posts:\n\n* [An Introduction to SASS](https://www.easeout.co/blog/2020-07-07-an-introduction-to-sass)\n* [Setting up SASS](https://www.easeout.co/blog/2020-07-09-setting-up-sass)\n* [Using SASS Variables](https://www.easeout.co/blog/2020-07-14-using-sass-variables)",
+  "title": "SASS Inheritance",
+  "description": "Working with inheritance using @extends.",
+  "short": "Working with inheritance using @extends.",
+  "category": "SASS"
+}
