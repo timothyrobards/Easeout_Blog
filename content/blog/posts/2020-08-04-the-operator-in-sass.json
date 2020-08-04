@@ -1,0 +1,9 @@
+{
+  "date": "Tuesday August 4th, 2020",
+  "dateshort": "August 4th",
+  "body": "The ampersand `&` operator is often used when [nesting](https://www.easeout.co/blog/2020-07-16-nesting-in-sass) in SASS and is an extremely useful feature.\n\nIt can be a great time-saver, especially if you happen to be coding your stylesheets with the [BEM methodology](http://getbem.com/introduction/), or using any systematic naming convention for your class names.\n\nSee the following HTML:\n\n```HTML\n<button class = \"btn btn--red\"> Click me! </button>\n```\n\nTypical styling would be something like this:\n\n```CSS\n.btn {\n  display: inline-block;\n  padding: 15px 32px;\n}\n.btn--red {\n  background-color: #ff0000; // Red\n}\n.btn:hover {\n  background-color: #fff; // White\n}\n```\n\nWith the `&` operator we can be much more efficient:\n\n```SASS\n.btn {\n  display: inline-block;\n  padding: 15px 32px;\n  &--red {\n    background-color: #ff0000; // Red\n  }\n  &:hover {\n    background-color: #fff; // White\n  }\n}\n```\nNotice that we’ve now nested the child selectors that use the same `.btn` name, represented by the `&` operator. name.\n\nWhen compiled the `&` operator will be replaced by its enclosing selector name!\n\nIn the next post, we’ll learn about control directives.\n\n## Related Posts:\n\n* [An Introduction to SASS](https://www.easeout.co/blog/2020-07-07-an-introduction-to-sass)\n* [Setting up SASS](https://www.easeout.co/blog/2020-07-09-setting-up-sass)\n* [Using SASS Variables](https://www.easeout.co/blog/2020-07-14-using-sass-variables)",
+  "title": "The '&' Operator in SASS",
+  "description": "A look at the ampersand ('&') operator syntax.",
+  "short": "A look at the ampersand ('&') operator syntax.",
+  "category": "SASS"
+}
