@@ -1,0 +1,9 @@
+{
+  "date": "Thursday August 13th, 2020",
+  "dateshort": "August 13th",
+  "body": "In SASS a **placeholder** looks and acts a lot like a class selector, only it starts with a `%` and it is not included in the CSS output.\n\nOur `%placeholder` selector contains some width and height declarations:\n\n```SASS\n%placeholder {\n    width: 100%;\n    height: 100%;\n}\nbody {\n    @extend %placeholder;\n}\np {\n    @extend %placeholder;\n}\n```\n\nNote that we’ve used the `@extend` directive, which allows one selector to inherit styles of another selector.\n\nThis outputs to CSS as follows:\n\n```CSS\nbody, p {\n    width: 100%;\n    height: 100%;\n}\n```\n\nSimple and as expected!\n\nHowever, the preprocessor will skip `%placeholder` and it won’t be included in the final CSS file.\n\n## Why use Placeholders? \n\nPlaceholder selectors are mainly useful when writing a SASS library where each style rule is optional.\n\nTypically, when working on your own project, it’s often better to just extend a class selector instead. But it’s good to know, as it could come in quite handy if you start working on larger-scale projects.\n\nIn the next article, we’ll learn how to structure our SASS projects.\n\n## Related Posts:\n\n* [An Introduction to SASS](https://www.easeout.co/blog/2020-07-07-an-introduction-to-sass)\n* [Setting up SASS](https://www.easeout.co/blog/2020-07-09-setting-up-sass)\n* [Using SASS Variables](https://www.easeout.co/blog/2020-07-14-using-sass-variables)",
+  "title": "SASS Placeholders",
+  "description": "Learn how to use SASS placeholders.",
+  "short": "Learn how to use SASS placeholders.",
+  "category": "SASS"
+}
