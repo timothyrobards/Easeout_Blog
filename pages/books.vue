@@ -23,7 +23,7 @@
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Coming August 2020!
+              <span class="icon"></span> Coming September 2020!
             </footer>
           </article>
           <article class="card">
@@ -40,11 +40,11 @@
               <div class="card__category card__category__sass"><a href="#">SASS</a></div>
               <h2 class="card__title"><a href="#">Getting SASSY: A Practical Guide</a></h2>
               <div class="card__subtitle">A Practical Guide to SASS.</div>
-              <p class="card__description">Available September 2020. <br> <a class="read-more" href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Sign up to be notified!</a></p>
+              <p class="card__description">Available October 2020. <br> <a class="read-more" href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Sign up to be notified!</a></p>
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Coming September 2020!
+              <span class="icon"></span> Coming October 2020!
             </footer>
           </article>
         </div>
