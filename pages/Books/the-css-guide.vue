@@ -10,11 +10,9 @@
               <br>
               <p>Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert!</p><br>
               <p>We'll cover the basics from specificity &#38; selectors right through to the modern layout methods of flexbox &#38; grid. We'll also be diving into advanced topics such as CSS animation, architecture &#38; more!</p>
-              <br><p>Available September 2020 🎉</p>
-              <br><p>Sign up to be notified about the release. </p>
-              <!-- <br><button>Buy for $15</button> -->
-              <br><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe"><button>Notify me!</button></a>
-              <!-- <br><br><p class="italic">* Secured payment with Gumroad.</p> -->
+              <br><p>Available in PDF, EPUB &amp; MOBI. 🎉</p>
+              <br><a href="https://gum.co/iCHmFd" target="_blank"><button>Buy for $15</button></a>
+              <br><br><p class="italic">* Secured payment with Gumroad.</p>
           </div>
           <div>
             <img src="https://www.easeout.co/images/uploads/the-css-guide-mockups.png" class="book-image" alt="CSS Guide cover mockups" />
@@ -98,9 +96,9 @@
             <h2>Technical Details</h2>
             <br>
             <ul class="book-details">
-              <li>322 pages</li>
+              <li>158 pages</li>
               <li>Available in PDF, EPUB &#38; MOBI Formats</li>
-              <li>Release: September 2020</li>
+              <li>Updated September 2020</li>
             </ul>
           </div>
         </div>
