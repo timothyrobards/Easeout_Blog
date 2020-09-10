@@ -2,8 +2,8 @@
   <nav ref="navBar" id="navbar" class="sm-border-bottom">
     
     <div class="topbar">
-      <p>👉 Get the
-      <nuxt-link to="/books/the-css-guide" class="promo-link" exact>CSS Guide</nuxt-link>. Available now! 🎉🎉</p>
+      <p>👉 Get
+      <nuxt-link to="/books/the-css-guide" class="promo-link" exact>The CSS Guide</nuxt-link>. Available now! 🎉🎉</p>
     </div>
 
     <div class="r">

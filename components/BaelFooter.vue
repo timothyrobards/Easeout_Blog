@@ -105,6 +105,7 @@
                 <div class="footer__heading xs-mb2">Browse all topics</div>
                 <ul class="list-unstyled list-horizontal">
                     <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
+                    <li>📙 <nuxt-link to="/category/html/" exact>HTML</nuxt-link></li>
                     <li>📘 <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
                     <li>💅 <nuxt-link to="/category/sass/" exact>SASS</nuxt-link></li>
                     <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
