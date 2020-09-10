@@ -136,7 +136,7 @@ export default {
   font-weight: 700;
 }
 .hamburger {
-  padding: 20px 15px;
+  padding: 4.1em 15px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -152,6 +152,12 @@ export default {
 }
 .hamburger:hover {
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 830px) {
+  .hamburger {
+    padding: 4.4em 15px;
+  }
 }
 
 .hamburger-box {

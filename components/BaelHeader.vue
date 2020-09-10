@@ -1,5 +1,11 @@
 <template>
   <nav ref="navBar" id="navbar" class="sm-border-bottom">
+    
+    <div class="topbar">
+      <p>👉 Get the
+      <nuxt-link to="/books/the-css-guide" class="promo-link" exact>CSS Guide</nuxt-link>. Available now! 🎉🎉</p>
+    </div>
+
     <div class="r">
 
       <div class="c-4 xs-text-left xs-p2 sm-border-right">
@@ -127,4 +133,20 @@ input.search {
     width: 94vw;
   }
 }
+
+.topbar {
+  display: grid;
+  place-items: center;
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
+  padding: 0.5em;
+}
+
+.promo-link {
+  color: white;
+  text-decoration: underline;
+}
+
 </style>
