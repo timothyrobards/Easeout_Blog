@@ -66,6 +66,10 @@
           <nuxt-link v-if="p.category === 'SASS'" class="tag tag-pos tag-sass tag__link text-white" :to="`/category/sass/`">
           {{p.category}}
           </nuxt-link>
+
+          <nuxt-link v-if="p.category === 'HTML'" class="tag tag-pos tag-html tag__link text-white" :to="`/category/html/`">
+          {{p.category}}
+          </nuxt-link>
           
         </nuxt-link>
         
@@ -412,6 +416,11 @@ ul.list-horizontal li { display: inline-block; }
   .tag-sass {
     background-color: #CF679A;
     border-color: #CF679A;
+  }
+
+  .tag-html {
+    background-color: #EA6228;
+    border-color: #EA6228;
   }
 
   .tag-article {
