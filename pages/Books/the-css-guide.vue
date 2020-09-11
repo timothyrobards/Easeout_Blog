@@ -11,7 +11,7 @@
               <p>Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert!</p><br>
               <p>We'll cover the basics from specificity &#38; selectors right through to the modern layout methods of flexbox &#38; grid. We'll also be diving into advanced topics such as CSS animation, architecture &#38; more!</p>
               <br><p>Available in PDF, EPUB &amp; MOBI. 🎉</p>
-              <br><a href="https://gum.co/iCHmFd" target="_blank"><button>Buy for $15</button></a>
+              <br><a href="https://gumroad.com/l/the-css-guide" target="_blank"><button>Buy now!</button></a>
               <br><br><p class="italic">* Secured payment with Gumroad.</p>
           </div>
           <div>
