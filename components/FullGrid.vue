@@ -70,6 +70,10 @@
           <nuxt-link v-if="p.category === 'HTML'" class="tag tag-pos tag-html tag__link text-white" :to="`/category/html/`">
           {{p.category}}
           </nuxt-link>
+
+          <nuxt-link v-if="p.category === 'GIT'" class="tag tag-pos tag-git tag__link text-white" :to="`/category/git/`">
+          {{p.category}}
+          </nuxt-link>
           
         </nuxt-link>
         
@@ -421,6 +425,11 @@ ul.list-horizontal li { display: inline-block; }
   .tag-html {
     background-color: #EA6228;
     border-color: #EA6228;
+  }
+
+  .tag-git  {
+    background-color: #E94D31;
+    border-color: #E94D31;
   }
 
   .tag-article {
