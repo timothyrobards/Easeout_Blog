@@ -49,7 +49,10 @@
         <nuxt-link to="/category/html/" exact>HTML</nuxt-link>
       </li> 
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left tag-git text-white">
-        <nuxt-link to="/category/html/" exact>GIT</nuxt-link>
+        <nuxt-link to="/category/git/" exact>GIT</nuxt-link>
+      </li> 
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-git text-black">
+        <nuxt-link to="/category/react/" exact>REACT</nuxt-link>
       </li> 
       <!-- <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary text-black p-left">
         <nuxt-link to="/category/javascript" exact>JavaScript</nuxt-link>

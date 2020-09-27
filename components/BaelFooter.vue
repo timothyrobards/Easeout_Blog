@@ -109,6 +109,7 @@
                     <li>📘 <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
                     <li>💅 <nuxt-link to="/category/sass/" exact>SASS</nuxt-link></li>
                     <li>📕 <nuxt-link to="/category/git/" exact>GIT</nuxt-link></li>
+                    <li>⚛️ <nuxt-link to="/category/react/" exact>REACT</nuxt-link></li>
                     <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
                     <li>📰 <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
                     <li>🏁 <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li> 
