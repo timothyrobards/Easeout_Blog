@@ -20,19 +20,19 @@
       <li class="zap-slideout-menu-item--small">
         Menu
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-article text-white">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-article text-white">
         <nuxt-link to="/category/article/" exact>Articles</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-inspo text-white">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left tag-inspo text-white">
         <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-template text-white">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-template text-white">
         <nuxt-link to="/category/template/" exact>Templates</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-news text-white">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left tag-news text-white">
         <nuxt-link to="/category/newsletter/" exact>News</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick tag-books text-white">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-books text-white">
         <nuxt-link to="/books/" exact>Books</nuxt-link>
       </li>
       <li class="spacer-sub"></li>
@@ -347,7 +347,7 @@ export default {
 }
 
 .nav-item-secondary a {
-  color: #ff6060;
+  color:#FFF6E5;
   padding: 0 5px 0 5px;
   text-decoration:none !important;
   letter-spacing: 1px;
@@ -357,7 +357,7 @@ export default {
 }
 
 .nav-item-secondary {
-  background-color: #ffff00;
+  background-color:#A9A9A9;
   text-align: center;
   width: 47%;
   display: inline-block !important; 

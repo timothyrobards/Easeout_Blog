@@ -442,8 +442,8 @@ ul.list-horizontal li { display: inline-block; }
   }
 
   .tag-article {
-    background-color: #282C34;
-    border-color: #282C34;
+    background-color: #174528;
+    border-color: #174528;
   }
   
   .tag-inspo {
@@ -457,8 +457,8 @@ ul.list-horizontal li { display: inline-block; }
   }
 
   .tag-books {
-    background-color: #a9a9a9;
-    border-color: #a9a9a9;
+    background-color: #282C34;
+    border-color: #282C34;
   }
 
   .tag-template {
