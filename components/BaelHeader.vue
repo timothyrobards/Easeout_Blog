@@ -8,16 +8,27 @@
 
     <div class="r">
 
-      <div class="c-4 xs-text-left xs-p2 sm-border-right">
-        <div class="item">
-          <nuxt-link class="sitename" to="/" exact>{{headerSiteName}}</nuxt-link>
+      <!-- <div class="c-4 xs-text-left sm-border-right"> -->
+      <div class="c-3 xs-text-left">
+        <div>
+          <!-- <nuxt-link class="sitename" to="/" exact>{{headerSiteName}}</nuxt-link> -->
+          <nuxt-link class="sitename" to="/" exact><img class="easeout-logo" src="easeout-logo.png" alt="Easeout Logo" /></nuxt-link>
         </div>
       </div>
 
-      <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2 center">
-        <div class="item xs-flex">
+      <!-- <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2 center"> -->
+      <div class="c-6 center">  
+        <ul class="intro-links list-horizontal">
+            <li><nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/books/" exact>Books</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
+        </ul>
+        <!-- <div class="item xs-flex">
           <VueFuse placeholder="Search" :compResults="compResults" :keys="keys" :list="allPosts" event-name="searchChanged" />
-        </div>
+        </div> -->
 
       </div>
       <div v-if="blogtitle" style="z-index:55;" class="c-12 xs-border-top xs-border-bottom xs-p2 xs-text-6 titlebar">
@@ -120,6 +131,12 @@ nav {
   -webkit-text-stroke-width: 0.05em;
   -webkit-text-fill-color: #fff;
 }
+
+.easeout-logo {
+  height: 45px;
+  margin: 5px 0 0 5px;
+}
+
 input.search {
   background-color: #fff !important;
 }

@@ -8,15 +8,15 @@
           <h1 class="intro">
             <span class="outline">Design & code</span> tutorials to <span class="redline">boost</span> your web development skills. 💻 🌈
           </h1>
-          <br>
-          <ul class="intro-links list-horizontal">
+          <br><br><br>
+          <!-- <ul class="intro-links list-horizontal">
             <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
             <li>📚 <nuxt-link to="/books/" exact>Books</nuxt-link></li>
             <li>📘 <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
             <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
             <li>📰 <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
             <li>🏁 <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
@@ -378,9 +378,9 @@ Landing Presentational Styles
 }
 
 .intro-links {
-  margin: 2.5em auto 0em;
+  /* margin: 2.5em auto 0em; */
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
   background: transparent;
   text-transform: uppercase;
 }
@@ -389,10 +389,9 @@ Landing Presentational Styles
   color: #000;
 }
 
-@media (max-width: 640px) {
-  .intro-links {
-    font-size: 1.3em;
-    line-height: 1.5;
+@media (max-width: 1024px) {
+  .intro-links, .c-6 {
+    display: none;
   }
 }
 
