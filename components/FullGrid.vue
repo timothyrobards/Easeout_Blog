@@ -390,7 +390,7 @@ Landing Presentational Styles
 }
 
 @media (max-width: 1024px) {
-  .intro-links, .c-6 {
+  .intro-links, .c-6.center {
     display: none;
   }
 }
