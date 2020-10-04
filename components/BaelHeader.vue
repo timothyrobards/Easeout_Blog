@@ -134,6 +134,7 @@ nav {
 
 .easeout-logo {
   height: 45px;
+  width: auto;
   margin: 5px 0 0 5px;
 }
 

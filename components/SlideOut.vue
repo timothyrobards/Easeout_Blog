@@ -165,7 +165,7 @@ export default {
 
 @media only screen and (max-width: 830px) {
   .hamburger {
-    padding: 4.4em 15px;
+    padding: 5em 15px;
   }
 }
 
@@ -347,7 +347,7 @@ export default {
 }
 
 .nav-item-secondary a {
-  color:#FFF6E5;
+  color:#282C34;
   padding: 0 5px 0 5px;
   text-decoration:none !important;
   letter-spacing: 1px;
@@ -357,7 +357,7 @@ export default {
 }
 
 .nav-item-secondary {
-  background-color:#A9A9A9;
+  background-color:#FFFF01;
   text-align: center;
   width: 47%;
   display: inline-block !important; 
