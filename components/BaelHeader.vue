@@ -3,7 +3,7 @@
     
     <div class="topbar">
       <p>👉 Get
-      <nuxt-link to="/books/the-css-guide" class="promo-link" exact>The CSS Guide</nuxt-link>. Available now! 🎉🎉</p>
+      <nuxt-link to="/books/the-css-guide" class="promo-link" exact>The CSS Guide</nuxt-link> book. Available now! 🎉🎉</p>
     </div>
 
     <div class="r">
@@ -12,7 +12,7 @@
       <div class="c-3 xs-text-left">
         <div>
           <!-- <nuxt-link class="sitename" to="/" exact>{{headerSiteName}}</nuxt-link> -->
-          <nuxt-link class="sitename" to="/" exact><img class="easeout-logo" src="https://www.easeout.co/images/uploads/easeout-logo.png" alt="Easeout Logo" /></nuxt-link>
+          <nuxt-link class="sitename" to="/" exact><img class="easeout-logo" src="https://www.easeout.co/images/uploads/easeout-logo.svg" alt="Easeout Logo" /></nuxt-link>
         </div>
       </div>
 
@@ -133,7 +133,7 @@ nav {
 }
 
 .easeout-logo {
-  height: 45px;
+  height: 50px;
   width: auto;
   margin: 5px 0 0 5px;
 }
@@ -155,11 +155,12 @@ input.search {
 .topbar {
   display: grid;
   place-items: center;
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #C400FF; 
+  background: transparent linear-gradient(90deg, #C400FF 0%, #0031FF 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
   color: #FFF;
   padding: 0.5em;
+  text-align: center;
 }
 
 .promo-link {
