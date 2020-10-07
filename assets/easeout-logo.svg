@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250.164" height="82.917" viewBox="0 0 250.164 82.917">
+<defs>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue');
+ </style>
+</defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-19.836 -76.712)">
+    <path id="lightning-bolt" d="M91.565,83.686l-28.729,40.26H86.224l-19.757,28.73" transform="translate(-38)" fill="none" stroke="#ffff01" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <text id="EASEOUT.CO" transform="translate(76 80)" font-size="50" font-family="BebasNeue-Regular, Bebas Neue"><tspan x="0" y="45">EASEOUT.CO</tspan></text>
+    <text id="DESIGN_DEV_TUTORIALS" data-name="DESIGN &amp; DEV TUTORIALS" transform="translate(76 133)" font-size="20" font-family="BebasNeue-Regular, Bebas Neue"><tspan x="0" y="18">DESIGN &amp; DEV TUTORIALS</tspan></text>
+  </g>
+</svg>
