@@ -377,8 +377,8 @@ Landing Presentational Styles
   transition: none;
 }
 
-.intro-links {
-  /* margin: 2.5em auto 0em; */
+/* .intro-links {
+  margin: 2.5em auto 0em;
   text-align: center;
   font-size: 1em;
   background: transparent;
@@ -408,7 +408,7 @@ Landing Presentational Styles
 }
 
 ul.list-horizontal { text-align: center;}
-ul.list-horizontal li { display: inline-block; }
+ul.list-horizontal li { display: inline-block; } */
 
 .full-height-css{
   background-color: yellow !important;

@@ -171,4 +171,37 @@ input.search {
   text-decoration: underline;
 }
 
+.intro-links {
+  /* margin: 2.5em auto 0em; */
+  text-align: center;
+  font-size: 1em;
+  background: transparent;
+  text-transform: uppercase;
+}
+
+.intro-links a {
+  color: #000;
+}
+
+@media (max-width: 1024px) {
+  .intro-links, .c-6.center {
+    display: none;
+  }
+}
+
+.intro-links a:hover {
+  color: darkslategrey;
+}
+
+.intro-links li {
+  padding-left: .25em;
+}
+
+.intro-links:first-of-type {
+  padding-left: 0em;
+}
+
+ul.list-horizontal { text-align: center;}
+ul.list-horizontal li { display: inline-block; }
+
 </style>
