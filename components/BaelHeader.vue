@@ -3,7 +3,7 @@
     
     <div class="topbar">
       <p>👉 Get
-      <nuxt-link to="/books/the-css-guide" class="promo-link" exact>The CSS Guide</nuxt-link> book. Available now! 🎉🎉</p>
+      <nuxt-link to="/books/the-css-guide" class="promo-link" exact>The CSS Guide</nuxt-link> ebook. Available now! 🎉🎉</p>
     </div>
 
     <div class="r">
@@ -20,11 +20,12 @@
       <div class="c-6 center" v-cloak>  
         <ul class="intro-links list-horizontal">
             <li><nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/books/" exact>Books</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/books/" exact class="highlight">BOOKS</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
+            <!-- <li>&nbsp; <nuxt-link to="/category/template/" exact class="highlight">Freelancing</nuxt-link></li> -->
         </ul>
         <!-- <div class="item xs-flex">
           <VueFuse placeholder="Search" :compResults="compResults" :keys="keys" :list="allPosts" event-name="searchChanged" />
@@ -203,5 +204,12 @@ input.search {
 
 ul.list-horizontal { text-align: center;}
 ul.list-horizontal li { display: inline-block; }
+
+.intro-links a.highlight{
+  background: linear-gradient(to right, #6441A5 0%, #6441A5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
 
 </style>
