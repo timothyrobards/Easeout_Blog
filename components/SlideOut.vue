@@ -360,7 +360,7 @@ export default {
 }
 
 .nav-item-secondary {
-  background-color:#FFFF01;
+  background-color:#EFD81D;
   text-align: center;
   width: 47%;
   display: inline-block !important; 
