@@ -75,7 +75,11 @@
           {{p.category}}
           </nuxt-link>
 
-          <nuxt-link v-if="p.category === 'REACT'" class="tag tag-pos tag-react tag__link text-black" :to="`/category/react/`">
+          <nuxt-link v-if="p.category === 'React'" class="tag tag-pos tag-react tag__link text-black" :to="`/category/react/`">
+          {{p.category}}
+          </nuxt-link>
+
+          <nuxt-link v-if="p.category === 'JavaScript'" class="tag tag-pos tag-javascript tag__link text-black" :to="`/category/javascript/`">
           {{p.category}}
           </nuxt-link>
           
@@ -438,6 +442,11 @@ ul.list-horizontal li { display: inline-block; } */
   .tag-react {
     background-color: #00D8FF;
     border-color: #00D8FF;
+  }
+
+  .tag-javascript {
+    background-color: #EFD81D;
+    border-color: #EFD81D;
   }
 
   .tag-article {

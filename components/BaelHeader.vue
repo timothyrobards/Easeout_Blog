@@ -22,9 +22,9 @@
             <li><nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/books/" exact class="highlight">BOOKS</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/category/javascript/" exact>JavaScript</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
             <!-- <li>&nbsp; <nuxt-link to="/category/template/" exact class="highlight">Freelancing</nuxt-link></li> -->
         </ul>
         <!-- <div class="item xs-flex">
