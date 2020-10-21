@@ -12,7 +12,7 @@
       <div class="c-3 xs-text-left">
         <div>
           <!-- <nuxt-link class="sitename" to="/" exact>{{headerSiteName}}</nuxt-link> -->
-          <nuxt-link class="sitename" to="/" exact><img class="easeout-logo" src="~/assets/easeout-logo.png" alt="Easeout Logo" /></nuxt-link>
+          <nuxt-link class="sitename" to="/" exact><img class="easeout-logo" src="~/assets/easeout-logo-new.png" alt="Easeout Logo" /></nuxt-link>
         </div>
       </div>
 
@@ -20,7 +20,7 @@
       <div class="c-6 center" v-cloak>  
         <ul class="intro-links list-horizontal">
             <li><nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/books/" exact class="highlight">BOOKS</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/books/" exact>BOOKS</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/javascript/" exact>JavaScript</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
