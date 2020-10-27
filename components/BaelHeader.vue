@@ -20,7 +20,7 @@
       <div class="c-6 center" v-cloak>  
         <ul class="intro-links list-horizontal">
             <li><nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/books/" exact>BOOKS</nuxt-link></li>
+            <li>&nbsp; <nuxt-link to="/books/" exact>Books</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/javascript/" exact>JavaScript</nuxt-link></li>
             <li>&nbsp; <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
