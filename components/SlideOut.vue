@@ -35,7 +35,7 @@
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-books text-white">
         <nuxt-link to="/books/" exact>Books</nuxt-link>
       </li>
-      <li class="spacer-sub"></li>
+      <!-- <li class="spacer-sub"></li> -->
       <li class="zap-slideout-menu-item--small">
         Tutorials
       </li>
@@ -66,7 +66,7 @@
       <!-- <li v-if="menuLinks" class="xs-mt5 zap-slideout-menu-item black-font nav-item-primary">
         Links
       </li> -->
-      <li class="spacer-sub"></li>
+      <!-- <li class="spacer-sub"></li> -->
       <li class="zap-slideout-menu-item--small">
         Links
       </li>
@@ -241,7 +241,7 @@ export default {
   right: 0;
   top: 0;
   width: 33vw;
-  height: 100vh;
+  height: 100%;
   z-index:1000;
   padding: 16px;
   background-color: #fff;
@@ -283,11 +283,12 @@ export default {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 999650px) {
   .zap-slideout {
     &.isOpen {
       .zap-slideout-opener{
         right: 0 !important;
+        top: -50px;
       }
     }
   }
@@ -380,7 +381,7 @@ export default {
 }
 
 .spacer-sub--small {
-  margin-top: 0.3rem;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 450px) {
@@ -400,13 +401,13 @@ export default {
 /* BOX SHADOWS
 *********************/
 .box-shadow, .box-shadow-thick, .box-shadow-fat, .box-shadow-double, .box-shadow-triple, .box-shadow-quad, .box-shadow-bottom, .box-shadow-right { 
-	display: block; margin-bottom: 0.75em; 
+	display: block; margin-bottom: 0.25em; 
 }
 .box-shadow:after, .box-shadow-thick:after, .box-shadow-fat:after, .box-shadow-double:after, .box-shadow-triple:after, .box-shadow-quad:after, .box-shadow-bottom:after, .box-shadow-right:after {
 	display: block; content: ''; clear: both;
 }
 .box-shadow { box-shadow: 5px 5px 0 #000; }
-.box-shadow-thick { box-shadow: 8px 8px 0 #000; }
+.box-shadow-thick { box-shadow: 5px 5px 0 #000; }
 .box-shadow-fat { box-shadow: 12px 12px 0 #000; }
 .box-shadow-double { box-shadow: 5px 5px 0 #000, 10px 10px 0 #2E2E2E; }
 .box-shadow-triple { box-shadow: 5px 5px 0 #000, 10px 10px 0 #2E2E2E, 15px 15px 0 #585858; }
