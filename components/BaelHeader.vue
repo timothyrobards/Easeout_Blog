@@ -19,12 +19,31 @@
       <!-- <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2 center"> -->
       <div class="c-6 center" v-cloak>  
         <ul class="intro-links list-horizontal">
-            <li><nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/books/" exact>Books</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/category/javascript/" exact>JavaScript</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
-            <li>&nbsp; <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
+            <li><nuxt-link to="/category/article/" exact>Articles &nbsp;</nuxt-link></li>
+            <li><nuxt-link to="/books/" exact>Books &nbsp;</nuxt-link></li>
+            <li>Tutorials +
+            <ul>
+                <li><nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
+                <li><nuxt-link to="/category/javascript/" exact>JavaScript</nuxt-link></li>
+                <li><nuxt-link to="/category/html/" exact>HTML</nuxt-link></li>
+                <li><nuxt-link to="/category/sass/" exact>SASS</nuxt-link></li>
+                <li><nuxt-link to="/category/git/" exact>GIT</nuxt-link></li>
+                <li><nuxt-link to="/category/react/" exact>React</nuxt-link></li>
+              </ul>
+            </li>
+            <li>More +
+              <ul>
+                <li><nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
+                <li><nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
+                <li><nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li> 
+                <li><nuxt-link to="/page/about/" exact>About</nuxt-link></li> 
+                <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li>
+                <li><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe</a></li>
+                <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
+                <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li>
+              </ul>
+            </li>
+            
             <!-- <li>&nbsp; <nuxt-link to="/category/template/" exact class="highlight">Freelancing</nuxt-link></li> -->
         </ul>
         <!-- <div class="item xs-flex">
@@ -149,6 +168,7 @@ input.search {
 .center{
   align-self: center;
   border-left: none !important;
+  text-align: center;
 }
 @media only screen and (max-width: 40rem) {
   .results {
@@ -194,9 +214,9 @@ input.search {
   color: darkslategrey;
 }
 
-.intro-links li {
+/* .intro-links li {
   padding-left: .25em;
-}
+} */
 
 .intro-links:first-of-type {
   padding-left: 0em;
@@ -211,5 +231,53 @@ ul.list-horizontal li { display: inline-block; }
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
+
+/* Drop down menu styles */
+
+ul.intro-links {
+  list-style: none;
+  height: 35px;
+  line-height: 250%;
+  display: inline-block;
+}
+
+ul.intro-links li {
+  float: left;
+  width: 120px;
+}
+
+ul.intro-links > li:hover {
+  background-color: #fff; 
+  cursor: pointer;
+}
+/* ul.intro-links > li:hover > a {
+  color: purple;
+} */
+ul.intro-links > li > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  display: none;
+}
+ul.intro-links > li:hover > ul {
+  display: block;
+}
+ul.intro-links > li > ul > li {
+  background-color: #fff;
+  position: relative;
+  z-index: 999;
+  outline: 1px dashed black;
+}
+ul.intro-links > li > ul > li:hover {
+  background-color: yellow;
+}
+/* ul.intro-links > li > ul > li:hover > a {
+  color: green;
+} */
+
+/* Change this in order to change the Dropdown symbol */
+/* li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; } */
 
 </style>
