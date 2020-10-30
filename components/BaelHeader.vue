@@ -202,6 +202,10 @@ input.search {
 
 .intro-links a {
   color: #000;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 1024px) {
