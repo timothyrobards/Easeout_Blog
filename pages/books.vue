@@ -44,7 +44,7 @@
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Coming October 2020!
+              <span class="icon"></span> Coming Soon!
             </footer>
           </article>
         </div>
