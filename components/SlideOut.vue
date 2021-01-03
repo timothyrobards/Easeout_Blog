@@ -74,16 +74,16 @@
         <nuxt-link to="/page/about/" exact>About</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
+        <nuxt-link to="/advertise" exact>Advertise</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
         <nuxt-link to="/page/contact/" exact>Contact</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
+      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
         <a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe" exact>Subscribe</a>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
-        <a href="https://twitter.com/easeoutco" exact>Twitter</a>
-      </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
-        <a href="https://dribbble.com/easeout" exact>Dribbble</a>
+        <a href="https://twitter.com/easeoutco" exact>Twitter</a>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
         <a href="https://www.pinterest.com/easeoutco/" exact>Pinterest</a>

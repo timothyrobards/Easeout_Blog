@@ -92,9 +92,9 @@
                 <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
                 <ul class="list-unstyled list-horizontal">
                     <li><nuxt-link to="/page/about/" exact>About</nuxt-link></li> |
+                    <li><nuxt-link to="/advertise/" exact>Advertise</nuxt-link></li> |
                     <li><nuxt-link to="/books/" exact>Books</nuxt-link></li> |
                     <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li> |
-                    <li><a href="https://emailoctopus.com/lists/2c78099d-83e4-11ea-a3d0-06b4694bee2a/forms/subscribe">Subscribe</a></li> | 
                     <li><a href="https://twitter.com/easeoutco">Twitter</a></li> | 
                     <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li> | 
                     <li><a href="https://gum.co/CIrVK" target="_blank">Buy me a coffee ☕</a></li>                    
@@ -104,16 +104,16 @@
                 <br><br>
                 <div class="footer__heading xs-mb2">Browse all topics</div>
                 <ul class="list-unstyled list-horizontal">
-                    <li>💻<nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
-                    <li>📙<nuxt-link to="/category/html/" exact>HTML</nuxt-link></li>
-                    <li>📘<nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
-                    <li>📒<nuxt-link to="/category/javascript/" exact>JavaScript</nuxt-link></li>
-                    <li>💅<nuxt-link to="/category/sass/" exact>SASS</nuxt-link></li>
-                    <li>📕<nuxt-link to="/category/git/" exact>GIT</nuxt-link></li>
-                    <li>⚛️<nuxt-link to="/category/react/" exact>React</nuxt-link></li>
-                    <li>❤️<nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
-                    <li>📰<nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
-                    <li>🏁<nuxt-link to="/category/template/" exact>Templates</nuxt-link></li> 
+                    <li class="tag tag-article text-white"><nuxt-link to="/category/article/" exact><div class="tag__link">Article</div></nuxt-link></li>
+                    <li class="tag tag-html text-white p-left"><nuxt-link to="/category/html/" exact><div class="tag__link">HTML</div></nuxt-link></li>
+                    <li class="tag tag-css text-black p-left"><nuxt-link to="/category/css/" exact><div class="tag__link">CSS</div></nuxt-link></li>
+                    <li class="tag tag-javascript text-black p-left"><nuxt-link to="/category/javascript/" exact><div class="tag__link">JavaScript</div></nuxt-link></li>
+                    <li class="tag tag-sass text-white p-left"><nuxt-link to="/category/sass/" exact><div class="tag__link">SASS</div></nuxt-link></li>
+                    <li class="tag tag-git text-white p-left"><nuxt-link to="/category/git/" exact><div class="tag__link">GIT</div></nuxt-link></li>
+                    <li class="tag tag-react text-black p-left"><nuxt-link to="/category/react/" exact><div class="tag__link">React</div></nuxt-link></li>
+                    <li class="tag tag-inspo text-white p-left"><nuxt-link to="/category/inspiration/" exact><div class="tag__link">Inspiration</div></nuxt-link></li>
+                    <li class="tag tag-news text-white p-left"><nuxt-link to="/category/newsletter/" exact><div class="tag__link">News</div></nuxt-link></li>
+                    <li class="tag tag-template text-white p-left"><nuxt-link to="/category/template/" exact><div class="tag__link">Templates</div></nuxt-link></li> 
                     <br><br>
                 </ul>
             </div>
@@ -271,5 +271,9 @@ export default {
 
 ul.list-horizontal { text-align: center;}
 ul.list-horizontal li { display: inline-block; }
+
+.p-left{
+  margin-left: 0.25rem;
+}
 
 </style>
