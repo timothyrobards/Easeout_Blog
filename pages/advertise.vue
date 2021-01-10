@@ -6,7 +6,7 @@
           <div>
               <h1 class="xs-py3 main-title">Advertise on Easeout</h1>
               <p>Easeout is committed to providing quality content in the form of articles, tutorials, and inspiration, to a highly engaged audience of web enthusiasts. We have over 250k pageviews per month (and growing!).</p>
-              <p>Advertising with Easeout is a fantastic way to drive traffic to your product or service. We have several advertising spots on the site, we also offer promotional posts and the ability to sponsor our newsletter.</p>
+              <p>Advertising is a fantastic way to drive traffic to your product or service. We have several advertising spots on the site, we also offer promotional posts and the ability to sponsor our newsletter.</p>
               <p>For any enquiries <a href="mailto:hello@easeout.co">contact us</a>.</p>
 
               <h2>Sponsored Article</h2>
@@ -16,7 +16,7 @@
                 <li>Exposure to our 250k monthly pageviews</li>
                 <li>Exposure to our 30,000+ RSS feed subscribers</li>
                 <li>Social media post to our Twitter feed</li>
-                <li>Feature in our next Frontend news issue (sent to our email subscribers)</li>
+                <li>Feature in our next "Frontend News" issue (sent to our email subscribers)</li>
                 <li>Plus your article will live permanently on our site</li>
               </ul>
               <p><a href="mailto:hello@easeout.co">Get in touch</a> for more details, or to book your sponsorship slot.</p>
