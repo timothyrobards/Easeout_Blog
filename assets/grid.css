@@ -299,8 +299,15 @@ h6 {
 .single .post-content ul,
 .single .post-content ol {
   margin-bottom: 1.5rem;
+  max-width: 75ch;
 }
-.post-content h1,
+
+.post-content h1 {
+  color: #000;
+  /* font-weight: 600; */
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
 .post-content h2,
 .post-content h3,
 .post-content h4,

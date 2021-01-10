@@ -2,13 +2,33 @@
   <main>
     <div class="full-height single xs-border-left xs-border-right" :style="`min-height:calc(75vh - ${navbarheight}px);margin-top:${navbarheight}px`">
       <div class="xs-mt2 xs-p2 bcg-item">
-      <div class="item xs-block xs-full-height">
+      <div class="item xs-block xs-full-height post-content">
           <div>
-              <h1 class="xs-py3 main-title">Advertise</h1>
-              <!-- <h2>About the book</h2> -->
-              <br>
-              <p>Coming soon!</p><br>
-              <!-- <br><a href="https://gumroad.com/l/the-css-guide" target="_blank">Buy now!</a> -->
+              <h1 class="xs-py3 main-title">Advertise on Easeout</h1>
+              <p>Easeout is committed to providing quality content in the form of articles, tutorials, and inspiration, to a highly engaged audience of web enthusiasts. We have over 250k pageviews per month (and growing!).</p>
+              <p>Advertising with Easeout is a fantastic way to drive traffic to your product or service. We have several advertising spots on the site, we also offer promotional posts and the ability to sponsor our newsletter.</p>
+              <p>For any enquiries <a href="mailto:hello@easeout.co">contact us</a>.</p>
+
+              <h2>Sponsored Article</h2>
+              <p>If you would like to share your content with our readers, a dedicated blog post is the way to go! We only work with select products and companies and are limited to a single sponsor per week. You will receive:</p>
+              <ul>
+                <li>A professionally written blog post, by our technical writer, profiling your product or service (or you may provide your own copy for a reduced fee)</li>
+                <li>Exposure to our 250k monthly pageviews</li>
+                <li>Exposure to our 30,000+ RSS feed subscribers</li>
+                <li>Social media post to our Twitter feed</li>
+                <li>Feature in our next Frontend news issue (sent to our email subscribers)</li>
+                <li>Plus your article will live permanently on our site</li>
+              </ul>
+              <p><a href="mailto:hello@easeout.co">Get in touch</a> for more details, or to book your sponsorship slot.</p>
+              
+              <h2>Newsletter Sponsorship</h2>
+              <p>Our “Frontend News” newsletter is published on a bi-weekly basis. Each issue is packed full of the latest news, which we curate for the web design and development community. The newsletter is published on our site, sent out to our email list, tweeted by us <a href="https://twitter.com/easeoutco">@easeoutco</a>, and is read by 30,000+ RSS feed subscribers.</p>
+              <p>We insert a prominent ad placement for you (labelled “Our Sponsor”), which includes a title, short description, and image in the top row of our newsletter.</p>
+              <p>To check availability, or for more details, <a href="mailto:hello@easeout.co">contact us</a>.</p>
+
+              <h2>Display Advertising</h2>
+              <p>We have several advertising spots available on the site. Key placements include the header and above the article content. If you're looking for display ads, please contact us directly.</p>
+              <p>If you have any questions, would like to know the prices of our options, or have any ideas on how you would like to promote your product or service, please <a href="mailto:hello@easeout.co">get in touch</a> with us.</p>
           </div>
       </div>
       </div>
