@@ -387,11 +387,17 @@ nav .r {
   .single .post-content img {  /* Applies to ALL images < tablet */
     padding: 0;
   }
+  .sponsor {
+    padding: 1em 2em 1em 2em;
+  }
 }
 @media only screen and (max-width: 600px) {
   .news-grid {
     grid-template-columns: 1fr;
     grid-template-areas:
     "sponsor";
+  }
+  .sponsor {
+    padding: 1em;
   }
 }
