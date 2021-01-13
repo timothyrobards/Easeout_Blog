@@ -355,16 +355,26 @@ nav .r {
 .news-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px
+  grid-gap: 10px;
+  grid-template-areas:
+    "sponsor sponsor sponsor";
 }
 
-.news-item {
-  
+/* .news-item:first-of-type {
+  grid-area: sponsor;
+  background-color: yellow;
+} */
+
+.sponsor { 
+  grid-area: sponsor; 
+  background-color: yellow;
 }
 
 @media only screen and (max-width: 1025px) {
   .news-grid {
     grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "sponsor sponsor";
   }
   .single .post-content img {  /* Applies to ALL images < tablet */
     padding: 0;
@@ -373,5 +383,7 @@ nav .r {
 @media only screen and (max-width: 600px) {
   .news-grid {
     grid-template-columns: 1fr;
+    grid-template-areas:
+    "sponsor";
   }
 }
