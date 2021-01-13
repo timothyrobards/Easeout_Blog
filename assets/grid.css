@@ -355,19 +355,27 @@ nav .r {
 .news-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 40px;
   grid-template-areas:
     "sponsor sponsor sponsor";
 }
 
 /* .news-item:first-of-type {
   grid-area: sponsor;
-  background-color: yellow;
 } */
 
 .sponsor { 
   grid-area: sponsor; 
-  background-color: yellow;
+  background-color: #EAEAEA;
+  justify-self: center;
+  padding: 1em 5em 1em 5em;
+}
+
+.sponsor-heading {
+  font-weight: 600;
+}
+
+.sponsor-btn{
 }
 
 @media only screen and (max-width: 1025px) {
