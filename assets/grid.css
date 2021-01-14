@@ -372,11 +372,13 @@ nav .r {
 }
 
 .sponsor-heading {
-  font-weight: 600;
+  text-align: center;
+  font-style: italic;
 }
 
-.sponsor-btn{
-}
+/* p a button.sponsor-btn{
+  width: 100%;
+} */
 
 @media only screen and (max-width: 1025px) {
   .news-grid {
