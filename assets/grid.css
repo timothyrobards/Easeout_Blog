@@ -376,9 +376,9 @@ nav .r {
   font-style: italic;
 }
 
-/* p a button.sponsor-btn{
+p a button.sponsor-btn{
   width: 100%;
-} */
+}
 
 @media only screen and (max-width: 1025px) {
   .news-grid {
