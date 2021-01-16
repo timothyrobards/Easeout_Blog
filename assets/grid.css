@@ -362,27 +362,33 @@ nav .r {
 
 .news-nav {
   width:40%;
-  /* background-color: #EFD81D; */
   display:flex;
-  margin: auto;
-  margin-bottom: 2%;
-  /* border: 2px solid black; */
+  margin: 5% auto;
+  font-weight: 600;
+}
+
+@media (max-width:1200px) {
+  .news-nav {
+    width:50%;
+  }
+}
+
+@media (max-width:600px) {
+  .news-nav {
+    /* flex-direction:column; */
+    width:90%;
+  }
 }
 
 .news-nav a {
   color:#222;
   text-decoration:none;
-  /* padding:1em; */
   flex-grow:1;
   text-align:center;
-  /* text-transform:uppercase; */
-  /* font-size:1.2em; */
- /* -webkit-transition:all 200ms ease-out; */
 }
 
 .news-nav a:hover {
   color: blue;
- /* -webkit-transition:all 200ms ease-out; */
 }
 
 .sponsor { 
