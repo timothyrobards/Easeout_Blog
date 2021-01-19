@@ -356,8 +356,8 @@ nav .r {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
-  grid-template-areas:
-    "sponsor sponsor sponsor";
+  /* grid-template-areas:
+    "sponsor sponsor sponsor"; */
 }
 
 .news-nav {
@@ -391,7 +391,26 @@ nav .r {
   color: blue;
 }
 
-.sponsor { 
+/* ORIGINAL SPONSOR SECTION (in newsletter template)
+<div class="news-item sponsor">
+
+<div class="sponsor-heading">Our Sponsor:</div>
+
+![JS Charting Logo](/images/uploads/twenty_by_nine_extra_large_a7386dd4-1a70-463b-9954-38508d57d97a.png)
+
+[JSCharting 3.0 adds chart types and major new features](https://jscharting.com/)
+
+Venn and Euler diagrams join the 150+ advanced chart types already supported with JSCharting in the 3.0 release. Other noteworthy features include right-to-left text support, advanced dashboard samples, dynamic highlighting / muting support and much more.
+
+[Try it free ➡️](https://jscharting.com/)
+
+<a href="https://www.easeout.co/advertise/"><button class="sponsor-btn">Sponsor an issue</button></a>
+</div>
+
+*/
+
+
+/* .sponsor { 
   grid-area: sponsor; 
   background-color: #EAEAEA;
   justify-self: center;
@@ -401,6 +420,11 @@ nav .r {
 .sponsor-heading {
   text-align: center;
   font-style: italic;
+} */
+
+.sponsor {
+ background-color: #f6f6f6;
+ padding: 0.5em 1.5em 0.5em 1.5em;
 }
 
 p a button.sponsor-btn{
@@ -410,23 +434,23 @@ p a button.sponsor-btn{
 @media only screen and (max-width: 1025px) {
   .news-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-    "sponsor sponsor";
+    /* grid-template-areas:
+    "sponsor sponsor"; */
   }
   .single .post-content img {  /* Applies to ALL images < tablet */
     padding: 0;
   }
-  .sponsor {
+  /* .sponsor {
     padding: 1em 2em 1em 2em;
-  }
+  } */
 }
 @media only screen and (max-width: 600px) {
   .news-grid {
     grid-template-columns: 1fr;
-    grid-template-areas:
-    "sponsor";
+    /* grid-template-areas:
+    "sponsor"; */
   }
-  .sponsor {
+  /* .sponsor {
     padding: 1em;
-  }
+  } */
 }
