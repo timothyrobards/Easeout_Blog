@@ -355,9 +355,13 @@ nav .r {
 .news-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px;
+  /* grid-gap: 40px; */
   /* grid-template-areas:
     "sponsor sponsor sponsor"; */
+}
+
+.news-item{
+  padding: 0.5em 1.5em 0.5em 1.5em;
 }
 
 .news-nav {
@@ -424,7 +428,6 @@ Venn and Euler diagrams join the 150+ advanced chart types already supported wit
 
 .sponsor {
  background-color: #f6f6f6;
- padding: 0.5em 1.5em 0.5em 1.5em;
 }
 
 p a button.sponsor-btn{
