@@ -371,6 +371,17 @@ nav .r {
   font-weight: 600;
 }
 
+.news-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.news-footer-item {
+  background-color: #F6F6F6;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 2em 1em 2em;
+}
+
 @media (max-width:1200px) {
   .news-nav {
     width:50%;
@@ -456,4 +467,7 @@ p a button.sponsor-btn{
   /* .sponsor {
     padding: 1em;
   } */
+  .news-footer {
+    grid-template-columns: 1fr;
+  }
 }
