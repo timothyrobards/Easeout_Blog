@@ -10,16 +10,19 @@
               <p>For any enquiries <a href="mailto:hello@easeout.co">contact us</a>.</p>
 
               <h2>Sponsored Article</h2>
-              <p>If you would like to share your content with our readers, a dedicated blog post is the way to go! We only work with select products and companies and are limited to a single sponsor per week. You will receive:</p>
+              <p>If you would like to share your content with our community, a dedicated blog post is the way to go!</p>
+              <p>You will receive:</p>
               <ul>
-                <li>A professionally written blog post, by our technical writer, profiling your product or service (or you may provide your own copy for a reduced fee)</li>
+                <li>A professionally written blog post, by our technical writer, profiling your product or service (or you may provide your own copy)</li>
                 <li>Exposure to our 250k monthly pageviews</li>
                 <li>Exposure to our 30,000+ RSS feed subscribers</li>
                 <li>Social media post to our Twitter feed</li>
                 <li>Feature in our next "Frontend News" issue (sent to our email subscribers)</li>
                 <li>Plus your article will live permanently on our site</li>
               </ul>
-              <p><a href="mailto:hello@easeout.co">Get in touch</a> for more details, or to book your sponsorship slot.</p>
+              <p><a href="http://gum.co/easeout-article-sponsor" target="_blank"><button>Book Now</button></a></p>
+
+              <p><em>Please note</em>: We reserve the right to cancel your order &amp; issue a refund, if your product is inappropriate for our audience.</p>
               
               <h2>Newsletter Sponsorship</h2>
               <p>Our “Frontend News” newsletter is published on a bi-weekly basis. Each issue is packed full of the latest news, which we curate for the web design and development community. The newsletter is published on our site, sent out to our email list, tweeted by us <a href="https://twitter.com/easeoutco">@easeoutco</a>, and is read by 30,000+ RSS feed subscribers.</p>
