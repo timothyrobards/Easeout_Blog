@@ -26,8 +26,9 @@
               
               <h2>Newsletter Sponsorship</h2>
               <p>Our “Frontend News” newsletter is published on a bi-weekly basis. Each issue is packed full of the latest news, which we curate for the web design and development community. The newsletter is published on our site, sent out to our email list, tweeted by us <a href="https://twitter.com/easeoutco">@easeoutco</a>, and is read by 30,000+ RSS feed subscribers.</p>
-              <p>We insert a prominent ad placement for you (labelled “Our Sponsor”), which includes a title, short description, and image in the top row of our newsletter.</p>
-              <p>To check availability, or for more details, <a href="mailto:hello@easeout.co">contact us</a>.</p>
+              <p>We insert a prominent ad placement for you, which includes a title, short description, and image in the top row of our newsletter.</p>
+
+              <p><a href="http://gum.co/easeout-news-sponsor" target="_blank"><button>Book Now</button></a></p>
 
               <h2>Display Advertising</h2>
               <p>We have several advertising spots available on the site. Key placements include the header and above the article content. If you're looking for display ads, please contact us directly.</p>
