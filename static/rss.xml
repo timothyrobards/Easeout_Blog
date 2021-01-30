@@ -21,11 +21,10 @@
         <guid isPermaLink="true">https://www.easeout.co/blog/2021-01-28-50-best-eleventy-starter-themes-2021</guid>
         <pubDate>Wed, 27 Jan 2021 12:01:00 GMT</pubDate>
         <description>
-            <![CDATA[<img align="left" hspace="5" height="100" src="https://www.easeout.co/images/uploads/eleventyone-thumb-min.png"/>
-            <br />
-            A roundup of the best 11ty starter templates...
-            <br /> <br />
-            <a href= "https://www.easeout.co/blog/2021-01-28-50-best-eleventy-starter-themes-2021">Continue reading on EASEOUT >></a>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/eleventyone-thumb-min.png"/>
+            <p>A roundup of the best 11ty starter templates...</p>
+            <br /><br/ >
+            <p><a href= "https://www.easeout.co/blog/2021-01-28-50-best-eleventy-starter-themes-2021">Continue reading on EASEOUT >></a></p>
             <br />]]>
         </description>
     </item>
