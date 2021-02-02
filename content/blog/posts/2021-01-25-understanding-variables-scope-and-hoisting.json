@@ -5,5 +5,6 @@
   "title": "Understanding Variables, Scope and Hoisting",
   "description": "Learn about variables, scope and hoisting in JavaScript.",
   "short": "Learn about variables, scope and hoisting in JavaScript.",
-  "category": "JavaScript"
+  "category": "JavaScript",
+  "thumbnail": "/images/uploads/javascript-variables-scope-hoisting.png"
 }
