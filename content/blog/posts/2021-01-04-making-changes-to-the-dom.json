@@ -5,5 +5,6 @@
   "title": "Making Changes to the DOM",
   "description": "How to make changes to DOM elements with JavaScript.",
   "short": "How to make changes to DOM elements with JavaScript.",
-  "category": "JavaScript"
+  "category": "JavaScript",
+  "thumbnail": "/images/uploads/javascript-making-dom-changes.png"
 }
