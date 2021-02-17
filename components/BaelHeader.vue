@@ -19,7 +19,6 @@
       <!-- <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2 center"> -->
       <div class="c-6 center" v-cloak>  
         <ul class="intro-links list-horizontal">
-            <li><nuxt-link to="/category/article/" exact>Articles &nbsp;</nuxt-link></li>
             <li><nuxt-link to="/books/" exact>Books &nbsp;</nuxt-link></li>
             <li>Tutorials +
             <ul>
