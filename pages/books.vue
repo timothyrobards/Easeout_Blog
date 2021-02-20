@@ -5,6 +5,7 @@
       <div class="item xs-block xs-full-height">
         <h1 class="xs-py3 main-title">Books 📚</h1>
         <div class="book-grid">
+
           <article class="card">
             <header class="card__thumb">
               <img src="https://www.easeout.co/images/uploads/the-css-guide-wide.png" alt="CSS book cover" />
@@ -23,12 +24,13 @@
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Updated September 2020.
+              <span class="icon"></span> Updated December 2020
             </footer>
           </article>
+
           <article class="card">
             <header class="card__thumb">
-              <img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="SASS book cover" />
+              <img src="https://www.easeout.co/images/uploads/getting-sassy-wide.png" alt="SASS book cover" />
             </header>
             <!-- <div class="card__price">
               <span class="card__price__current">$15</span>
@@ -37,10 +39,32 @@
             </div> -->
   
             <div class="card__body">
-              <div class="card__category card__category__sass"><a href="#">SASS</a></div>
-              <h2 class="card__title"><a href="#">Getting SASSY: A Practical Guide</a></h2>
+              <div class="card__category card__category__sass"><a href="/books/getting-sassy">SASS</a></div>
+              <h2 class="card__title"><a href="/books/getting-sassy">Getting SASSY: A Practical Guide</a></h2>
               <div class="card__subtitle">A Practical Guide to SASS.</div>
-              <p class="card__description">Available Soon! <br> <a class="read-more" href="https://easeout.eo.page/news">Sign up to be notified!</a></p>
+              <p class="card__description">Are you ready to take your web development skills to the next level? It's time to GET SASSY! Learn how to create faster, leaner, more maintainable code! &nbsp;<a class="read-more" href="/books/getting-sassy">Read More</a></p>
+            </div>
+  
+            <footer class="card__footer">
+              <span class="icon"></span> Updated February 2021
+            </footer>
+          </article>
+
+          <article class="card">
+            <header class="card__thumb">
+              <img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="JavaScript book cover" />
+            </header>
+            <!-- <div class="card__price">
+              <span class="card__price__current">$15</span>
+              <br/>
+              <span class="card__price__secondary">$25</span>
+            </div> -->
+  
+            <div class="card__body">
+              <div class="card__category card__category__javascript"><a href="#">JavaScript</a></div>
+              <h2 class="card__title"><a href="#">Mastering JavaScript</a></h2>
+              <div class="card__subtitle">The Complete Guide to JavaScript Mastery.</div>
+              <p class="card__description">Available Summer 2021 <br> <a class="read-more" href="https://easeout.eo.page/news">Sign up to be notified!</a></p>
             </div>
   
             <footer class="card__footer">
@@ -320,6 +344,11 @@ export default {
 
 .card__category__sass {
   background-color:#CF679A;
+}
+
+.card__category__javascript {
+  background-color:#EFD81D;
+  color: #000;
 }
 
 .card__title {

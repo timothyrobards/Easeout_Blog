@@ -11,11 +11,11 @@
               <p>Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert!</p><br>
               <p>We'll cover the basics from specificity &#38; selectors right through to the modern layout methods of flexbox &#38; grid. We'll also be diving into advanced topics such as CSS animation, architecture &#38; more!</p>
               <br><p>Available in PDF, EPUB &amp; MOBI. 🎉</p>
-              <br><a href="https://gumroad.com/l/the-css-guide" target="_blank"><button>Buy now!</button></a>
+              <br><a href="https://gum.co/the-css-guide" target="_blank"><button>Buy now!</button></a>
               <br><br><p class="italic">* Secured payment with Gumroad.</p>
           </div>
           <div>
-            <img src="https://www.easeout.co/images/uploads/the-css-guide-mockups.png" class="book-image" alt="CSS Guide cover mockups" />
+            <img src="https://www.easeout.co/images/uploads/the-css-guide-mockup.png" class="book-image" alt="CSS Guide cover mockups" />
           </div>
           <div class="book-contents">
             <h2>Table of Contents</h2>
@@ -98,7 +98,7 @@
             <ul class="book-details">
               <li>158 pages</li>
               <li>Available in PDF, EPUB &#38; MOBI Formats</li>
-              <li>Updated September 2020</li>
+              <li>Updated December 2020</li>
             </ul>
           </div>
         </div>
