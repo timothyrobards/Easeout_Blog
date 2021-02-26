@@ -5,5 +5,6 @@
   "title": "JavaScript Syntax & Structure",
   "description": "Learn the basics of JavaScript syntax & structure.",
   "short": "Learn the basics of JavaScript syntax & structure.",
-  "category": "JavaScript"
+  "category": "JavaScript",
+  "thumbnail": "/images/uploads/javascript_syntax_structure.png"
 }
