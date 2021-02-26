@@ -5,5 +5,6 @@
   "title": "Working with Strings in JavaScript",
   "description": "Learn how to work with JavaScript strings.",
   "short": "Learn how to work with JavaScript strings.",
-  "category": "JavaScript"
+  "category": "JavaScript",
+  "thumbnail": "/images/uploads/javascript-working-with-strings.png"
 }
