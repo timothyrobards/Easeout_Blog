@@ -21,7 +21,8 @@
       <!-- <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2 center"> -->
       <div class="c-6 center" v-cloak>  
         <ul class="intro-links list-horizontal">
-            <li><nuxt-link to="/books/" exact>Books &nbsp;</nuxt-link></li>
+            <li><nuxt-link to="/books/" exact>Books</nuxt-link></li>
+            <li><nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li> 
             <li>Tutorials +
             <ul>
                 <li><nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
@@ -36,7 +37,6 @@
               <ul>
                 <li><nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
                 <li><nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
-                <li><nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li> 
                 <li><nuxt-link to="/page/about/" exact>About</nuxt-link></li> 
                 <li><nuxt-link to="/advertise/" exact>Advertise</nuxt-link></li> 
                 <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li>

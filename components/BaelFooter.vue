@@ -95,8 +95,8 @@
                     <li><nuxt-link to="/advertise/" exact>Advertise</nuxt-link></li> |
                     <li><nuxt-link to="/books/" exact>Books</nuxt-link></li> |
                     <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li> |
-                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li> | 
                     <li><a href="https://www.easeout.co/rss.xml">RSS</a></li> | 
+                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li> | 
                     <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li> | 
                     <li><a href="https://gum.co/CIrVK" target="_blank">Buy me a coffee ☕</a></li>                    
                 </ul>
