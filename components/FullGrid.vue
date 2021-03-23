@@ -22,16 +22,34 @@
     </div>
   </div>
 
-    <div v-if="items2[0]" class="r browse full-height" :style="`margin-top:${navbarheight}px;`">
-      <div v-if="items2[pi]" v-for="(p,pi) in items2" :key="p.pi" class="xs-p2 full-item">  
+    <div v-if="items2[0]" class="full-height single" :style="`margin-top:${navbarheight}px;`">
+      <div class="card-grid">
+      <div v-if="items2[pi]" v-for="(p,pi) in items2" :key="p.pi">  
 
-        <div v-if="p.thumbnail" class="item xs-block xs-full-height xs-flex xs-relative xs-flex-align-start xs-flex-justify-end xs-text-left">
-           
-           <div class="xs-text-left xs-flex xs-full-height xs-flex-justify-end xs-flex-align-end xs-width-auto">
+        <article class="card">
 
-            <nuxt-link class="full-bg-link" :to="p._path">
-             {{p.title}} <span class="card-date">/ {{p.dateshort}}</span>
+        <div v-if="p.thumbnail" class="">
+
+           <nuxt-link :to="p._path">
+              <header class="card__thumb">
+              <img  v-lazy="p.thumbnail" :key="p.thumbnail">
+              </header>
+              <div v-if="!p.thumbnail" class="full-bg-color"></div>
             </nuxt-link>
+           
+           <div>
+            
+            <div class="card__body">
+            <nuxt-link class="full-bg-link" :to="p._path">
+              <h2 class="card__title">{{p.title}}</h2> 
+              <p class="card__subtitle">{{p.short}}</p>
+              <p class="card__description">
+                {{p.body | truncate(150, '...') | striphtml | stripmarkdown }}
+                <nuxt-link class="read-more" :to="p._path">Read more ➡️</nuxt-link>
+              </p>
+              <footer class="card__footer">{{p.dateshort}}</footer>
+            </nuxt-link>
+            </div>
 
             <nuxt-link v-if="p.category === 'Inspiration'" class="tag tag-pos tag-inspo tag__link text-white" :to="`/category/inspiration/`">
              {{p.category}}
@@ -45,19 +63,53 @@
              {{p.category}}
             </nuxt-link>
 
-           </div>
-
-            <nuxt-link  :to="p._path">
-              <img  v-lazy="p.thumbnail" :key="p.thumbnail" class="full-bg-image">
-              <div v-if="!p.thumbnail" class="full-bg-color"></div>
+            <nuxt-link v-if="p.category === 'React'" class="tag tag-pos tag-react tag__link text-black" :to="`/category/react/`">
+             {{p.category}}
             </nuxt-link>
 
+            <nuxt-link v-if="p.category === 'JavaScript'" class="tag tag-pos tag-javascript tag__link text-black" :to="`/category/javascript/`">
+             {{p.category}}
+            </nuxt-link>
+
+            <nuxt-link v-if="p.category === 'CSS'" class="tag tag-pos tag-css tag__link text-black" :to="`/category/css/`">
+             {{p.category}}
+            </nuxt-link>
+
+            <nuxt-link v-if="p.category === 'HTML'" class="tag tag-pos tag-html tag__link text-white" :to="`/category/html/`">
+             {{p.category}}
+            </nuxt-link>
+
+            <nuxt-link v-if="p.category === 'SASS'" class="tag tag-pos tag-sass tag__link text-white" :to="`/category/sass/`">
+             {{p.category}}
+            </nuxt-link>
+
+            <nuxt-link v-if="p.category === 'GIT'" class="tag tag-pos tag-git tag__link text-white" :to="`/category/git/`">
+             {{p.category}}
+            </nuxt-link>
+
+           </div>
+
         </div>
-        <div v-else class="item item-txt xs-block xs-full-height xs-flex xs-relative xs-flex-align-center xs-flex-justify-center xs-text-center">
-        
-        <nuxt-link class="nobg-link" :to="p._path">
-          {{p.title}}
-          <div class="item-txt-secondary"> {{p.description}} </div>
+        <div v-else>
+
+        <nuxt-link  :to="p._path">
+              <header class="card__thumb">
+              <img src="https://www.easeout.co/images/uploads/grid.png">
+              </header>
+              <div v-if="!p.thumbnail" class="full-bg-color"></div>
+            </nuxt-link>
+            
+            <div class="card__body">
+            <nuxt-link class="full-bg-link" :to="p._path">
+              <h2 class="card__title">{{p.title}}</h2> 
+              <p class="card__subtitle">{{p.short}}</p>
+              <p class="card__description">
+                {{p.body | truncate(150, '...') | striphtml | stripmarkdown }}
+                <nuxt-link class="read-more" :to="p._path">Read more ➡️</nuxt-link>
+              </p>
+              <footer class="card__footer">{{p.dateshort}}</footer>
+            </nuxt-link>
+            </div>
 
           <nuxt-link v-if="p.category === 'CSS'" class="tag tag-pos tag-css tag__link text-black" :to="`/category/css/`">
           {{p.category}}
@@ -84,10 +136,10 @@
           </nuxt-link>
           
         </nuxt-link>
-        
-
     
         </div>
+        </article>
+      </div>
       </div>
 
     </div>
@@ -215,6 +267,22 @@ export default {
     }
   },
 
+  filters: {
+        truncate: function (text, length, suffix) {
+            if (text.length > length) {
+                return text.substring(0, length) + suffix;
+            } else {
+                return text;
+            }
+        },
+        striphtml: function (string) {
+            return string.replace(/<\/?[^>]+>/ig, " "); 
+        },
+        stripmarkdown: function (string) {
+            return string.replace(/(__|\*|\#)/gm, '');
+        },
+  },
+
   updated() {
     this.$nextTick(() => {
       this.pageCheck();
@@ -278,7 +346,7 @@ LANDING HERO STYLES
 
 .main {
   background-color: #fff;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23006dff' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23006dff' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
 }
 
 :root {
@@ -491,5 +559,275 @@ ul.list-horizontal li { display: inline-block; } */
   .tag__link {
     padding: 0 .5rem;
   }
+
+/**
+* CARD GRID
+**/
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+  padding-top: 2em;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/**
+* BOOK CARD
+**/
+.card {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  -webkit-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  margin-bottom: 1em;
+}
+.card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+/**
+* THUMB
+**/
+.card__thumb {
+  height: 250px;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  object-fit: cover;
+}
+.card__thumb img {
+  display: block;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.card__thumb__centered {
+  display: none;
+}
+.card:hover .card__thumb {
+  height: 140px;
+}
+
+.card:hover .card__thumb img {
+  opacity: 0.6;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1000px) {
+  .card__thumb img {
+    object-position: 0px 0px;
+  }
+}
+
+/**
+* BODY
+**/
+.card__body {
+  position: relative;
+  height: 190px;
+  padding: 0px 20px 0px 20px;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.card:hover .card__body {
+  height: 300px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card__body {
+    height: 120px;
+  }
+  .card:hover .card__body {
+    height: 120px !important;
+  }
+
+  .card__thumb {
+    height: 300px;
+  }
+  .card:hover .card__thumb {
+    height: 300px;
+  }
+  
+  .card__description {
+    display: none;
+  }
+
+  .card__subtitle {
+    display: none;
+  }
+
+  .card:hover .card__thumb img {
+    opacity: 0.6;
+    -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+    }
+}
+
+/* @media only screen and (max-width: 800px) {
+  .card__body {
+    height: 150px !important;
+  }
+  
+  .card:hover .card__body {
+    height: 240px !important;
+  }
+} */
+
+@media only screen and (max-width: 600px) {  
+  .card__body {
+    height: 15vh;
+  }
+  .card:hover .card__body {
+    height: 15vh !important;
+  }
+
+  .card__thumb {
+    height: 35vh;
+  }
+  .card:hover .card__thumb {
+    height: 35vh;
+  }
+
+  .card__thumb img{
+    /* object-position: 0px -4vh; */
+  }
+}
+
+@media only screen and (max-width: 360px) {  
+  .card__thumb img{
+    /* object-position: 0px -4vh; */
+  }
+}
+
+.card__category {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  height: 25px;
+  padding: 0 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 25px;
+}
+
+.card__category__css {
+  background-color: #95DEE3;
+  color: #000;
+}
+
+.card__category__sass {
+  background-color:#CF679A;
+}
+
+.card__category__javascript {
+  background-color:#EFD81D;
+  color: #000;
+}
+
+.card__title {
+  margin: 0;
+  padding: 0 0 10px 0;
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card__subtitle {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 19px;
+}
+
+.card__description {
+  position: absolute;
+  /* top: 120px;
+  left: 20px;
+  right: 20px;
+  bottom: 56px; */
+  margin: 0;
+  padding: 0 20px 0 0;
+  color: #666C74;
+  font-size: 14px;
+  line-height: 25px;
+  opacity: 0;
+  -webkit-transform: translateY(45px);
+          transform: translateY(45px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+@media only screen and (max-width: 800px) {
+  .card__description {
+    position: static;
+  }
+}
+
+.card:hover .card__description {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.card__footer {
+  position: absolute;
+  bottom: 12px;
+  /* left: 20px; */
+  right: 20px;
+  font-size: 11px;
+  color: #A3A9A2;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: -2px 0 0 2px;
+  font-size: 18px;
+}
+.icon + .icon {
+  padding-left: 10px;
+}
+
+.read-more {
+  color: #0F65EF !important;
+}
+
+.read-more:hover {
+  opacity: .8;
+}
 
 </style>
