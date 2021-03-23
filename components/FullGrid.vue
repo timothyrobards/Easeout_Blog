@@ -702,10 +702,10 @@ ul.list-horizontal li { display: inline-block; } */
 
 @media only screen and (max-width: 600px) {  
   .card__body {
-    height: 15vh;
+    height: 17vh;
   }
   .card:hover .card__body {
-    height: 15vh !important;
+    height: 17vh !important;
   }
 
   .card__thumb {
@@ -713,6 +713,12 @@ ul.list-horizontal li { display: inline-block; } */
   }
   .card:hover .card__thumb {
     height: 35vh;
+  }
+
+  .card:hover .card__thumb img {
+    opacity: 0.6;
+    -webkit-transform: scale(1);
+          transform: scale(1);
   }
 
   .card__thumb img{
