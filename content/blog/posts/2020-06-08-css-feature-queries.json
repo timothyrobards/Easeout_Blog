@@ -5,5 +5,6 @@
   "title": "CSS Feature Queries",
   "description": "How to use @supports to specify feature queries.",
   "short": "How to use @supports to specify feature queries.",
-  "category": "CSS"
+  "category": "CSS",
+  "thumbnail": "/images/uploads/css-feature-queries-min.png"
 }
