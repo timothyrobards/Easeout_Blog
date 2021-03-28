@@ -5,5 +5,6 @@
   "title": "CSS Media Queries",
   "description": "How to build responsive web pages with media queries.",
   "short": "How to build responsive web pages with media queries.",
-  "category": "CSS"
+  "category": "CSS",
+  "thumbnail": "/images/uploads/css-media-queries-min.png"
 }
