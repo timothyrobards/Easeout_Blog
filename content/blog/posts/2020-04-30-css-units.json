@@ -5,5 +5,6 @@
   "title": "CSS Units",
   "description": "How to work with units in CSS (em, rem, vh, vw, etc!).",
   "short": "How to work with units in CSS (em, rem, vh, vw, etc!).",
-  "category": "CSS"
+  "category": "CSS",
+  "thumbnail": "/images/uploads/css-units-min.png"
 }
