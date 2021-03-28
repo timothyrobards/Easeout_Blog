@@ -709,10 +709,10 @@ ul.list-horizontal li { display: inline-block; } */
   }
 
   .card__thumb {
-    height: 35vh;
+    height: 38vh;
   }
   .card:hover .card__thumb {
-    height: 35vh;
+    height: 38vh;
   }
 
   .card:hover .card__thumb img {
