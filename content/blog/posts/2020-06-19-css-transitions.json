@@ -5,5 +5,6 @@
   "title": "CSS Transitions",
   "description": "How to animate CSS elements with transitions.",
   "short": "How to animate CSS elements with transitions.",
-  "category": "CSS"
+  "category": "CSS",
+  "thumbnail": "/images/uploads/css-transitions-min.png"
 }
