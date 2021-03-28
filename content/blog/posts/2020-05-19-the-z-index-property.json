@@ -5,5 +5,6 @@
   "title": "The z-index Property",
   "description": "Learn all about stacking CSS elements with z-index.",
   "short": "Learn all about stacking CSS elements with z-index.",
-  "category": "CSS"
+  "category": "CSS",
+  "thumbnail": "/images/uploads/css-z-index-min.png"
 }
