@@ -5,5 +5,6 @@
   "title": "CSS calc()",
   "description": "Learn how to perform math in CSS.",
   "short": "Learn how to perform math in CSS.",
-  "category": "CSS"
+  "category": "CSS",
+  "thumbnail": "/images/uploads/css-calc-min.png"
 }
