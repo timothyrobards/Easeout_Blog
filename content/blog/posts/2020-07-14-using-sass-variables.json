@@ -5,5 +5,6 @@
   "title": "Using SASS Variables",
   "description": "An introduction to using variables with SASS.",
   "short": "An introduction to using variables with SASS.",
-  "category": "SASS"
+  "category": "SASS",
+  "thumbnail": "/images/uploads/sass-variables-min.png"
 }
