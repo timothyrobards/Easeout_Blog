@@ -5,5 +5,6 @@
   "title": "SASS Partials & Importing",
   "description": "Learn how partials & importing works in SASS.",
   "short": "Learn how partials & importing works in SASS.",
-  "category": "SASS"
+  "category": "SASS",
+  "thumbnail": "/images/uploads/sass-partials-importing-min.png"
 }
