@@ -5,5 +5,6 @@
   "title": "Nesting in SASS",
   "description": "A brief introduction to the SASS nesting syntax.",
   "short": "A brief introduction to the SASS nesting syntax.",
-  "category": "SASS"
+  "category": "SASS",
+  "thumbnail": "/images/uploads/sass-nesting-min.png"
 }
