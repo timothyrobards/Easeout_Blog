@@ -5,5 +5,6 @@
   "title": "Understanding SASS Control Directives",
   "description": "How to add looping and conditionals to our stylesheets.",
   "short": "How to add looping and conditionals to our stylesheets.",
-  "category": "SASS"
+  "category": "SASS",
+  "thumbnail": "/images/uploads/sass-control-directives-min.png"
 }
