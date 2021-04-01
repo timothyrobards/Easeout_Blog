@@ -5,5 +5,6 @@
   "title": "An Introduction to SASS",
   "description": "A look into extending your CSS functionality with SASS.",
   "short": "A look into extending your CSS functionality with SASS.",
-  "category": "SASS"
+  "category": "SASS",
+  "thumbnail": "/images/uploads/sass-introduction-min.png"
 }
