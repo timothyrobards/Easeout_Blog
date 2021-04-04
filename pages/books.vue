@@ -20,7 +20,7 @@
               <div class="card__category card__category__css"><a href="/books/the-css-guide">CSS</a></div>
               <h2 class="card__title"><a href="/books/the-css-guide">The CSS Guide</a></h2>
               <div class="card__subtitle">The Complete Guide to Modern CSS.</div>
-              <p class="card__description">Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert! &nbsp;<a class="read-more" href="/books/the-css-guide">Read More</a></p>
+              <p class="card__description__book">Whether you're new to web development or a more seasoned developer looking to refine your skills. The CSS Guide will take you from beginner to expert! &nbsp;<a class="read-more" href="/books/the-css-guide">Read More</a></p>
             </div>
   
             <footer class="card__footer">
@@ -42,7 +42,7 @@
               <div class="card__category card__category__sass"><a href="/books/getting-sassy">SASS</a></div>
               <h2 class="card__title"><a href="/books/getting-sassy">Getting SASSY: A Practical Guide</a></h2>
               <div class="card__subtitle">A Practical Guide to SASS.</div>
-              <p class="card__description">Are you ready to take your web development skills to the next level? It's time to GET SASSY! Learn how to create faster, leaner, more maintainable code! &nbsp;<a class="read-more" href="/books/getting-sassy">Read More</a></p>
+              <p class="card__description__book">Are you ready to take your web development skills to the next level? It's time to GET SASSY! Learn how to create faster, leaner, more maintainable code! &nbsp;<a class="read-more" href="/books/getting-sassy">Read More</a></p>
             </div>
   
             <footer class="card__footer">
@@ -64,7 +64,7 @@
               <div class="card__category card__category__javascript"><a href="#">JavaScript</a></div>
               <h2 class="card__title"><a href="#">Mastering JavaScript</a></h2>
               <div class="card__subtitle">The Complete Guide to JavaScript Mastery.</div>
-              <p class="card__description">Available Summer 2021 <br> <a class="read-more" href="https://easeout.eo.page/news">Sign up to be notified!</a></p>
+              <p class="card__description__book">Available Summer 2021 <br> <a class="read-more" href="https://easeout.eo.page/news">Sign up to be notified!</a></p>
             </div>
   
             <footer class="card__footer">
@@ -286,7 +286,7 @@ export default {
     height: 150px !important;
   }
   
-  .card__description {
+  .card__description__book {
     position: static !important;
   }
   
@@ -366,7 +366,7 @@ export default {
   font-size: 19px;
 }
 
-.card__description {
+.card__description__book {
   position: absolute;
   top: 120px;
   left: 20px;
@@ -389,12 +389,12 @@ export default {
 }
 
 @media only screen and (max-width: 800px) {
-  .card__description {
+  .card__description__book {
     position: static;
   }
 }
 
-.card:hover .card__description {
+.card:hover .card__description__book {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
