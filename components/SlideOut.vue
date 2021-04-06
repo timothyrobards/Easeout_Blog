@@ -17,46 +17,40 @@
         <nuxt-link to="/" exact>Home</nuxt-link>
       </li> -->
       <li class="spacer-sub--small"></li>
+      <!-- <li class="spacer-sub"></li> -->
       <li class="zap-slideout-menu-item--small">
         Menu
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-article text-white">
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
         <nuxt-link to="/category/article/" exact>Articles</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left tag-inspo text-white">
-        <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link>
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-template text-white">
-        <nuxt-link to="/category/template/" exact>Templates</nuxt-link>
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left tag-news text-white">
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
         <nuxt-link to="/category/newsletter/" exact>News</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-books text-white">
-        <nuxt-link to="/books/" exact>Books</nuxt-link>
-      </li>
-      <!-- <li class="spacer-sub"></li> -->
-      <li class="zap-slideout-menu-item--small">
-        Tutorials
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-css text-black">
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
         <nuxt-link to="/category/css/" exact>CSS</nuxt-link>
       </li> 
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left tag-sass text-white">
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
         <nuxt-link to="/category/sass/" exact>SASS</nuxt-link>
       </li> 
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-javascript text-black">
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
         <nuxt-link to="/category/javascript/" exact>JavaScript</nuxt-link>
       </li> 
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left tag-react text-black">
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
         <nuxt-link to="/category/react/" exact>REACT</nuxt-link>
       </li> 
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary tag-html text-white">
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
         <nuxt-link to="/category/html/" exact>HTML</nuxt-link>
       </li> 
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left tag-git text-white">
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
         <nuxt-link to="/category/git/" exact>GIT</nuxt-link>
       </li> 
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
+        <nuxt-link to="/category/template/" exact>Templates</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
+        <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link>
+      </li>
       <!-- <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary text-black p-left">
         <nuxt-link to="/category/javascript" exact>JavaScript</nuxt-link>
       </li> -->
@@ -67,27 +61,30 @@
         Links
       </li> -->
       <!-- <li class="spacer-sub"></li> -->
-      <li class="zap-slideout-menu-item--small">
+      <!-- <li class="zap-slideout-menu-item--small">
         Links
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
+      </li> -->
+      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
         <nuxt-link to="/page/about/" exact>About</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
+      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
+        <nuxt-link to="/books/" exact>Books</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
         <nuxt-link to="/advertise" exact>Advertise</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
+      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
         <nuxt-link to="/page/contact/" exact>Contact</nuxt-link>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
+      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
         <a href="https://easeout.eo.page/news" exact>Subscribe</a>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary">
+      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
         <a href="https://twitter.com/easeoutco" exact>Twitter</a>
       </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary box-shadow-thick nav-item-secondary p-left">
+      <!-- <li class="zap-slideout-menu-item--small intro-links">
         <a href="https://www.pinterest.com/easeoutco/" exact>Pinterest</a>
-      </li>
+      </li> -->
       <!-- <li v-if="myPages" v-for="(pg,i) in myPages" :key="`pg-${i}`" class="zap-slideout-menu-item--small nav-item-secondary box-shadow-thick">
         <nuxt-link :to="pg._path">{{pg.title}}</nuxt-link>
       </li>
@@ -338,10 +335,10 @@ export default {
   color: #ff6060;
   padding: 0 5px 0 5px;
   text-decoration:none !important;
-  letter-spacing: 2px;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 34px;
+  // letter-spacing: 2px;
+  // font-size: 2rem;
+  // font-weight: 600;
+  // line-height: 34px;
 }
 
 .nav-item-primary {
@@ -351,13 +348,22 @@ export default {
 }
 
 .nav-item-secondary a {
-  color:#282C34;
-  padding: 0 5px 0 5px;
-  text-decoration:none !important;
+  // color:#282C34;
+  padding: 5px;
+  text-decoration: none !important;
   letter-spacing: 1px;
   font-size: 1rem;
-  font-weight: 600;
+  // font-weight: 600;
   line-height: 22px;
+}
+
+.nav-item-secondary a:hover { 
+  background-color: yellow;
+  text-decoration: none !important;
+}
+
+.nav-item-secondary:hover { 
+  text-decoration: none !important;
 }
 
 .nav-item-secondary {
@@ -366,6 +372,7 @@ export default {
   width: 47%;
   display: inline-block !important; 
   margin-top: 10px !important;
+  outline: 1px dashed black;
 }
 
 .p-left{
