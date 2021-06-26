@@ -16,6 +16,19 @@
     <description>Web Design &amp; Development Tutorials</description>
 
     <item>
+        <title>Mastering Loops</title>
+        <link>https://www.easeout.co/blog/2021-06-26-mastering-loops</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2021-06-26-mastering-loops</guid>
+        <pubDate>Sat, 26 Jun 2021 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/javascript-loops.png"/>
+            <p>A review of the various ways to loop in JavaScript...</p>
+            <p><a href="https://www.easeout.co/blog/2021-06-26-mastering-loops">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description>
+    </item>
+    
+    <item>
         <title>Frontend News #40</title>
         <link>https://www.easeout.co/blog/2021-06-15-frontend-news-40</link>
         <guid isPermaLink="true">https://www.easeout.co/blog/2021-06-15-frontend-news-40</guid>
