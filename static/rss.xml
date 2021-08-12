@@ -16,6 +16,19 @@
     <description>Web Design &amp; Development Tutorials</description>
 
     <item>
+        <title>What are classes?</title>
+        <link>https://www.easeout.co/blog/2021-08-12-what-are-classes</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2021-08-12-what-are-classes</guid>
+        <pubDate>Wed, 11 Aug 2021 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/javascript-classes.png"/>
+            <p>What are classes in JavaScript? ...</p>
+            <p><a href="https://www.easeout.co/blog/2021-08-12-what-are-classes">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description>
+    </item>
+    
+    <item>
         <title>Mastering Functions</title>
         <link>https://www.easeout.co/blog/2021-07-23-mastering-functions</link>
         <guid isPermaLink="true">https://www.easeout.co/blog/2021-07-23-mastering-functions</guid>
@@ -23,7 +36,7 @@
         <description>
             <![CDATA[<img src="https://www.easeout.co/images/uploads/javascript-functions-min.png"/>
             <p>How to build functions in JavaScript...</p>
-            <p><a href="">Continue reading on EASEOUT >></a></p>
+            <p><a href="https://www.easeout.co/blog/2021-07-23-mastering-functions">Continue reading on EASEOUT >></a></p>
             <br />]]>
         </description>
     </item>
