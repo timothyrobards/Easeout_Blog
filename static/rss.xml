@@ -16,6 +16,19 @@
     <description>Web Design &amp; Development Tutorials</description>
 
     <item>
+        <title>Fetching Data from a server</title>
+        <link>https://www.easeout.co/blog/2021-10-13-fetching-data-from-a-server</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2021-10-13-fetching-data-from-a-server</guid>
+        <pubDate>Wed, 13 Oct 2021 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/javascript-fetching-data.png"/>
+            <p>Learn how to fetch data using JavaScript...</p>
+            <p><a href="https://www.easeout.co/blog/2021-10-13-fetching-data-from-a-server">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description>
+    </item>
+    
+    <item>
         <title>Understanding APIs</title>
         <link>https://www.easeout.co/blog/2021-09-14-understanding-apis</link>
         <guid isPermaLink="true">https://www.easeout.co/blog/2021-09-14-understanding-apis</guid>
