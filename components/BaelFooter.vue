@@ -44,7 +44,7 @@
         </div> -->
         <div class="xs-text-center xs-p2 xs-border footer-cta" :class="signupAboutSize">
             <div class="item">
-                <div v-show="siteDescription" class="footer__heading footer__heading1 xs-mb2 xs-text-3">Subscribe to Easeout</div>
+                <!-- <div v-show="siteDescription" class="footer__heading footer__heading1 xs-mb2 xs-text-3">Subscribe to Easeout</div> -->
                 <!-- EMAIL OCTOPUS CODE (linked EO stylesheet in nuxt.config too) -->
 
                 <div class="email-octopus-form-wrapper">
@@ -59,8 +59,9 @@
                 >
         
                 <div class="email-octopus-form-row">
-                    <p>⭐ Coding Tutorials ⭐ Design Inspiration</p>
-                    <p>⭐ Web Development News ⭐ Freebies!</p>
+                    <p>🤓 Want to stay up to date?</p>
+                    <p>🚀 And join our growing community?</p>
+                    <p>🎉 Subscribe to our newsletter today!</p>
                     <br>
                     <input id="field_0" name="field_0" type="email" placeholder="Your email here...">
                 </div>
@@ -75,7 +76,7 @@
                     <input type="hidden"
                     name="successRedirectUrl"
                     value="">
-                    <button type="submit">Sign up</button>
+                    <button type="submit" class="subbtn">Subscribe</button>
                 </div>
                 </form>   
                 </div>
@@ -234,11 +235,13 @@ export default {
 }
 
 .footer-cta {
-    background-color: #282C34; 
+    /* background-color: #282C34;  */
+    background: #C400FF; 
+    background: transparent linear-gradient(90deg, #C400FF 0%, #0031FF 100%) 0% 0% no-repeat padding-box;
 }
 
 .footer-cta p, .footer__heading1 {
-    font-family: monospace;
+    /* font-family: monospace; */
     font-size: 1.2em;
     color: #f0f0f0;
     line-height: 27px;
@@ -246,6 +249,20 @@ export default {
 
 .footer__heading1 {
     letter-spacing: 1.2px;
+}
+
+.subbtn {
+    font-size: 1.2em;
+    color: #f0f0f0;
+    font-weight: 400;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px; 
+    background: transparent;
+}
+
+.subbtn:hover {      
+    background-color: #C300FF;      
+    color: white; 
 }
 
 @media (max-width: 640px) {
