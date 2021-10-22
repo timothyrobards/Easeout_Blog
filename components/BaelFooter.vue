@@ -267,7 +267,7 @@ export default {
 
 @media (max-width: 640px) {
   .footer-cta p, .footer__heading1 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 
