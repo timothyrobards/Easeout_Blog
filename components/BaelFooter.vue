@@ -60,7 +60,7 @@
         
                 <div class="email-octopus-form-row">
                     <p>🤓 Want to stay up to date?</p>
-                    <p>🚀 And join our growing community?</p>
+                    <p>🚀 And join a growing community?</p>
                     <p>🎉 Subscribe to our newsletter today!</p>
                     <br>
                     <input id="field_0" name="field_0" type="email" placeholder="Your email here...">
