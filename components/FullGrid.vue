@@ -6,9 +6,16 @@
       <div class="diagonal-box">
         <div class="content">
           <h1 class="intro">
-            <span class="outline">Design & code</span> tutorials to <span class="redline">boost</span> your web development skills. 💻 🌈
+            <span class="outline">Boost</span> <span class="redline"></span> your web development skills 🚀
+            <!-- <span class="outline">Launch</span> <span class="redline"></span> your freelancing business! 🚀 -->
           </h1>
           <br><br><br>
+          <!-- <p>Hey, I'm Tim. I started Easeout in 2019. My focus was to generate a side-income while I was working a full-time job and this website started off as a resource for others interested in learning web development.</p>
+          <br><p>I soon found out that there were thousands in the same boat as me, but they found it hard to get clients and to earn a consistent income.</p>
+          <br><p>If you're new here, start by reading the Blog or x.</p>    
+          <br><p>Either way, it's an honour to partner with you on your web development and freelancing journey.</p>       -->
+          <!-- <p>MOVE BELOW TO A SEPERATE 'blog' PAGE & MIMIC SWD HOMEPAGE! -->
+            
           <!-- <ul class="intro-links list-horizontal">
             <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
             <li>📚 <nuxt-link to="/books/" exact>Books</nuxt-link></li>
@@ -366,7 +373,14 @@ LANDING HERO STYLES
 }
 @media (min-width: 42em) {
   :root {
-    --width: 64rem;
+    /* --width: 64rem; */
+    --width: 75%;
+  }
+}
+
+@media (max-width: 15em) {
+  :root {
+    --width: 90%;
   }
 }
 
