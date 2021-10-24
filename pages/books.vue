@@ -24,7 +24,7 @@
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Updated December 2020
+              <span class="icon"></span> Available now!
             </footer>
           </article>
 
@@ -46,7 +46,7 @@
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Updated February 2021
+              <span class="icon"></span> Available now!
             </footer>
           </article>
 
@@ -68,7 +68,7 @@
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Coming Soon!
+              <span class="icon"></span> Coming soon!
             </footer>
           </article>
         </div>
