@@ -98,7 +98,7 @@
             <ul class="book-details">
               <li>158 pages</li>
               <li>Available in PDF, EPUB &#38; MOBI Formats</li>
-              <li>Updated December 2020</li>
+              <li>Updated for 2021!</li>
             </ul>
           </div>
         </div>
