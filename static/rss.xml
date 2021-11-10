@@ -16,6 +16,19 @@
     <description>Web Design &amp; Development Tutorials</description>
 
     <item>
+        <title>An Introduction to REST APIs</title>
+        <link>https://www.easeout.co/blog/2021-11-09-an-introduction-to-rest-apis</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2021-11-09-an-introduction-to-rest-apis</guid>
+        <pubDate>Tue, 09 Nov 2021 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/javascript-rest.png"/>
+            <p>An introduction to REST APIs in JavaScript...</p>
+            <p><a href="https://www.easeout.co/blog/2021-11-09-an-introduction-to-rest-apis">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description>
+    </item>
+
+    <item>
         <title>Fetching Data from a server</title>
         <link>https://www.easeout.co/blog/2021-10-13-fetching-data-from-a-server</link>
         <guid isPermaLink="true">https://www.easeout.co/blog/2021-10-13-fetching-data-from-a-server</guid>
