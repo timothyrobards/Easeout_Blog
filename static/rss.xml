@@ -16,6 +16,19 @@
     <description>Web Design &amp; Development Tutorials</description>
 
     <item>
+        <title>Understanding ES6</title>
+        <link>https://www.easeout.co/blog/2021-12-07-understanding-es6</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2021-12-07-understanding-es6</guid>
+        <pubDate>Tue, 07 Dec 2021 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/javascript-es6.png"/>
+            <p>Learn what changed in JavaScript with ES6...</p>
+            <p><a href="https://www.easeout.co/blog/2021-12-07-understanding-es6">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description>
+    </item>
+    
+    <item>
         <title>An Introduction to REST APIs</title>
         <link>https://www.easeout.co/blog/2021-11-09-an-introduction-to-rest-apis</link>
         <guid isPermaLink="true">https://www.easeout.co/blog/2021-11-09-an-introduction-to-rest-apis</guid>
