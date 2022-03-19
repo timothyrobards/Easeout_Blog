@@ -16,6 +16,19 @@
     <description>Web Design &amp; Development Tutorials</description>
 
     <item>
+        <title>What is 'this'?</title>
+        <link>https://www.easeout.co/blog/2022-03-19-what-is-this</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2022-03-19-what-is-this</guid>
+        <pubDate>Sat, 19 Mar 2022 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/javascript-what-this.png"/>
+            <p>Learn what 'this' is in JavaScript..</p>
+            <p><a href="https://www.easeout.co/blog/2022-03-19-what-is-this">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description> 
+    </item>
+    
+    <item>
         <title>Array & Object Methods</title>
         <link>https://www.easeout.co/blog/2022-02-14-array-object-methods</link>
         <guid isPermaLink="true">https://www.easeout.co/blog/2022-02-14-array-object-methods</guid>
