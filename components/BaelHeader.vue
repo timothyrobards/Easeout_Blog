@@ -4,8 +4,10 @@
     <div class="topbar">
       <!-- <p>👉 Get -->
       <!-- <nuxt-link to="/books/the-css-guide" class="promo-link" exact>The CSS Guide</nuxt-link> ebook. Available now! 🎉🎉</p> -->
-      <p>🚨 The
-      <nuxt-link to="/books/getting-sassy" class="promo-link" exact>GETTING SASSY</nuxt-link> guide is now available! 🚨</p>
+      <!-- <p>🚨 The
+      <nuxt-link to="/books/getting-sassy" class="promo-link" exact>GETTING SASSY</nuxt-link> guide is now available! 🚨</p> -->
+      <p>👉&nbsp;
+      <nuxt-link to="/books/mastering-javascript" class="promo-link" exact>Mastering JavaScript</nuxt-link> is available now! 🎉🎉</p>
     </div>
 
     <div class="r">
