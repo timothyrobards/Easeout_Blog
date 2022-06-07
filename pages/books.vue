@@ -52,7 +52,7 @@
 
           <article class="card">
             <header class="card__thumb">
-              <img src="https://www.easeout.co/images/uploads/coming-soon.jpg" alt="JavaScript book cover" />
+              <img src="https://www.easeout.co/images/uploads/javascript-mastery-wide-.png" alt="JavaScript book cover" />
             </header>
             <!-- <div class="card__price">
               <span class="card__price__current">$15</span>

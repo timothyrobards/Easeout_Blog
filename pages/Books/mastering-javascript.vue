@@ -17,7 +17,7 @@
               <br><br><p class="italic">* Secured payment with Gumroad.</p>
           </div>
           <div>
-            <img src="https://www.easeout.co/images/uploads/getting-sassy-mockup.png" class="book-image" alt="Mastering JavaScript cover mockup" />
+            <img src="https://www.easeout.co/images/uploads/javascript-mastery-mockup.jpg" class="book-image" alt="Mastering JavaScript cover mockup" />
           </div>
           <div class="book-contents">
             <h2>Table of Contents</h2>
