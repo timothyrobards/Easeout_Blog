@@ -61,14 +61,14 @@
             </div> -->
   
             <div class="card__body">
-              <div class="card__category card__category__javascript"><a href="#">JavaScript</a></div>
+              <div class="card__category card__category__javascript"><a href="/books/mastering-javascript">JavaScript</a></div>
               <h2 class="card__title"><a href="#">Mastering JavaScript</a></h2>
               <div class="card__subtitle">The Complete Guide to JavaScript Mastery.</div>
-              <p class="card__description__book">Available Summer 2021 <br> <a class="read-more" href="https://easeout.eo.page/news">Sign up to be notified!</a></p>
+              <p class="card__description__book">JavaScript has changed quite substantially over the past few years! Mastering JavaScript gives both beginners and professionals a firm grasp of the fundamentals. &nbsp;<a class="read-more" href="/books/mastering-javascript">Read More</a></p>
             </div>
   
             <footer class="card__footer">
-              <span class="icon"></span> Coming soon!
+              <span class="icon"></span> Available now!
             </footer>
           </article>
         </div>
