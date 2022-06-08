@@ -236,7 +236,7 @@ export default {
     watchQuery: ['page'],
 
    async asyncData({ params, app, payload, route, store }) {
-    await store.commit("SET_TITLE", "Getting SASSY");
+    await store.commit("SET_TITLE", "Mastering JavaScript");
     await store.commit("SET_CRUMB", 'Books');
   },
      transition (to, from) {
@@ -249,11 +249,11 @@ export default {
   },
     head() {
     return {
-      title: "Getting SASSY | " + this.$store.state.siteInfo.sitename,
+      title: "Mastering JavaScript | " + this.$store.state.siteInfo.sitename,
       meta: [{
         hid: 'description',
         name: 'description',
-        content: 'A Practical Guide to SASS.'
+        content: 'The Complete Guide the JavaScript Mastery.'
       }],
     };
   },
