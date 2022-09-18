@@ -60,8 +60,8 @@
         
                 <div class="email-octopus-form-row">
                     <p>🤓 Want to stay up to date?</p>
-                    <p>🚀 And join a growing community?</p>
-                    <p>🎉 Subscribe to our newsletter today!</p>
+                    <p>🚀 And join our community?</p>
+                    <p>🎉 Subscribe to the newsletter today!</p>
                     <br>
                     <input id="field_0" name="field_0" type="email" placeholder="Your email here...">
                 </div>
@@ -92,14 +92,13 @@
             <div class="item">
                 <div v-show="connectData" class="footer__heading xs-mb2">Links</div>
                 <ul class="list-unstyled list-horizontal">
-                    <li><nuxt-link to="/page/about/" exact>About</nuxt-link></li> |
-                    <li><nuxt-link to="/advertise/" exact>Advertise</nuxt-link></li> |
-                    <li><nuxt-link to="/books/" exact>Books</nuxt-link></li> |
-                    <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li> |
-                    <li><a href="https://www.easeout.co/rss.xml">RSS</a></li> | 
-                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li> | 
-                    <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li> | 
-                    <li><a href="https://gum.co/CIrVK" target="_blank">Buy me a coffee ☕</a></li>                    
+                    <li><nuxt-link to="/page/about/" exact>About</nuxt-link></li> /
+                    <li><nuxt-link to="/advertise/" exact>Advertise</nuxt-link></li> /
+                    <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li> /
+                    <li><nuxt-link to="/books/" exact>Books</nuxt-link></li> /
+                    <li><nuxt-link to="/freelance/" exact>Freelance</nuxt-link></li> /
+                    <li><a href="https://www.easeout.co/rss.xml">RSS</a></li> /
+                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li>                    
                 </ul>
             </div>
             <div class="item">

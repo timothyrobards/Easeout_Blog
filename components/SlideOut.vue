@@ -22,6 +22,28 @@
         Menu
       </li>
       <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
+        <nuxt-link to="/freelance/" exact>Freelance</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
+        <nuxt-link to="/books/" exact>Guides</nuxt-link>
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
+        <nuxt-link to="/page/about/" exact>About</nuxt-link>
+      </li> 
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
+        <nuxt-link to="/advertise" exact>Advertise</nuxt-link>
+      </li> 
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
+        <nuxt-link to="/page/contact/" exact>Contact</nuxt-link>
+      </li> 
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
+        <a href="https://easeout.eo.page/news" exact>Subscribe</a>
+      </li> 
+      
+      <li class="zap-slideout-menu-item--small">
+        Blog categories
+      </li>
+      <li class="zap-slideout-menu-item--small nav-item-secondary intro-links">
         <nuxt-link to="/category/article/" exact>Articles</nuxt-link>
       </li>
       <li class="zap-slideout-menu-item--small nav-item-secondary intro-links p-left">
@@ -64,24 +86,7 @@
       <!-- <li class="zap-slideout-menu-item--small">
         Links
       </li> -->
-      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
-        <nuxt-link to="/page/about/" exact>About</nuxt-link>
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
-        <nuxt-link to="/books/" exact>Books</nuxt-link>
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
-        <nuxt-link to="/advertise" exact>Advertise</nuxt-link>
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
-        <nuxt-link to="/page/contact/" exact>Contact</nuxt-link>
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
-        <a href="https://easeout.eo.page/news" exact>Subscribe</a>
-      </li>
-      <li class="zap-slideout-menu-item--small nav-item-primary intro-links">
-        <a href="https://twitter.com/easeoutco" exact>Twitter</a>
-      </li>
+    
       <!-- <li class="zap-slideout-menu-item--small intro-links">
         <a href="https://www.pinterest.com/easeoutco/" exact>Pinterest</a>
       </li> -->

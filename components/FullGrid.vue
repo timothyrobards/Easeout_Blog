@@ -6,29 +6,30 @@
       <div class="diagonal-box">
         <div class="content">
           <h1 class="intro">
-            <span class="outline">Boost</span> <span class="redline"></span> your web development skills 🚀
+            Ready to <span class="outline">level up</span> your freelance skills?🚀
             <!-- <span class="outline">Launch</span> <span class="redline"></span> your freelancing business! 🚀 -->
           </h1>
-          <br><br><br>
-          <!-- <p>Hey, I'm Tim. I started Easeout in 2019. My focus was to generate a side-income while I was working a full-time job and this website started off as a resource for others interested in learning web development.</p>
-          <br><p>I soon found out that there were thousands in the same boat as me, but they found it hard to get clients and to earn a consistent income.</p>
-          <br><p>If you're new here, start by reading the Blog or x.</p>    
-          <br><p>Either way, it's an honour to partner with you on your web development and freelancing journey.</p>       -->
-          <!-- <p>MOVE BELOW TO A SEPERATE 'blog' PAGE & MIMIC SWD HOMEPAGE! -->
-            
-          <!-- <ul class="intro-links list-horizontal">
-            <li>💻 <nuxt-link to="/category/article/" exact>Articles</nuxt-link></li>
-            <li>📚 <nuxt-link to="/books/" exact>Books</nuxt-link></li>
-            <li>📘 <nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
-            <li>❤️ <nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
-            <li>📰 <nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li>
-            <li>🏁 <nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
-          </ul> -->
+          <br><br>
+          <p style="margin-top:30px">Hey, I'm Tim &#128075;</p>
+          <br><p>I launched EASEOUT in 2019 with a mission to share what I’ve learned over my years working in web development. Over time I've built up a solid resource for anyone interested in learning about building websites!</p>
+          <!-- <br><p>I’ve built several courses on topics such as CSS, SASS and JavaScript. And you’ll find a lot of my tutorials on this website! Or you can checkout my web dev <a href="https://www.easeout.co/books/">guidebooks</a> if you’d like.</p> -->
+          <br><p>Fast forward to the present, and I am now focusing my energy into my other passion.. freelancing! I have run my own freelance business for years and I believe I have a lot of knowledge to benefit new and experienced freelancers alike. I know the initial pain of finding it hard to get new clients and earn a consistent income. So thats why I’m working on my solution, the <strong>Complete Guide to Freelancing</strong>!</p>
+          <!-- <br><div>
+            <img src="https://www.easeout.co/images/uploads/javascript-mastery-mockup.jpg" class="freelance-main-image" alt="Mastering JavaScript cover mockup" />
+          </div> -->
+          <br><p>Interested? <a href="https://easeout.eo.page/news">Sign up to be notified</a> when it's available.</p>
+          <br><p>Freelance work (done right!) has opened up a world of opportunities for me, and I’m certain it can do the same for you!</p>
+          <br><p>While you're here, check out my blog where I post freelancing tips, code tutorials, design inspiration, useful resources, and much more! You can also <a href="https://easeout.eo.page/news">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco">twitter</a>.</p>    
+          <br><p>Thanks for stopping by!</p>       
+          <br><p>Tim</p>
+          <br><div>
+            <img src="~/assets/timprofile.jpeg" class="profile-main-image" alt="Tim profile image" />
+          </div>
         </div>
+        <h2 class="blog-title">Latest from the blog:</h2>
       </div>
     </div>
   </div>
-
     <div v-if="items2[0]" class="full-height single" :style="`margin-top:${navbarheight}px;`">
       <div class="card-grid">
       <div v-if="items2[pi]" v-for="(p,pi) in items2" :key="p.pi">  
@@ -178,10 +179,10 @@ export default {
   },
   methods: {
     pageCheck() {
-      if (this.allitems.length > 12) {
+      if (this.allitems.length > 9) {
         this.$store.commit("paginateOn", true);
         this.$store.commit("resultsLength", this.allitems.length);
-      } else if (this.allitems.length < 12) {
+      } else if (this.allitems.length < 9) {
         this.$store.commit("paginateOff", false);
       } else {
         this.$store.commit("paginateOff", false);
@@ -195,7 +196,7 @@ export default {
 
      
           this.items2.splice(0);
-          for (var i = 0, j = 12; i < j; i++) {
+          for (var i = 0, j = 9; i < j; i++) {
             let api = this.allitems[this.count];
 
             this.items2.push(api);
@@ -245,7 +246,7 @@ export default {
 
     offset() {
       if (this.queryParam > 1) {
-        return Number(this.queryParam - 1) * 12;
+        return Number(this.queryParam - 1) * 9;
       } else {
         return 0;
       }
@@ -387,7 +388,7 @@ LANDING HERO STYLES
 .diagonal-box {
   position: relative;
   /* padding: var(--skew-padding) 0; */
-  padding: 4em 0 1em 0;
+  padding: 3em 0 1em 0;
   margin-top: -1px;
 }
 
@@ -434,12 +435,12 @@ Landing Presentational Styles
   transform: skewY(var(--angle));
   margin: 0em auto 0em;
   text-align: center;
-  background: #FFFF00;
+  background: #FFE800;
   color: #003;
   font-weight: 900;
   padding: 0.5em;
   text-transform: uppercase;
-  border: 1px solid black;
+  border: 1px solid slategrey;
 }
 
 @media (max-width: 640px) {
@@ -454,8 +455,8 @@ Landing Presentational Styles
   font-weight: 900;
   letter-spacing: 2px;
   -webkit-text-stroke-color: #000;
-  -webkit-text-stroke-width: 0.05em;
-  -webkit-text-fill-color: #fff;
+  /* -webkit-text-stroke-width: 0.05em; */
+  -webkit-text-fill-color: #B206FF;
 }
 
 .redline {
@@ -498,6 +499,11 @@ ul.list-horizontal li { display: inline-block; } */
 
 .full-height-css{
   background-color: yellow !important;
+}
+
+.blog-title {
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 /* TAG STYLES */
@@ -849,5 +855,22 @@ ul.list-horizontal li { display: inline-block; } */
 .read-more:hover {
   opacity: .8;
 }
-
+.freelance-main-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  height: 200px;
+}
+.profile-main-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 </style>

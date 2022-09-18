@@ -23,9 +23,9 @@
       <!-- <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2 center"> -->
       <div class="c-6 center" v-cloak>  
         <ul class="intro-links list-horizontal">
-            <li><nuxt-link to="/books/" exact>Books</nuxt-link></li>
-            <li><nuxt-link to="/category/newsletter/" exact>News</nuxt-link></li> 
-            <li>Tutorials +
+            <li><nuxt-link to="/freelance/" exact>Freelance</nuxt-link></li> 
+            <li><nuxt-link to="/books/" exact>Guides</nuxt-link></li>
+            <li>Tutorials
             <ul>
                 <li><nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
                 <li><nuxt-link to="/category/javascript/" exact>JavaScript</nuxt-link></li>
@@ -35,7 +35,7 @@
                 <li><nuxt-link to="/category/react/" exact>React</nuxt-link></li>
               </ul>
             </li>
-            <li>More +
+            <li>More
               <ul>
                 <li><nuxt-link to="/category/inspiration/" exact>Inspiration</nuxt-link></li>
                 <li><nuxt-link to="/category/template/" exact>Templates</nuxt-link></li>
@@ -44,7 +44,6 @@
                 <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li>
                 <li><a href="https://easeout.eo.page/news">Subscribe</a></li>
                 <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
-                <li><a href="https://www.pinterest.com/easeoutco">Pinterest</a></li>
               </ul>
             </li>
             
