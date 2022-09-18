@@ -4,7 +4,7 @@
   <div v-if="$route.fullPath==='/'">
     <div class="landing" :style="`margin-top:${navbarheight}px; margin-bottom: -${navbarheight}px;`">
       <div class="diagonal-box">
-        <div class="content">
+        <div class="content" style="font-size:1em;">
           <h1 class="intro">
             Ready to <span class="outline">level up</span> your freelance skills?🚀
             <!-- <span class="outline">Launch</span> <span class="redline"></span> your freelancing business! 🚀 -->
