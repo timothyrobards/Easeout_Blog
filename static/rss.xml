@@ -16,6 +16,19 @@
     <description>Web Design &amp; Development Tutorials</description>
 
     <item>
+        <title>JavaScript Promises</title>
+        <link>https://www.easeout.co/blog/2022-09-25-javascript-promises</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2022-09-25-javascript-promises</guid>
+        <pubDate>Sun, 25 Sep 2022 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/javascript-promises.png"/>
+            <p>An introduction to JavaScript promises..</p>
+            <p><a href="https://www.easeout.co/blog/2022-09-25-javascript-promises">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description> 
+    </item>
+
+    <item>
         <title>JavaScript Intro and Initial Setup</title>
         <link>https://www.easeout.co/blog/2022-07-12-javascript-intro-initial%C2%A0setup</link>
         <guid isPermaLink="true">https://www.easeout.co/blog/2022-07-12-javascript-intro-initial%C2%A0setup</guid>

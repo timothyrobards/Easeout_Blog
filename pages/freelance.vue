@@ -50,7 +50,7 @@
             <h2>What is included?</h2>
               <br>
             <ul>
-              <li class="chapter" style="list-style: none; color:#B206FF;">Building a solid foundation …</li>
+              <li class="chapter" style="list-style: none; color:#B206FF; font-weight:800;">Building a solid foundation …</li>
               <p>Learn all you need to know to build a successful freelancing business from the ground up, including:</p>
                 <br /><ul style="list-style: none; margin-left: -15px; line-height: 2;">
                   <li>✔️ Where to start</li>
@@ -67,7 +67,7 @@
                 <br />
               </ul>
               <ul>
-              <li class="chapter" style="list-style: none; color:#B206FF;">How to communicate with your clients …</li>
+              <li class="chapter" style="list-style: none; color:#B206FF; font-weight:800;">How to communicate with your clients …</li>
               <p>All the documents you’ll need to work with your clients.</p>
                 <br /><ul style="list-style: none; margin-left: -15px; line-height: 2;">
                   <li>✔️ Email proposal template</li>
@@ -77,7 +77,7 @@
                   <li>✔️ Task checklists (for Website & SEO)</li>
                 </ul>
               <br />
-              <li class="chapter" style="list-style: none; color:#B206FF;">Web development guides …</li>
+              <li class="chapter" style="list-style: none; color:#B206FF; font-weight:800;">Web development guides …</li>
               <p>Also included are three of my guidebooks that serve as great references for fine-tuning your web development skills.</p>
                 <br /><ul style="list-style: none; margin-left: -15px; line-height: 2;">
                   <li>✔️ <a href ="/books/the-css-guide">The Complete Guide to CSS</a></li>
@@ -103,7 +103,7 @@
               </div>
               <br><br>
               <!-- <p>A LITTLE ABOUT ME...</p> -->
-              <p>A LITTLE ABOUT ME... Hey, I'm Tim &#128075; I teach both new and experienced freelancers how to build their own sustainable and successful freelancing business.</p><br>
+              <p>A LITTLE ABOUT ME... I'm Tim &#128075; I teach both new and experienced freelancers how to build their own sustainable and successful freelancing business.</p><br>
               <p>I've put together everything I know into my complete guide to freelancing! You can also <a href="https://twitter.com/easeoutco">follow me on twitter</a> for my daily tweets!</p> 
               <br>
               <img src="~/assets/timprofile.jpeg" class="profile-main-image" alt="Tim profile image" />
