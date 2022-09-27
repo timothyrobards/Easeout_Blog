@@ -11,18 +11,17 @@
           </h1>
           <br><br>
          
-          <p style="margin-top:30px" class= "xs-text-5">Hey, I'm Tim &#128075;</p>
-          <br><p class= "xs-text-5">I launched EASEOUT in 2019 with a mission to share what I’ve learned over my years working in web development. Over time I've built up a solid resource for anyone interested in learning about building websites!</p>
+          <p style="margin-top:30px" class= "xs-text-4">Hey, I'm Tim &#128075;</p>
+          <br><p class= "xs-text-4">I launched EASEOUT in 2019 with a mission to share what I’ve learned over my years working in web development. Over time I've built up a solid resource for anyone interested in learning about building websites!</p>
           <!-- <br><p>I’ve built several courses on topics such as CSS, SASS and JavaScript. And you’ll find a lot of my tutorials on this website! Or you can checkout my web dev <a href="https://www.easeout.co/books/">guidebooks</a> if you’d like.</p> -->
-          <br><p class= "xs-text-5">Fast forward to the present, and I am now focusing my energy into my other passion.. freelancing! I have run my own freelance business for years and I believe I have a lot of knowledge to benefit new and experienced freelancers alike. I know the initial pain of finding it hard to get new clients and earn a consistent income. So thats why I’m working on my solution, the <a href="/freelance/">Complete Guide to Freelancing</a>!</p>
+          <br><p class= "xs-text-4">Fast forward to the present, and I am now focusing my energy into my other passion.. freelancing! I have run my own freelance business for years and I believe I have a lot of knowledge to benefit new and experienced freelancers alike.</p>
+          <br><p class= "xs-text-4">I know the initial pain of finding it hard to get new clients and earn a consistent income. So thats why I’m working on my solution, the <a href="/freelance/">Complete Guide to Freelancing</a>.</p>
           <!-- <br><div>
             <img src="https://www.easeout.co/images/uploads/javascript-mastery-mockup.jpg" class="freelance-main-image" alt="Mastering JavaScript cover mockup" />
           </div> -->
-          <br><p class= "xs-text-5">Interested? <a href="https://easeout.eo.page/news">Sign up to be notified</a> when it's available.</p>
-          <br><p class= "xs-text-5">Freelance work (done right!) has opened up a world of opportunities for me, and I’m certain it can do the same for you!</p>
-          <br><p class= "xs-text-5">While you're here, check out my blog where I post freelancing tips, code tutorials, design inspiration, useful resources, and much more! You can also <a href="https://easeout.eo.page/news">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco">twitter</a>.</p>    
-          <br><p class= "xs-text-5">Thanks for stopping by!</p>       
-          <br><p class= "xs-text-5">Tim</p>
+          <br><p class= "xs-text-4">Freelancing has opened up a world of opportunities for me, and I’m certain it can do the same for you!</p>
+          <br><p class= "xs-text-4">While you're here, check out my blog where I post freelancing tips, code tutorials, design inspiration, useful resources, and much more! You can also <a href="https://easeout.eo.page/news">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco">twitter</a>.</p>    
+          <br><p class= "xs-text-4">Thanks for stopping by!</p>       
           <br><div>
             <img src="~/assets/timprofile.jpeg" class="profile-main-image" alt="Tim profile image" />
           </div>
