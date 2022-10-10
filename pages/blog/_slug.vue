@@ -171,7 +171,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 
 .blog-author {
   padding: 0rem;
