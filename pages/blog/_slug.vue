@@ -171,12 +171,4 @@ export default {
 };
 </script>
 
-<style>
-
-.blog-author {
-  padding: 0rem;
-  border: none;
-}
-
-</style>
 

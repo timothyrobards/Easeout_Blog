@@ -291,6 +291,11 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
+.single .post-content img.blog-author {  
+  padding: 0rem;
+  border: none;
+}
+
 .single .post-content p:not(.full-image) {
   margin-bottom: 1rem;
   max-width: 75ch;
