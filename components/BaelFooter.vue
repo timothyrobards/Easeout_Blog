@@ -217,6 +217,11 @@ export default {
 </script>
 
 <style scoped>
+
+.gumroad .cart_button {
+  display: none!important;
+} 
+
 .text-input {
     max-width: 100%;
 }

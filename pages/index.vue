@@ -54,6 +54,7 @@ nav .r {
 .r.full-height {
   grid-gap: 0;
 }
+
 @media only screen and (max-width: 40rem) {
   .xs-collapse {
     visibility: hidden;

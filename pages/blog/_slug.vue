@@ -59,6 +59,14 @@
           </no-ssr>
           <div class="xs-py3 post-content text-gray-lighter">
             <div v-html="$md.render(body)"></div>
+            <br>
+            <p><img src="~/assets/timprofile.jpeg" class="profile-main-image blog-author" alt="Tim profile image" /></p>
+            <h2>A little about me..</h2>
+            <p>Hey, I&rsquo;m Tim! 👋</p>
+            <p>I&rsquo;m a developer, tech writer &amp; author. If you&rsquo;d like to see all of my articles, you're in the right place! Browse the blog categories to find what interests you.</p>
+            <p>I&rsquo;m currently working on building my&nbsp;<a href="http://www.easeout.co/freelance" target="_blank" rel="noopener ugc nofollow">Complete Guide to Freelancing</a>. The bad news is that it&rsquo;s not available yet! But if it&rsquo;s something you might be interested in, you can&nbsp;<a href="https://easeout.eo.page/news" target="_blank" rel="noopener nofollow">sign up to be notified</a>&nbsp;when it&rsquo;s available 👍</p>
+            <p>Thanks for reading!</p>
+
           </div>
         </div>
       </div>
@@ -162,4 +170,13 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+
+.blog-author {
+  padding: 0rem;
+  border: none;
+}
+
+</style>
 
