@@ -16,6 +16,19 @@
     <description>Web Design &amp; Development Tutorials</description>
 
     <item>
+        <title>CSS Border Radius</title>
+        <link>https://www.easeout.co/blog/2022-12-26-css-border-radius</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2022-12-26-css-border-radius</guid>
+        <pubDate>Sun, 25 Dec 2022 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/css-border-radius.png"/>
+            <p>Learn how to create rounded edges using CSS..</p>
+            <p><a href="https://www.easeout.co/blog/2022-12-26-css-border-radius">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description> 
+    </item>
+    
+    <item>
         <title>JavaScript async and defer</title>
         <link>https://www.easeout.co/blog/2022-10-17-javascript-async-and%C2%A0defer</link>
         <guid isPermaLink="true">https://www.easeout.co/blog/2022-10-17-javascript-async-and%C2%A0defer</guid>
