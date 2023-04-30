@@ -15,7 +15,7 @@
           <div class="div3">
               <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1; text-align:center;">Want to be your own boss? <span style="color:#B206FF;">Start today!</span></h1>
               <p style="text-align:center;">Whether you're completely new to freelancing or are looking to level up your existing skills. I'll teach you everything you need to know to become a successful freelancer.</p>
-              <br><p style="text-align:center;">Coming soon! <a href="https://easeout.eo.page/news" target="_blank">Sign up to be notifed</a> when it's available :)</p>
+              <br><p style="text-align:center;">Coming soon! <a href="https://easeout.eo.page/news" target="_blank">Sign up to be notifed</a> when it's available 👍</p>
               <br><a href="https://easeout.eo.page/news" target="_blank"><button class="cta">Notify Me!</button></a>
               <!-- <br><br><p class="italic">* Secured payment with Gumroad.</p> -->
               <img src="~/assets/freelance-landing-2.svg" class="center" :style="`margin-top:40px;text-align:center`" alt="Freelance package" />
@@ -62,11 +62,11 @@
                   <li>✔️ Where you should start</li>
                   <li>✔️ How to attract clients</li>
                   <li>✔️ How to set your worth</li>
-                  <li>✔️ How to build your brand & grow your reputation</li>
+                  <li>✔️ How to build your reputation</li>
                   <li>✔️ Write professional proposals and email</li>
                   <li>✔️ Make a bulletproof contract</li>
-                  <li>✔️ Use tools effectively to boost your productivity</li>
-                  <li>✔️ How (and when) to outsource parts of a project</li>
+                  <li>✔️ Use tools to boost your productivity</li>
+                  <li>✔️ When to outsource parts of a project</li>
                   <li>✔️ And much more!</li>
                 </ul>
                 <br />
@@ -79,12 +79,12 @@
                   <li>✔️ Client invoice templates</li>
                   <li>✔️ Freelancer legal contract</li>
                   <li>✔️ New client questionnaire</li>
-                  <li>✔️ Task checklists (for Website & SEO)</li>
+                  <li>✔️ Website & SEO task checklists</li>
                 </ul>
               <br />
               <img src="~/assets/freelance-landing-4.svg" class="center" :style="`margin-top:10px;text-align:center`" alt="Freelance package documents" />
 
-              <p style="margin-top:2em;"><strong>Bonus</strong>: I've also included my web development guidebooks which are great references for fine-tuning your web development skills.</p>
+              <p style="margin-top:2em;">BONUS: I've also included my web development guidebooks which are great references for fine-tuning your web development skills.</p>
                 <br /><ul style="list-style: none; margin-left: -15px; line-height: 2;">
                   <li>✔️ <a href ="/books/the-css-guide">The Complete Guide to CSS</a></li>
                   <li>✔️ <a href ="/books/getting-sassy">Getting SASSY: A Practical Guide</a></li>
@@ -106,11 +106,12 @@
               <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1;margin-top:-2em!important;">Start freelancing <span style="color:#B206FF;">today!</span></h1>
               
               <!-- <p style="text-align:left!important;">Sign up to be notified when it's available. Sign up to be notified when it's available. Sign up to be notified when it's available. Sign up to be notified when it's available.</p><br> -->
-              <p>Coming soon! Sign up to be notified when it's available :)</p>
-              <br />
+              
               <!-- <a href="https://easeout.eo.page/news" target="_blank"><button>Buy now!</button></a> -->
               <a href="https://easeout.eo.page/news" target="_blank"><button>Notify me!</button></a>
-              <br />
+              <br /><br />
+              <p>Coming soon! Sign up to be notified when it's available 👍</p>
+            
               </div>
             
               <img src="~/assets/freelance-landing-2.svg" class="center" :style="`margin-top:40px;text-align:center`" alt="Freelance package deal" />
