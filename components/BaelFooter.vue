@@ -7,7 +7,7 @@
                 <div v-if="pagination" class="xs-flex xs-flex-justify-center xs-flex-align-center">
                     <span class="xs-absolute xs-l1 xs-text-6 text-gray-lighter xs-mr2 "> <span class="bold">&nbsp; {{ 1 + this.$store.state.gridOffset}} - {{this.pageCount}}</span> of {{this.$store.state.resultsnum}} </span>
 
-                    <div class="pagination">
+                    <div class="pagination" style="padding:1rem!important;">
 
                         <nuxt-link :to="`?page=${prevpage}`" tag="button" :class="{ 'pagination__button--disabled': this.prevpage <= 0 }" class="pagination__button pagination__button--prev">
                             <svg class="pagination__button--prev-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -21,10 +21,10 @@
                         </nuxt-link>
                     </div>
 
-                    <div></div>
+                   
 
                 </div>
-                <div v-else>&nbsp;</div>
+                <div v-else></div>
 
             </div>
 

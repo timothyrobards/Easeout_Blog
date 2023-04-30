@@ -1,28 +1,30 @@
 <template>
   <main>
-    <div class="full-height single xs-border-left xs-border-right" :style="`min-height:calc(75vh - ${navbarheight}px);margin-top:${navbarheight}px`">
-      <div class="xs-mt2 xs-p2 bcg-item">
+    <img src="~/assets/freelance-landing-1.svg" class="center" :style="`margin-top:${navbarheight}px;text-align:center`" alt="Freelance landing header image" />
+    <div class="full-height single xs-border-left xs-border-right">
+      
+      <div class="xs-p2 bcg-item">
       <div class="item xs-block xs-full-height">
         <div class="book-grid">
           <div class="div1">
-              <h1 class="xs-py3 main-title" style="line-height:1.1;">Want to be your own boss? <span style="color:#B206FF;">Start today!</span></h1>
-              <h2>It's time to launch your freelancing business.</h2>
-              <br>
-              <p>Whether you're completely new to freelancing or are looking to level up your existing skills. I'll teach you everything you need to know to become a highly successful freelancer.</p>
-              <br><p>Coming soon! <a href="https://easeout.eo.page/news" target="_blank">Sign up to be notifed</a> when it's available :)</p>
-              <br><a href="https://easeout.eo.page/news" target="_blank"><button class="cta">Notify Me!</button></a>
-              <!-- <br><br><p class="italic">* Secured payment with Gumroad.</p> -->
-          </div>
+              
+          </div>  
           <div class="div2">
-            <img src="~/assets/freelancing-success.png" class="book-image" alt="Freelancing Success Illustration" />
-            <!-- <img src="https://www.easeout.co/images/uploads/javascript-mastery-mockup.jpg" class="book-image" alt="Mastering JavaScript cover mockup" /> -->
+            
           </div>
           <div class="div3">
-            <h2>Why be a freelancer?</h2>
+              <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1; text-align:center;">Want to be your own boss? <span style="color:#B206FF;">Start today!</span></h1>
+              <p style="text-align:center;">Whether you're completely new to freelancing or are looking to level up your existing skills. I'll teach you everything you need to know to become a successful freelancer.</p>
+              <br><p style="text-align:center;">Coming soon! <a href="https://easeout.eo.page/news" target="_blank">Sign up to be notifed</a> when it's available :)</p>
+              <br><a href="https://easeout.eo.page/news" target="_blank"><button class="cta">Notify Me!</button></a>
+              <!-- <br><br><p class="italic">* Secured payment with Gumroad.</p> -->
+              <img src="~/assets/freelance-landing-2.svg" class="center" :style="`margin-top:40px;text-align:center`" alt="Freelance package" />
+            
+            <h2 class="center" style="padding-top:1.5em;"><strong>Why be a freelancer?</strong></h2>
             <br>
             <p>The tech industry offers a massive amount of potential for freelancers. If you already have skills in web or software development, design, technical writing, data analysis (or really anything behind a keyboard!), then you’re well positioned to enjoy all the advantages that freelancing can offer you.</p>
             <br />
-            <p>Would you like to:</p>
+            <p>Do you want to:</p>
             <br />
             <ul style="list-style: none; margin-left: -15px; line-height: 2;">
               <li>✅ &nbsp;&nbsp;Be your own boss</li>
@@ -34,83 +36,87 @@
               <li>✅ &nbsp;&nbsp;Have 100% job security</li>
             </ul>
             <br />
-            <p>Are you:</p>
-            <br />
-            <ul style="list-style: none; margin-left: -15px; line-height: 2;">
-              <li>✅ &nbsp;&nbsp;Determined, focused & prepared to work hard for what you want?</li>
-            </ul>
+            <p>Are you determined & prepared to work hard for what you want?</p>
             <br />
             <p>If your answer is "YES", then I have good news.. <strong>freelancing is a great fit for you!</strong></p>
             <br />
-            <p>I have run my own successful freelance business for years and I believe I have a lot of knowledge to benefit both new and experienced freelancers alike. I know the initial pain of finding it hard to get new clients and earn a consistent income. </p>
+            <p>I have run my own successful freelance business for 10+ years and I believe I have a lot of knowledge to benefit both new and experienced freelancers alike. I know the initial pain of finding it hard to get new clients and earn a consistent income. </p>
             <br />
             <p>So that’s why I’m working on my solution, the <strong>Complete Guide to Freelancing!</strong></p>
+          
+            <span class="center" style="font-size: 30px;padding-top:1em;">🎉🎉🎉</span>
+            <br><br>
+            <div class="authorbox">
+              <img src="~/assets/timprofile.jpeg" class="profile-main-image-landing" alt="Tim profile image" />
+              <p>A LITTLE ABOUT ME... I'm Tim &#128075; I teach both new and experienced freelancers how to build their own sustainable and successful freelancing business. You can <a href="https://twitter.com/easeoutco" style="color:#87CEEB;">follow me on twitter</a> for my daily tips, tricks & inspiration!</p> 
+              </div>
           </div>
           <div class="div4">
-            <h2>What is included?</h2>
+
+
+            <h2 class="center" style="padding-top:0em;"><strong>What is included?</strong></h2>
               <br>
-            <ul>
-              <li class="chapter" style="list-style: none; color:#B206FF; font-weight:800;">Building a solid foundation …</li>
-              <p>Learn all you need to know to build a successful freelancing business from the ground up, including:</p>
-                <br /><ul style="list-style: none; margin-left: -15px; line-height: 2;">
-                  <li>✔️ Where to start</li>
+            <p>Learn everything you need to know to build a successful freelancing business from the ground up, including:</p><br />
+            
+                  <ul style="list-style: none; margin-left: -15px; line-height: 2;">
+                  <li>✔️ Where you should start</li>
                   <li>✔️ How to attract clients</li>
                   <li>✔️ How to set your worth</li>
-                  <li>✔️ How to build your professional brand</li>
-                  <li>✔️ Writing proposals and email</li>
-                  <li>✔️ Making a bulletproof contract</li>
-                  <li>✔️ Tools you can rely on to boost your efficiency</li>
+                  <li>✔️ How to build your brand & grow your reputation</li>
+                  <li>✔️ Write professional proposals and email</li>
+                  <li>✔️ Make a bulletproof contract</li>
+                  <li>✔️ Use tools effectively to boost your productivity</li>
                   <li>✔️ How (and when) to outsource parts of a project</li>
-                  <li>✔️ Project: Build a custom WordPress website for a client in just a few hours</li>
                   <li>✔️ And much more!</li>
                 </ul>
                 <br />
-              </ul>
-              <ul>
-              <li class="chapter" style="list-style: none; color:#B206FF; font-weight:800;">How to communicate with your clients …</li>
-              <p>All the documents you’ll need to work with your clients.</p>
-                <br /><ul style="list-style: none; margin-left: -15px; line-height: 2;">
-                  <li>✔️ Email proposal template</li>
+              <img src="~/assets/freelance-landing-3.svg" class="center" :style="`margin-top:10px;text-align:center`" alt="Freelance package contents" />
+
+              <p style="margin-top:2em;">Also included are all the <strong>documents</strong> you'll need when working with clients.</p><br />
+              
+                  <ul style="list-style: none; margin-left: -15px; line-height: 2;">
+                  <li>✔️ Email proposal templates</li>
+                  <li>✔️ Client invoice templates</li>
                   <li>✔️ Freelancer legal contract</li>
-                  <li>✔️ Client invoice template</li>
                   <li>✔️ New client questionnaire</li>
                   <li>✔️ Task checklists (for Website & SEO)</li>
                 </ul>
               <br />
-              <li class="chapter" style="list-style: none; color:#B206FF; font-weight:800;">Web development guides …</li>
-              <p>Also included are three of my guidebooks that serve as great references for fine-tuning your web development skills.</p>
+              <img src="~/assets/freelance-landing-4.svg" class="center" :style="`margin-top:10px;text-align:center`" alt="Freelance package documents" />
+
+              <p style="margin-top:2em;"><strong>Bonus</strong>: I've also included my web development guidebooks which are great references for fine-tuning your web development skills.</p>
                 <br /><ul style="list-style: none; margin-left: -15px; line-height: 2;">
                   <li>✔️ <a href ="/books/the-css-guide">The Complete Guide to CSS</a></li>
                   <li>✔️ <a href ="/books/getting-sassy">Getting SASSY: A Practical Guide</a></li>
                   <li>✔️ <a href ="/books/mastering-javascript">Mastering JavaScript</a></li>
                 </ul>
-              </ul>
+
+              <img src="~/assets/freelance-landing-5.svg" class="center" :style="`margin-top:40px;text-align:center`" alt="Freelance web development guidebooks" />
+              
           </div>
           <div class="div5">
-            <img src="~/assets/purple-soon.png" class="book-image" alt="Coming soon" />
-            <!-- <img src="https://www.easeout.co/images/uploads/javascript-mastery-mockup.jpg" class="book-image" alt="Mastering JavaScript cover mockup" /> -->
           </div>
           <div class="div6">
+          </div>
+          <div class="div7">
               <div class="center">
-              <!-- <h2>GET THE COMPLETE GUIDE TODAY!</h2> -->
-              <h2>COMING SOON</h2>
-              <br />
-              <p>Sign up to be notified when it's available :)</p>
+
+              
+
+              <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1;margin-top:-2em!important;">Start freelancing <span style="color:#B206FF;">today!</span></h1>
+              
+              <!-- <p style="text-align:left!important;">Sign up to be notified when it's available. Sign up to be notified when it's available. Sign up to be notified when it's available. Sign up to be notified when it's available.</p><br> -->
+              <p>Coming soon! Sign up to be notified when it's available :)</p>
               <br />
               <!-- <a href="https://easeout.eo.page/news" target="_blank"><button>Buy now!</button></a> -->
               <a href="https://easeout.eo.page/news" target="_blank"><button>Notify me!</button></a>
               <br />
               </div>
-              <br><br>
-              <!-- <p>A LITTLE ABOUT ME...</p> -->
-              <p>A LITTLE ABOUT ME... I'm Tim &#128075; I teach both new and experienced freelancers how to build their own sustainable and successful freelancing business.</p><br>
-              <p>I've put together everything I know into my complete guide to freelancing! You can also <a href="https://twitter.com/easeoutco">follow me on twitter</a> for my daily tweets!</p> 
-              <br>
-              <img src="~/assets/timprofile.jpeg" class="profile-main-image" alt="Tim profile image" />
-              
-          </div>
-          <div class="div7">
-              <h2>FAQS</h2><br>
+            
+              <img src="~/assets/freelance-landing-2.svg" class="center" :style="`margin-top:40px;text-align:center`" alt="Freelance package deal" />
+
+              <br><br> 
+              <h2 class="center"><strong>Questions?</strong></h2><br>
               <h3 style="padding-bottom: 0.5em;">What if I change my mind?</h3>
               <p>No problem! Just email me <strong>within 30 days</strong>, and I'll issue a full refund.</p><br>
               <h3 style="padding-bottom: 0.5em;">How soon will I see results?</h3>
@@ -118,7 +124,7 @@
               <h3 style="padding-bottom: 0.5em;">What if I'm a total beginner?</h3>
               <p>Even if you're a complete beginner with no freelancing experience, it's not a problem! We will work from the ground up :)</p><br>
               <h3 style="padding-bottom: 0.5em;">What skills do I need?</h3>
-              <p>Part of the course includes a project building a custom WordPress website. If you have some HTML or CSS knowledge it would be useful, but as WordPress is largely managed via the dashboard interface - it's really only optional!</p><br>
+              <p>All you need is a skill that you can sell to clients! Anyone can build WordPress website with a drag-and-drop editor such as Elementor. You really don't need a whole lot of experience to start freelancing!</p><br>
               <h3 style="padding-bottom: 0.5em;">Can I purchase the code guidebooks only?</h3>
               <p>Yep! All 3 are included with the freelance bundle. But they're each <a href="https://easeout.co/books">available individually</a> if you prefer.</p>
           </div>
@@ -265,7 +271,10 @@ p {
       font-size: 20px;
   }
 }
-
+.cta{
+      margin: 0 auto;
+      display: block;
+}
 
 
 .book-image {

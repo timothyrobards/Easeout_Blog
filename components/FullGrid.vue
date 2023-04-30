@@ -873,4 +873,65 @@ ul.list-horizontal li { display: inline-block; } */
   background-position: center center;
   background-size: cover;
 }
+.profile-main-image-landing{
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  float:left;
+}
+.authorbox{
+  border: 5px purple dashed;
+  background:#282C34;
+  color: white;
+  padding: 1em;
+}
+
+.authorbox p {
+  float:right; 
+  width:80%;
+}
+
+.authorbox:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 1024px) {
+  .authorbox p { 
+    width:75%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .profile-main-image-landing{
+    width: 90px;
+    height: 90px;
+    margin-left:2%;
+  }
+  
+  .authorbox p {
+    float:right; 
+    width:77%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .profile-main-image-landing{
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .authorbox p {
+    float:none; 
+    padding-top:1em;
+    width:100%;
+  }
+}
 </style>

@@ -478,3 +478,25 @@ p a button.sponsor-btn{
     grid-template-columns: 1fr;
   }
 }
+
+.freelance-heading{
+  margin-top:-1em!important;
+  font-size: 2.5em!important;
+}
+
+@media only screen and (max-width: 769px) {
+  .freelance-heading{
+    margin-top:-2em!important;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.svglink:hover{
+  cursor:pointer!important;
+}
