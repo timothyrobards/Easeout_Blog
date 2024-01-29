@@ -98,7 +98,7 @@
                     <li><nuxt-link to="/books/" exact>Books</nuxt-link></li> /
                     <li><nuxt-link to="/freelance/" exact>Freelance</nuxt-link></li> /
                     <li><a href="https://www.easeout.co/rss.xml">RSS</a></li> /
-                    <li><a href="https://twitter.com/easeoutco">Twitter</a></li>                    
+                    <li><a href="https://twitter.com/easeoutco">X</a></li>                    
                 </ul>
             </div>
             <div class="item">
