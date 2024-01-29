@@ -99,9 +99,9 @@
           </div>
           <div class="div7">
               <div class="center">
-                <p style="text-align:left!important;">Freelancing has opened up a world of opportunities for me, and I’m certain it can do the same for you!</p><br>
                 <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1;margin-top:-2em!important;">Start freelancing <span style="color:#B206FF;">today!</span></h1>
-                <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button>I want this!</button></a>
+                <p style="text-align:left!important;">Freelancing has opened up a world of opportunities for me, and I’m certain it can do the same for you. Get instant access to the Complete Guide to Freelancing and unlock the secrets to success.</p><br>
+                <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button>Get it now!</button></a>
                 <br /><br />
               </div>
             
