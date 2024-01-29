@@ -100,8 +100,9 @@
           <div class="div7">
               <div class="center">
                 <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1;margin-top:-2em!important;">Start freelancing <span style="color:#B206FF;">today!</span></h1>
+              </div>
                 <p>With this package, you'll gain the confidence and skills to:
-                  <ul>
+                  <ul style="list-style: none; margin-left: -15px; line-height: 2;">
                   <li>✔️ Attract high-paying clients and projects</li>
                   <li>✔️ Deliver top-notch work that exceeds expectations</li>
                   <li>✔️ Streamline your workflow and maximize productivity</li>
@@ -112,6 +113,7 @@
 
                 </p>
                 <p style="text-align:left!important;">Freelancing has opened up a world of opportunities for me, and I’m certain it can do the same for you.</p><br>
+              <div class="center">  
                 <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button>Get it now</button></a>
                 <br /><br />
               </div>
