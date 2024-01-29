@@ -63,9 +63,9 @@
             <p><img src="~/assets/timprofile.jpeg" class="profile-main-image blog-author" alt="Tim profile image" /></p>
             <h2>A little about me..</h2>
             <p>Hey, I&rsquo;m Tim! 👋</p>
-            <p>I&rsquo;m a developer, tech writer &amp; author. If you&rsquo;d like to see all of my articles, you're in the right place! Browse the blog categories to find what interests you.</p>
-            <p>I&rsquo;m currently working on building my&nbsp;<a href="http://www.easeout.co/freelance" target="_blank" rel="noopener ugc nofollow">Complete Guide to Freelancing</a>. The bad news is that it&rsquo;s not available yet! But if it&rsquo;s something you might be interested in, you can&nbsp;<a href="https://easeout.eo.page/news" target="_blank" rel="noopener nofollow">sign up to be notified</a>&nbsp;when it&rsquo;s available 👍</p>
-            <p>Thanks for reading!</p>
+            <p>I&rsquo;m a freelance business owner, web developer &amp; author. If you&rsquo;d like to see all of my articles, you're in the right place! Browse the blog categories to find what interests you.</p>
+            <p>I teach both new and experienced freelancers how to build a sustainable and successful freelancing business. Check out my&nbsp;<a href="http://www.easeout.co/freelance" target="_blank" rel="noopener ugc nofollow">Complete Guide to Freelancing</a> if you like to find out more. </p>
+            <p>Thanks for reading! 🎉</p>
 
           </div>
         </div>
