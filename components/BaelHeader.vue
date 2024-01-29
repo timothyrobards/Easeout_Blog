@@ -43,7 +43,7 @@
                 <li><nuxt-link to="/advertise/" exact>Advertise</nuxt-link></li> 
                 <li><nuxt-link to="/page/contact/" exact>Contact</nuxt-link></li>
                 <li><a href="https://easeout.eo.page/news">Subscribe</a></li>
-                <li><a href="https://twitter.com/easeoutco">Twitter</a></li>
+                <li><a href="https://twitter.com/easeoutco">X</a></li>
               </ul>
             </li>
             
