@@ -15,8 +15,8 @@
           <div class="div3">
               <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1; text-align:center;">Want to be your own boss? <span style="color:#B206FF;">Start today!</span></h1>
               <p style="text-align:center;">Whether you're completely new to freelancing or are looking to level up your existing skills. I'll teach you everything you need to know to become a successful freelancer.</p>
-              <br><a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button class="cta">I want this!</button></a>
-              <br><br><p class="italic">* Secured payment with Gumroad.</p>
+              <br><br><a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button class="cta">I want this!</button></a>
+              <br><p class="italic" style="text-align:center;">* Secured payment with Gumroad.</p>
               <img src="~/assets/freelance-landing-2.svg" class="center" :style="`margin-top:40px;text-align:center`" alt="Freelance package" />
             
             <h2 class="center" style="padding-top:1.5em;"><strong>Why be a freelancer?</strong></h2>
@@ -99,18 +99,10 @@
           </div>
           <div class="div7">
               <div class="center">
-
-              
-
-              <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1;margin-top:-2em!important;">Start freelancing <span style="color:#B206FF;">today!</span></h1>
-              
-              <p style="text-align:left!important;">Freelancing has opened up a world of opportunities for me, and I’m certain it can do the same for you!</p><br>
-              
-              
-              <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button>I want this!</button></a>
-              <br /><br />
-            
-            
+                <p style="text-align:left!important;">Freelancing has opened up a world of opportunities for me, and I’m certain it can do the same for you!</p><br>
+                <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1;margin-top:-2em!important;">Start freelancing <span style="color:#B206FF;">today!</span></h1>
+                <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button>I want this!</button></a>
+                <br /><br />
               </div>
             
               <img src="~/assets/freelance-landing-2.svg" class="center" :style="`margin-top:40px;text-align:center`" alt="Freelance package deal" />
