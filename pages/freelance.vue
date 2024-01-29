@@ -15,9 +15,8 @@
           <div class="div3">
               <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1; text-align:center;">Want to be your own boss? <span style="color:#B206FF;">Start today!</span></h1>
               <p style="text-align:center;">Whether you're completely new to freelancing or are looking to level up your existing skills. I'll teach you everything you need to know to become a successful freelancer.</p>
-              <br><p style="text-align:center;">Coming soon! <a href="https://easeout.eo.page/news" target="_blank">Sign up to be notifed</a> when it's available 👍</p>
-              <br><a href="https://easeout.eo.page/news" target="_blank"><button class="cta">Notify Me!</button></a>
-              <!-- <br><br><p class="italic">* Secured payment with Gumroad.</p> -->
+              <br><a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button class="cta">I want this!</button></a>
+              <br><br><p class="italic">* Secured payment with Gumroad.</p>
               <img src="~/assets/freelance-landing-2.svg" class="center" :style="`margin-top:40px;text-align:center`" alt="Freelance package" />
             
             <h2 class="center" style="padding-top:1.5em;"><strong>Why be a freelancer?</strong></h2>
@@ -42,13 +41,13 @@
             <br />
             <p>I have run my own successful freelance business for 10+ years and I believe I have a lot of knowledge to benefit both new and experienced freelancers alike. I know the initial pain of finding it hard to get new clients and earn a consistent income. </p>
             <br />
-            <p>So that’s why I’m working on my solution, the <strong>Complete Guide to Freelancing!</strong></p>
+            <p>So thats why I’ve created my solution, the <strong>Complete Guide to Freelancing!</strong></p>
           
             <span class="center" style="font-size: 30px;padding-top:1em;">🎉🎉🎉</span>
             <br><br>
             <div class="authorbox">
               <img src="~/assets/timprofile.jpeg" class="profile-main-image-landing" alt="Tim profile image" />
-              <p>A LITTLE ABOUT ME.... I'm Tim &#128075; I teach both new and experienced freelancers how to build their own sustainable and successful freelancing business. You can <a href="https://twitter.com/easeoutco" style="color:#87CEEB;">follow me on twitter</a> for my daily tips, tricks & inspiration!</p> 
+              <p>A LITTLE ABOUT ME.... I'm Tim &#128075; I teach both new and experienced freelancers how to build their own sustainable and successful freelancing business. You can <a href="https://twitter.com/easeoutco" style="color:#87CEEB;">follow me on X</a> for my daily tips, tricks & inspiration!</p> 
               </div>
           </div>
           <div class="div4">
@@ -105,12 +104,12 @@
 
               <h1 class="xs-py3 main-title freelance-heading" style="line-height:1.1;margin-top:-2em!important;">Start freelancing <span style="color:#B206FF;">today!</span></h1>
               
-              <!-- <p style="text-align:left!important;">Sign up to be notified when it's available. Sign up to be notified when it's available. Sign up to be notified when it's available. Sign up to be notified when it's available.</p><br> -->
+              <p style="text-align:left!important;">Freelancing has opened up a world of opportunities for me, and I’m certain it can do the same for you!</p><br>
               
-              <!-- <a href="https://easeout.eo.page/news" target="_blank"><button>Buy now!</button></a> -->
-              <a href="https://easeout.eo.page/news" target="_blank"><button>Notify me!</button></a>
+              
+              <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><button>I want this!</button></a>
               <br /><br />
-              <p>Coming soon! Sign up to be notified when it's available 👍</p>
+            
             
               </div>
             
