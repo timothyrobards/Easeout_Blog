@@ -64,7 +64,7 @@
             <h2>A little about me..</h2>
             <p>Hey, I&rsquo;m Tim! 👋</p>
             <p>I&rsquo;m a freelance business owner, web developer &amp; author. I teach both new and experienced freelancers how to build a sustainable and successful freelancing business. Check out my&nbsp;<a href="http://www.easeout.co/freelance" target="_blank" rel="noopener ugc nofollow">Complete Guide to Freelancing</a> if you'd like to find out more.</p>
-            <p>While you're here, you can browse through my blogs where I post freelancing tips, code tutorials, design inspiration, useful tools & resources, and much more! You can also <a href="https://easeout.eo.page/news">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco">X</p>
+            <p>While you're here, you can browse through my blogs where I post freelancing tips, code tutorials, design inspiration, useful tools & resources, and much more! You can also <a href="https://easeout.eo.page/news">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco">X</a>.</p>
             <p>Thanks for reading! 🎉</p>
 
           </div>
