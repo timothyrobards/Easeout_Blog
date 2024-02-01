@@ -15,10 +15,49 @@
     <link>https://easeout.co/</link>
     <description>Web Design &amp; Development Tutorials</description>
 
+   <item>
+        <title>CSS Fonts 101</title>
+        <link>https://www.easeout.co/blog/2024-02-01-css-fonts-101</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2024-02-01-css-fonts-101</guid>
+        <pubDate>Thu, 1 Feb 2024 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/css-fonts-101.png"/>
+            <p>A 101 guide to fonts in CSS..</p>
+            <p><a href="https://www.easeout.co/blog/2024-02-01-css-fonts-101">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description> 
+    </item>
+
+   <item>
+        <title>CSS Gradients</title>
+        <link>https://www.easeout.co/blog/2024-02-01-css-gradients</link>
+        <guid isPermaLink="true"></guid>
+        <pubDate>Thu, 1 Feb 2024 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/css-gradients.png"/>
+            <p>Learn about the different types of CSS gradients..</p>
+            <p><a href="https://www.easeout.co/blog/2024-02-01-css-gradients">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description> 
+    </item>
+    
+     <item>
+        <title>What are elements?</title>
+        <link>https://www.easeout.co/blog/2024-02-01-what-are-elements</link>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2024-02-01-what-are-elements</guid>
+        <pubDate>Thu, 1 Feb 2024 12:01:00 GMT</pubDate>
+        <description>
+            <![CDATA[<img src="https://www.easeout.co/images/uploads/html-elements.png"/>
+            <p>Learn how to get started with HTML elements..</p>
+            <p><a href="https://www.easeout.co/blog/2024-02-01-what-are-elements">Continue reading on EASEOUT >></a></p>
+            <br />]]>
+        </description> 
+    </item>
+    
     <item>
         <title>The basics of HTML</title>
         <link>https://www.easeout.co/blog/2022-12-28-the-basics-of-html</link>
-        <guid isPermaLink="true">hhttps://www.easeout.co/blog/2022-12-28-the-basics-of-html</guid>
+        <guid isPermaLink="true">https://www.easeout.co/blog/2022-12-28-the-basics-of-html</guid>
         <pubDate>Tue, 27 Dec 2022 12:01:00 GMT</pubDate>
         <description>
             <![CDATA[<img src="https://www.easeout.co/images/uploads/css-border-radius.png"/>
