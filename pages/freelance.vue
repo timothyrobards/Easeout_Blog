@@ -69,7 +69,7 @@
                   <li>✔️ And much more!</li>
                 </ul>
                 <br />
-              <img src="~/assets/freelance-landing-3.svg" class="center" :style="`margin-top:10px;text-align:center`" alt="Freelance package contents" />
+              <img src="~/assets/freelance-landing-3b.svg" class="center" :style="`margin-top:10px;text-align:center`" alt="Freelance package contents" />
 
               <p style="margin-top:2em;">Also included are all the <strong>documents</strong> you'll need when working with clients.</p><br />
               
