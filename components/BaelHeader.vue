@@ -17,7 +17,7 @@
         <div>
           <!-- <nuxt-link class="sitename" to="/" exact>{{headerSiteName}}</nuxt-link> -->
           <!-- <nuxt-link class="sitename" to="/" exact><img class="easeout-logo" src="~/assets/easeout-logo-new.png" alt="Easeout Logo" /></nuxt-link> -->
-          <nuxt-link class="sitename" to="/" exact><img class="easeout-logo" src="~/assets/EO_LOGO_LONGER.svg" alt="Easeout Logo"/></nuxt-link>
+          <nuxt-link class="sitename" to="/" exact><img class="easeout-logo" src="~/assets/EASEOUT_LOGO_NEW.svg" alt="Easeout Logo"/></nuxt-link>
         </div>
       </div>
 
