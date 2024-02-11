@@ -517,7 +517,7 @@ p a button.sponsor-btn{
   .div-article { }
   
   .div-ads a img {
-    max-width: 300px;
+    max-width: 300px; 
    }
 
   @media only screen and (max-width: 600px)  {
