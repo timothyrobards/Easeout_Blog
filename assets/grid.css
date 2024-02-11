@@ -253,7 +253,7 @@ pre, code {
   margin: 2rem 0 !important;
   overflow: auto;
   border-radius: .5rem;
-  max-width: 90ch;
+  max-width: 75ch;
 }
 
 p code, li code {
@@ -514,12 +514,8 @@ p a button.sponsor-btn{
   grid-row-gap: 0px;
   }
   
-  .div-article { 
-     
-  }
-  .div-ads {  
-    
-  }
+  .div-article { }
+  .div-ads { }
 
   @media only screen and (max-width: 600px)  {
     /* .blog-grid{
