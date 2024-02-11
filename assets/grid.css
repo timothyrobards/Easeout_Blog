@@ -515,7 +515,11 @@ p a button.sponsor-btn{
   }
   
   .div-article { }
-  .div-ads { }
+  .div-ads {
+    img {
+      max-width: 100%;
+    }
+   }
 
   @media only screen and (max-width: 600px)  {
     .blog-grid{
