@@ -78,10 +78,10 @@
               <div class="div-ads"> 
               <!-- Position 1 (Botsonic)-->
               <a href="https://writesonic.com/botsonic?fpr=tim85" target="_blank">
-                <img src="~/assets/Ad 6.jpg" class="center" alt="Botsonic ads"/> 
+                <img src="~/assets/Ad 6.jpg" class="center" alt="Botsonic ad"/>
               </a><br />
               <!-- Position 2 (Botsonic)-->
-              <!-- <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad"/> -->
+              <!-- <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="400"/> -->
               </div>
             </div>
 
