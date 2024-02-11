@@ -506,7 +506,7 @@ p a button.sponsor-btn{
 
 .blog-grid {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr 150px;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
