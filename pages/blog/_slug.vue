@@ -76,6 +76,7 @@
               </div>
 
               <div class="div-ads"> 
+              <br />
               <!-- Bonsai-->
               <a href="https://www.hellobonsai.com/?fp_ref=easeout" target="_blank" style="outline:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/zjdg88yr/marketing_asset/banner/10354/Bonsai_All-in-one_software_for_Freelancers.png" class="center" alt="hellobonsai"/>
               </a><br /><br />
@@ -86,16 +87,16 @@
               <!-- Remote.io-->
               <a href="https://go.remote.io/partner.php?id=320" target="_blank"><img src="https://go.remote.io/media/banners/300x250_manwithphone_V1.png" class="center" alt="Recruiting remote talent?">
               </a><br /><br />
-              <!-- Educative-->
-              <a href="https://www.educative.io/unlimited?aff=KNqG" target="_blank">
-                <img src="~/assets/educative-banner-ad.png" class="center" alt="Educative Inc"/>
-              </a><br /><br />
               <!-- Botsonic-->
               <a href="https://writesonic.com/botsonic?fpr=tim85" target="_blank">
                 <img src="~/assets/Ad 6.jpg" class="center" alt="Botsonic ad"/>
               </a><br /><br />
+              <!-- Educative-->
+              <a href="https://www.educative.io/unlimited?aff=KNqG" target="_blank">
+                <img src="~/assets/educative-banner-ad.png" class="center" alt="Educative Inc"/>
+              </a><br /><br />
               <!-- Sponsor CTA -->
-              <!-- <small> Want your ad here? Become a sponsor.</small> -->
+              <small class="center"> Want your ad here? <a href="mailto:hello@easeout.co">Contact us!</a></small>
               </div>
             </div>
 
