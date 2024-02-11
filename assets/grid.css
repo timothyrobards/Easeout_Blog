@@ -518,9 +518,11 @@ p a button.sponsor-btn{
   .div-ads { }
 
   @media only screen and (max-width: 600px)  {
-    /* .blog-grid{
+    .blog-grid{
       grid-template-columns: 1fr;
-    } */
+      /* grid-template-areas:
+      "div-article div-article div-ads"; */
+    } 
   }
 
   /* END GRID LAYOUT FOR BLOG POSTS */
