@@ -4,6 +4,10 @@
       <div class="xs-mt2 xs-p2 bcg-item">
         <div class="item xs-block xs-full-height">
           <div class="feat-wrapper" v-if="theThumb"><transition appear name="fade"><img class="featured-image" :src="thumbnail" :alt="title"></transition></div>
+          
+          <div class="blog-grid">
+          <div class="div-article"> 
+
           <h1 class="xs-py3 main-title">{{title}}</h1>
           <no-ssr>
             <div class="xs-mt-5 bold">
@@ -58,24 +62,24 @@
              </div>
           </no-ssr>
 
-          <div class="blog-grid">
-            <div class="div-article"> 
+          
               <div class="xs-py3 post-content text-gray-lighter">
                 <div v-html="$md.render(body)"></div>
                 <br>
                 <p><img src="~/assets/timprofile.jpeg" class="profile-main-image blog-author" alt="Tim profile image" /></p>
                 <h2>A little about me..</h2>
                 <p>Hey, I&rsquo;m Tim! 👋</p>
-                <p>I&rsquo;m a freelance business owner, web developer &amp; author. I teach both new and experienced freelancers how to build a sustainable and successful freelancing business. Check out my&nbsp;<a href="http://www.easeout.co/freelance" target="_blank" rel="noopener ugc nofollow">Complete Guide to Freelancing</a> if you'd like to find out more.</p>
-                <p>While you're here, you can browse through my blogs where I post freelancing tips, code tutorials, design inspiration, useful tools & resources, and much more! You can also <a href="https://easeout.eo.page/news">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco">X</a>.</p>
+                <p>I&rsquo;m a freelance business owner, web developer &amp; author. I teach both new and experienced freelancers how to build a sustainable and successful freelancing business. Check out my&nbsp;<a href="http://www.easeout.co/freelance">Complete Guide to Freelancing</a> if you'd like to find out more.</p>
+                <p>While you're here, you can browse through my blogs where I post freelancing tips, code tutorials, design inspiration, useful tools & resources, and much more! You can also <a href="https://easeout.eo.page/news" target="_blank">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco" target="_blank" rel="noopener ugc nofollow">X</a>.</p>
                 <p>Thanks for reading! 🎉</p>
                 </div>
               </div>
 
               <div class="div-ads"> 
               <!-- Position 1 (Botsonic)-->
-              <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="400"/>
-              <br />
+              <a href="https://writesonic.com/botsonic?fpr=tim85" target="_blank">
+                <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="400"/>
+              </a><br />
               <!-- Position 2 (Botsonic)-->
               <!-- <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="400"/> -->
               </div>
