@@ -63,7 +63,7 @@
           </no-ssr>
 
           
-              <div class="xs-py3 post-content text-gray-lighter">
+              <div class="xs-py3 post-content">
                 <div v-html="$md.render(body)"></div>
                 <br>
                 <p><img src="~/assets/timprofile.jpeg" class="profile-main-image blog-author" alt="Tim profile image" /></p>
