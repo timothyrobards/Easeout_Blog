@@ -507,7 +507,7 @@ p a button.sponsor-btn{
 .blog-grid {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr;
+  /* grid-template-rows: 1fr; */
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
@@ -520,9 +520,9 @@ p a button.sponsor-btn{
   }
 
   @media only screen and (max-width: 769px) {
-    .blog-grid{
+    /* .blog-grid{
       grid-template-columns: 1fr;
-    }
+    } */
   }
 
   /* END GRID LAYOUT FOR BLOG POSTS */
