@@ -521,7 +521,7 @@ p a button.sponsor-btn{
     border-radius: .5rem;
    }
 
-  @media only screen and (max-width: 600px)  {
+  @media only screen and (max-width: 1020px)  {
     .blog-grid{
       grid-template-columns: 1fr;
       grid-template-areas:
@@ -530,8 +530,6 @@ p a button.sponsor-btn{
     } 
     pre, code {
       max-width: 92%;
-      margin: 0px !important;
-      padding: 0px !important;
     }
   }
   
