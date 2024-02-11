@@ -527,6 +527,9 @@ p a button.sponsor-btn{
       "div-article"
       "div-ads";
     } 
+    pre, code {
+      max-width: 60ch;
+    }
   }
   
 
