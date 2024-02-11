@@ -75,10 +75,10 @@
 
             <div class="div-ads"> 
               <!-- Position 1 (Botsonic)-->
-              <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" />
+              <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="100"/>
               <br />
               <!-- Position 2 (Botsonic)-->
-              <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" />
+              <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="100"/>
             </div>
           </div> 
 
