@@ -71,15 +71,17 @@
                 <p>Thanks for reading! 🎉</p>
                 </div>
               </div>
-            </div>
 
-            <div class="div-ads"> 
+              <div class="div-ads"> 
               <!-- Position 1 (Botsonic)-->
-              <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="300"/>
+              <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="400"/>
               <br />
               <!-- Position 2 (Botsonic)-->
-              <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="300"/>
+              <!-- <img src="~/assets/Ad 6.jpg" class="" alt="Botsonic ad" width="400"/> -->
+              </div>
             </div>
+
+            
           </div> 
 
 
