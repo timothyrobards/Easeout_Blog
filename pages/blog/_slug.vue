@@ -78,22 +78,22 @@
               <div class="div-ads"> 
               <!-- Bonsai-->
               <a href="https://www.hellobonsai.com/?fp_ref=easeout" target="_blank" style="outline:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/zjdg88yr/marketing_asset/banner/10354/Bonsai_All-in-one_software_for_Freelancers.png" class="center" alt="hellobonsai"/>
-              </a><br />
+              </a><br /><br />
               <!-- Notion-->
               <a href="https://affiliate.notion.so/zwb1vda2tuk0" target="_blank">
                 <img src="~/assets/notion-banner.png" class="center" alt="Notion ad"/>
-              </a><br />
+              </a><br /><br />
               <!-- Remote.io-->
               <a href="https://go.remote.io/partner.php?id=320" target="_blank"><img src="https://go.remote.io/media/banners/300x250_manwithphone_V1.png" class="center" alt="Recruiting remote talent?">
-              </a><br />
+              </a><br /><br />
               <!-- Educative-->
               <a href="https://www.educative.io/unlimited?aff=KNqG" target="_blank">
                 <img src="~/assets/educative-banner-ad.png" class="center" alt="Educative Inc"/>
-              </a><br />
+              </a><br /><br />
               <!-- Botsonic-->
               <a href="https://writesonic.com/botsonic?fpr=tim85" target="_blank">
                 <img src="~/assets/Ad 6.jpg" class="center" alt="Botsonic ad"/>
-              </a><br />
+              </a><br /><br />
               <!-- Sponsor CTA -->
               <!-- <small> Want your ad here? Become a sponsor.</small> -->
               </div>
