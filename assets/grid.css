@@ -506,17 +506,19 @@ p a button.sponsor-btn{
 
 .blog-grid {
   display: grid;
-  grid-template-columns: 3fr 1fr !important;
+  grid-template-columns: 3fr 1fr;
   /* grid-template-rows: 1fr; */
+  grid-template-areas:
+    "div-article div-article div-ads";
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
   
   .div-article { 
-    grid-area: 1 / 1 / 2 / 2 !important;
+     
   }
   .div-ads {  
-    grid-area: 1 / 2 / 2 / 3 !important;
+    
   }
 
   @media only screen and (max-width: 600px)  {
