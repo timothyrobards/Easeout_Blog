@@ -520,8 +520,9 @@ p a button.sponsor-btn{
   @media only screen and (max-width: 600px)  {
     .blog-grid{
       grid-template-columns: 1fr;
-      /* grid-template-areas:
-      "div-article div-article div-ads"; */
+      grid-template-areas:
+      "div-article"
+      "div-ads";
     } 
   }
 
