@@ -220,7 +220,7 @@
             <ul class="book-details">
               <li>226 pages</li>
               <li>Available in PDF, EPUB &#38; MOBI Formats</li>
-              <li>Updated for 2022!</li>
+              <li>Updated for {{ new Date().getFullYear() }}!</li>
             </ul>
           </div>
         </div>

@@ -47,7 +47,7 @@
             <br><br>
             <div class="authorbox">
               <img src="~/assets/timprofile.jpeg" class="profile-main-image-landing" alt="Tim profile image" />
-              <p>A LITTLE ABOUT ME.... I'm Tim &#128075; I teach both new and experienced freelancers how to build their own sustainable and successful freelancing business. You can <a href="https://twitter.com/easeoutco" style="color:#87CEEB;">follow me on X</a> for my daily tips, tricks & inspiration!</p> 
+              <p>A LITTLE ABOUT ME.... I'm Tim &#128075; I teach both new and experienced freelancers how to build their own sustainable and successful freelancing business. You can <a href="https://twitter.com/easeoutco" style="color:#87CEEB;">follow me on Twitter/X</a> for my daily tips, tricks & inspiration!</p> 
               </div>
           </div>
           <div class="div4">

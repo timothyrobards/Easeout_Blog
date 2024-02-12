@@ -20,7 +20,7 @@
             <img src="https://www.easeout.co/images/uploads/javascript-mastery-mockup.jpg" class="freelance-main-image" alt="Mastering JavaScript cover mockup" />
           </div> -->
           <br><p class= "xs-text-4">Freelancing has opened up a world of opportunities for me, and I’m certain it can do the same for you!</p>
-          <br><p class= "xs-text-4">While you're here, check out my blog where I post freelancing tips, code tutorials, design inspiration, useful resources, and much more! You can also <a href="https://easeout.eo.page/news">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco">X</a>.</p>    
+          <br><p class= "xs-text-4">While you're here, check out my blog where I post freelancing tips, code tutorials, design inspiration, useful resources, and much more! You can also <a href="https://easeout.eo.page/news">join the newsletter</a>, or find me on <a href="https://twitter.com/easeoutco">Twitter/X</a>.</p>    
           <br><p class= "xs-text-4">Thanks for stopping by!</p>       
           <br><div>
             <img src="~/assets/timprofile.jpeg" class="profile-main-image" alt="Tim profile image" />
