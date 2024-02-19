@@ -55,7 +55,7 @@
               <h2 class="card__title">{{p.title}}</h2> 
               <p class="card__subtitle">{{p.short}}</p>
               <p class="card__description">
-                {{p.body | truncate(150, '...') | striphtml | stripmarkdown }}
+                {{p.body | truncate(100, '...') | striphtml | stripmarkdown }}
                 <nuxt-link class="read-more" :to="p._path">Read more ➡️</nuxt-link>
               </p>
               <footer class="card__footer">{{p.dateshort}}</footer>
