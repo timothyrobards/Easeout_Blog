@@ -2,14 +2,10 @@
   <div class="blog-grid" :style="`margin-top:${navbarheight}px; margin-bottom: -${navbarheight}px;`">
   <div class="div-article">
 
-<div class="xs-text-6 md-text-5 main">
-  
+  <div class="xs-text-6 md-text-5 main">
 
   <div v-if="$route.fullPath==='/'">
-    <div class="landing" :style="`margin-top:${navbarheight}px; margin-bottom: -${navbarheight}px;`">
-
-      
-
+    <div class="landing">
       <div class="diagonal-box">
         <div class="content" style="font-size:1em;">
           <h1 class="intro">
@@ -171,10 +167,10 @@
   </div>
   </div>
 
-  <div class="div-ads"> 
+  <div class="div-ads pr-1"> 
               <br />
               <!-- My eBook-->
-              <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><img src="~/assets/freelance-ad.svg" class="center" alt="The Complete Guide to Freelancing"/>
+              <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><img src="~/assets/freelance-package-ad.svg" class="center" alt="The Complete Guide to Freelancing"/>
               </a><br /><br />
               <!-- Notion-->
               <a href="https://affiliate.notion.so/zwb1vda2tuk0" target="_blank">

@@ -78,7 +78,7 @@
               <div class="div-ads"> 
               <br />
               <!-- My eBook-->
-              <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><img src="~/assets/freelance-ad.svg" class="center" alt="The Complete Guide to Freelancing"/>
+              <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><img src="~/assets/freelance-package-ad.svg" class="center" alt="The Complete Guide to Freelancing"/>
               </a><br /><br />
               <!-- Notion-->
               <a href="https://affiliate.notion.so/zwb1vda2tuk0" target="_blank">
