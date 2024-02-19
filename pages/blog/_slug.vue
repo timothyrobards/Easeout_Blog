@@ -94,7 +94,7 @@
               <!-- Educative-->
               <a href="https://www.educative.io/unlimited?aff=KNqG" target="_blank">
                 <img src="~/assets/educative-banner-ad.png" class="center" alt="Educative Inc"/>
-              </a><br /><br />
+              </a><br />
               <!-- Sponsor CTA -->
               <small class="center"> Want your ad here? <a href="mailto:hello@easeout.co">Contact us!</a></small>
               </div>
