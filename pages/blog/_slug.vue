@@ -100,6 +100,7 @@
               </a><br />
               <!-- Sponsor CTA -->
               <small class="center"> Want your ad here? <a href="mailto:hello@easeout.co">Contact us!</a></small>
+              <br /><br />
               </div>
             </div>
 

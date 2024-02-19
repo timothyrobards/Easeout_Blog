@@ -192,6 +192,7 @@
               </a><br />
               <!-- Sponsor CTA -->
               <small class="center"> Want your ad here? <a href="mailto:hello@easeout.co">Contact us!</a></small>
+              <br /><br />
             </div>
             
           </div> 
@@ -621,7 +622,7 @@ ul.list-horizontal li { display: inline-block; } */
 
 .card-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   justify-items: center;
   padding-top: 2em;
