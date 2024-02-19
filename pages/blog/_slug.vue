@@ -77,12 +77,15 @@
 
               <div class="div-ads"> 
               <br />
-              <!-- Bonsai-->
-              <a href="https://www.hellobonsai.com/?fp_ref=easeout" target="_blank" style="outline:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/zjdg88yr/marketing_asset/banner/10354/Bonsai_All-in-one_software_for_Freelancers.png" class="center" alt="hellobonsai"/>
+              <!-- My eBook-->
+              <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><img src="https://www.easeout.co/_nuxt/img/77e5652.svg" class="center" alt="The Complete Guide to Freelancing"/>
               </a><br /><br />
               <!-- Notion-->
               <a href="https://affiliate.notion.so/zwb1vda2tuk0" target="_blank">
                 <img src="~/assets/notion-banner.png" class="center" alt="Notion ad"/>
+              </a><br /><br />
+              <!-- Bonsai-->
+              <a href="https://www.hellobonsai.com/?fp_ref=easeout" target="_blank" style="outline:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/zjdg88yr/marketing_asset/banner/10354/Bonsai_All-in-one_software_for_Freelancers.png" class="center" alt="hellobonsai"/>
               </a><br /><br />
               <!-- Remote.io-->
               <a href="https://go.remote.io/partner.php?id=320" target="_blank"><img src="https://go.remote.io/media/banners/300x250_manwithphone_V1.png" class="center" alt="Recruiting remote talent?">
