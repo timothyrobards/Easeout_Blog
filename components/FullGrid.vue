@@ -1,14 +1,12 @@
 <template>
   
 <div class="xs-text-6 md-text-5 main">
-
-  
+  <div class="blog-grid">
+  <div class="div-article">
 
   <div v-if="$route.fullPath==='/'">
     <div class="landing" :style="`margin-top:${navbarheight}px; margin-bottom: -${navbarheight}px;`">
 
-      <div class="blog-grid">
-  <div class="div-article">
       
 
       <div class="diagonal-box">
