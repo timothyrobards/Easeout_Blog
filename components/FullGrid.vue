@@ -1,9 +1,10 @@
 <template>
-<div class="xs-text-6 md-text-5 main">
-
   <div class="blog-grid">
       <div class="div-article">
-        
+<div class="xs-text-6 md-text-5 main">
+
+  
+
   <div v-if="$route.fullPath==='/'">
     <div class="landing" :style="`margin-top:${navbarheight}px; margin-bottom: -${navbarheight}px;`">
 
@@ -159,7 +160,17 @@
     </div>
 
 
-    <div class="div-ads"> 
+    <div v-else class="r full-height browse">
+      <div class="xs-p2 c-100 xs-flex xs-flex-align-center xs-flex-justify-center xs-text-center" :style="`height:calc(100vh - ${navbarheight}px);margin-top:${navbarheight}px`">
+
+        
+        <div v-if="total < 1 && !busy">No Results.</div>
+      </div>
+
+  </div>
+  </div>
+
+  <div class="div-ads"> 
               <br />
               <!-- Bonsai-->
               <a href="https://www.hellobonsai.com/?fp_ref=easeout" target="_blank" style="outline:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/zjdg88yr/marketing_asset/banner/10354/Bonsai_All-in-one_software_for_Freelancers.png" class="center" alt="hellobonsai"/>
@@ -184,18 +195,6 @@
               </div>
             </div>
           </div> 
-
-
-
-    <div v-else class="r full-height browse">
-      <div class="xs-p2 c-100 xs-flex xs-flex-align-center xs-flex-justify-center xs-text-center" :style="`height:calc(100vh - ${navbarheight}px);margin-top:${navbarheight}px`">
-
-        
-        <div v-if="total < 1 && !busy">No Results.</div>
-      </div>
-
-  </div>
-  </div>
 </template>
 
 <script>
