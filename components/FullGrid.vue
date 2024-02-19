@@ -167,7 +167,7 @@
   </div>
   </div>
 
-  <div class="div-ads" style="margin-top: 8rem; padding-right: 1rem;"> 
+  <div class="div-ads" style="margin-top: 8rem; padding-right: 1.3rem;"> 
               <br />
               <!-- My eBook-->
               <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><img src="~/assets/freelance-package-ad.svg" class="center" alt="The Complete Guide to Freelancing"/>
@@ -622,11 +622,11 @@ ul.list-horizontal li { display: inline-block; } */
 
 .card-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
   justify-items: center;
   padding-top: 2em;
-  padding: 20px;
+  padding: 30px;
 }
 
 @media only screen and (max-width: 950px) {
