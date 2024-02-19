@@ -1,6 +1,6 @@
 <template>
   <div class="blog-grid">
-      <div class="div-article">
+  <div class="div-article">
 <div class="xs-text-6 md-text-5 main">
 
   
@@ -169,7 +169,8 @@
 
   </div>
   </div>
-
+  </div>
+  
   <div class="div-ads"> 
               <br />
               <!-- Bonsai-->
@@ -192,8 +193,8 @@
               </a><br />
               <!-- Sponsor CTA -->
               <small class="center"> Want your ad here? <a href="mailto:hello@easeout.co">Contact us!</a></small>
-              </div>
             </div>
+            
           </div> 
 </template>
 
