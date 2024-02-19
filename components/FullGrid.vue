@@ -167,7 +167,7 @@
   </div>
   </div>
 
-  <div class="div-ads" style="margin-top: 100px;"> 
+  <div class="div-ads" style="margin-top: 8rem; padding-right: 1rem;"> 
               <br />
               <!-- My eBook-->
               <a href="https://easeout.gumroad.com/l/freelance" target="_blank"><img src="~/assets/freelance-package-ad.svg" class="center" alt="The Complete Guide to Freelancing"/>
