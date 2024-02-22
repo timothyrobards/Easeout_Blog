@@ -215,7 +215,7 @@ export default {
   },
   methods: {
     pageCheck() {
-      if (this.allitems.length > 9) {
+      if (this.allitems.length > 12) {
         this.$store.commit("paginateOn", true);
         this.$store.commit("resultsLength", this.allitems.length);
       } else if (this.allitems.length < 12) {
