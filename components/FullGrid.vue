@@ -232,7 +232,7 @@ export default {
 
      
           this.items2.splice(0);
-          for (var i = 0, j = 9; i < j; i++) {
+          for (var i = 0, j = 12; i < j; i++) {
             let api = this.allitems[this.count];
 
             this.items2.push(api);
@@ -282,7 +282,7 @@ export default {
 
     offset() {
       if (this.queryParam > 1) {
-        return Number(this.queryParam - 1) * 9;
+        return Number(this.queryParam - 1) * 12;
       } else {
         return 0;
       }
