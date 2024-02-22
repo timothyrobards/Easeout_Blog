@@ -218,7 +218,7 @@ export default {
       if (this.allitems.length > 9) {
         this.$store.commit("paginateOn", true);
         this.$store.commit("resultsLength", this.allitems.length);
-      } else if (this.allitems.length < 9) {
+      } else if (this.allitems.length < 12) {
         this.$store.commit("paginateOff", false);
       } else {
         this.$store.commit("paginateOff", false);
