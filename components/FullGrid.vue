@@ -707,13 +707,13 @@ ul.list-horizontal li { display: inline-block; } */
 **/
 .card__body {
   position: relative;
-  height: 190px;
+  height: 120px;
   padding: 0px 20px 0px 20px;
   -webkit-transition: height 0.5s;
   transition: height 0.5s;
 }
 .card:hover .card__body {
-  height: 300px;
+  height: 230px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -758,10 +758,10 @@ ul.list-horizontal li { display: inline-block; } */
 
 @media only screen and (max-width: 600px) {  
   .card__body {
-    height: 17vh;
+    height: 15vh;
   }
   .card:hover .card__body {
-    height: 17vh !important;
+    height: 15vh !important;
   }
 
   .card__thumb {
