@@ -816,17 +816,18 @@ ul.list-horizontal li { display: inline-block; } */
 
 .card__title {
   margin: 0;
-  padding: 0 0 10px 0;
+  padding: 0 0 0px 0;
   color: #000;
-  font-size: 22px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: 20px;
+  /* font-weight: bold; */
+  /* text-transform: uppercase; */
 }
 
 .card__subtitle {
-  margin: 0;
+  /* margin: 0;
   padding: 0 0 10px 0;
-  font-size: 19px;
+  font-size: 19px; */
+  display: none;
 }
 
 .card__description {
@@ -837,7 +838,7 @@ ul.list-horizontal li { display: inline-block; } */
   bottom: 56px; */
   margin: 0;
   padding: 0 20px 0 0;
-  color: #666C74;
+  /* color: #666C74; */
   font-size: 14px;
   line-height: 25px;
   opacity: 0;
@@ -870,7 +871,7 @@ ul.list-horizontal li { display: inline-block; } */
   bottom: 12px;
   /* left: 20px; */
   right: 20px;
-  font-size: 11px;
+  font-size: 12px;
   color: #A3A9A2;
 }
 

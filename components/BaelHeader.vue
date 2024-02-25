@@ -24,8 +24,8 @@
       <!-- <div class="c-4 xs-border-top xs-border-bottom sm-border-top-none sm-border-bottom-none sm-border-left sm-border-right xs-p2 center"> -->
       <div class="c-6 center" v-cloak>  
         <ul class="intro-links list-horizontal">
-            <li><nuxt-link to="/freelance/" exact>Freelance</nuxt-link></li> 
-            <li><nuxt-link to="/books/" exact>Guides</nuxt-link></li>
+            <li><nuxt-link to="/freelance/" exact style="padding-right:15px;">Freelance</nuxt-link></li> 
+            <li><nuxt-link to="/books/" exact>eBooks</nuxt-link></li>
             <li>Tutorials
             <ul>
                 <li><nuxt-link to="/category/css/" exact>CSS</nuxt-link></li>
